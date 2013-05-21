@@ -1,0 +1,12 @@
+#ajb-body {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.navbar-search {
+  margin-top: 0; /* override troublesome bootstrap property*/
+}
+
+h1, h2, h3, h4, h5, h6, .brand {
+  font-family: 'Montserrat', sans-serif;
+}

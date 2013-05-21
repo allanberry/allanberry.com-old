@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= partial :meta %>
+    <title>Allan Berry</title>
+    <%= partial :css %>
+  </head>
+
+  <body>
+    <div class="container">
+      <%= partial :header %>
+    </div>
+    <div id="ajb-body" class="container">
+      <div class="row">
+          <div class="span3">
+            <%= partial :sidenav %>
+          </div>
+          <div class="span9">
+            <%= yield %>
+          </div>
+      </div>
+      <div class="row">
+          <%= partial :footer %>
+      </div>
+    </div>
+    <%= partial :js %>
+  </body>
+</html>
