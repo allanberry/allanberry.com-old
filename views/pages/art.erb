@@ -6,29 +6,12 @@
 <p>Vivamus hendrerit, lectus eu dictum condimentum, urna arcu consequat magna, nec blandit magna est in odio. Donec consequat eleifend tristique. Cras bibendum elit id massa lobortis vel porta nisl suscipit.</p>
 
 <ul class="thumbnails">
-  <li class="span3">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-    </a>
-  </li>
-  <li class="span3">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-    </a>
-  </li>
-  <li class="span3">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-    </a>
-  </li>
-  <li class="span3">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-    </a>
-  </li>
-  <li class="span3">
-    <a href="#" class="thumbnail">
-      <img data-src="holder.js/300x200" alt="">
-    </a>
-  </li>
+  <% $works.each do |work| %>
+    <li class="span3">
+      <a href="#" class="thumbnail">
+        <img src="<%= work.image %>">
+      </a>
+      <h6><%= work.title %></h6>
+    </li>
+  <% end %>
 </ul>
