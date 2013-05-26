@@ -1,9 +1,15 @@
 class WorksControl
   attr_accessor :works
 
-  works_art = [:kill_them_all, :voronoi_bubbles, :shard, :swerve]
-  works_design = [:healthy_ringing]
-  works_preservation = [:gordon]
+  @@works_art = [:kill_them_all, :voronoi_bubbles, :shard, :swerve]
+  @@works_design = [:healthy_ringing]
+  @@works_preservation = [:gordon]
+
+  @@categories = {
+    :art => @@works_art,
+    :design => @@works_design,
+    :preservation => @@works_preservation
+  }
 
 
   def initialize
@@ -17,17 +23,13 @@ class WorksControl
     end
   end
 
-  def get_works_art
+  def get_works_by_category(cat_)
+    cat = cat_.to_sym
     @yaml["works"].each do |w|
-      puts w.id
-      @works << Work.new(w)
+      if @@categories[cat].include?(w['id'].to_sym )
+        @works << Work.new(w)
+      end
     end
-  end
-
-  def get_works_design
-  end
-
-  def get_works_preservation
   end
 
   def get_work_by_id(id_)

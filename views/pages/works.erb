@@ -1,0 +1,17 @@
+<h1 class="page-header">Allan's Works</h1>
+<p class="lead">This page has all of things Allan makes, whether art, design, preservation or otherwise.</p>
+
+<p>Sed dignissim interdum massa, at consectetur nisl porta et. Nam vitae urna nec erat tincidunt rutrum. Aliquam odio turpis, placerat in cursus vel, lacinia id augue. Sed vestibulum magna a lacus gravida ullamcorper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit pharetra urna, ac dapibus velit porta ut. Cras venenatis ligula erat, in consectetur mauris.</p>
+<p>Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa. Aenean et fringilla metus.</p>
+
+<%# TODO: not DRY... The following code is repeated in the art.erb, design.erb and preservation.erb; I couldn't figure out how to pass variables to a partial. %>
+<ul class="thumbnails">
+  <% works.each do |work| %>
+    <li class="span3">
+      <a href="/works/<%= work.id %>" class="thumbnail">
+        <img src="<%= work.image('260') %>">
+      </a>
+      <h6><%= work.title %></h6>
+    </li>
+  <% end %>
+</ul>
