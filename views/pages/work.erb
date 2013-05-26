@@ -1,0 +1,27 @@
+<h1 class="page-header"><%= work.title %></h1>
+<p class="lead"><%= work.slug %></p>
+
+
+
+<!-- Button to trigger modal -->
+<a href="#image_popup" role="button" class="" data-toggle="modal">
+  <img src="<%= work.image('260') %>" class="pull-right ajb-img-work-main" alt="" />
+</a>
+ 
+<!-- Modal -->
+<div id="image_popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="popup_label" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h5 id="popup_label"><%= work.title %></h5>
+  </div>
+  <div class="modal-body">
+    <img src="<%= work.image('640') %>" class="ajb-img-work-popup" alt="" />
+  </div>
+  <div class="modal-footer">
+    <!--<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>-->
+  </div>
+</div>
+
+<p>Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa. Aenean et fringilla metus. Nam laoreet arcu at neque pretium id sagittis metus vulputate. Vivamus hendrerit, lectus eu dictum condimentum, urna arcu consequat magna, nec blandit magna est in odio. Donec consequat eleifend tristique. Cras bibendum elit id massa lobortis vel porta nisl suscipit.</p>
+<p>Vitae, luctus in odio. Phasellus nunc tellus, ornare sit amet pellentesque consectetur, volutpat eu justo. Vestibulum id enim nec quam pulvinar cursus non feugiat orci.</p>
+<p>Vivamus hendrerit, lectus eu dictum condimentum, urna arcu consequat magna, nec blandit magna est in odio. Donec consequat eleifend tristique. Cras bibendum elit id massa lobortis vel porta nisl suscipit.</p>

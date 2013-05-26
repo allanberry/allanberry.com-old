@@ -8,11 +8,10 @@
 <ul class="thumbnails">
   <% works.each do |work| %>
     <li class="span3">
-      <a href="#" class="thumbnail">
-        <img src="<%= work.image %>">
+      <a href="/works/<%= work.id %>" class="thumbnail">
+        <img src="<%= work.image('260') %>">
       </a>
       <h6><%= work.title %></h6>
     </li>
   <% end %>
 </ul>
-

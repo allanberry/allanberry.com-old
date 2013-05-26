@@ -10,3 +10,22 @@
 h1, h2, h3, h4, h5, h6, .brand {
   font-family: 'Montserrat', sans-serif;
 }
+
+
+/* work popups */
+
+.ajb-img-work-main {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ajb-img-work-popup {}
+
+.modal-body {
+/*    max-height: 460px; */
+}
+
+#image_popup {
+/*  width: 800px;
+  margin-left: -400px; */
+}
