@@ -21,6 +21,11 @@ class WorksControl
     @yaml["works"].each do |w|
       @works << Work.new(w)
     end
+
+    ###
+    #puts @works[0].id
+    #@works
+    ###
   end
 
   def get_works_by_category(cat_)

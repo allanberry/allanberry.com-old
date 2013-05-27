@@ -7,6 +7,7 @@ class Work
     @title  = yaml_["title"]
     @slug   = yaml_["slug"]
     @images = yaml_["images"]
+    @dates  = yaml_["dates"]
 
     if @images
       @image = "img/260x260/" << yaml_["images"][0]["img_filename"]
@@ -28,6 +29,17 @@ class Work
       image = default
     end
     image
+  end
+
+  def date
+    if @dates.length == 1
+      @dates[0]['date'].to_s[0..3]
+    elsif @dates.length > 1
+      @dates.sort_by! { |hsh| hsh["date"] }
+      @dates[0]['date'].to_s[0..3] << "–" << @dates[-1]['date'].to_s[0..3]
+    else
+      'undated'
+    end
   end
 
 end
