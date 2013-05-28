@@ -29,4 +29,3 @@ works:
     documents:
       - doc_filename: filename.pdf
         doc_description: a complete catalogue
-...

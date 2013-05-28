@@ -16,21 +16,15 @@ h1, h2, h3, h4, h5, h6, .brand {
   margin-bottom: 10px;
 }
 
+/* splash page */
+#splash-header {
+  background-image: url("/img/site/splash_header_01.jpg");
+  color: white;
+  text-shadow: #666 0.1em 0.1em 0.2em;
+}
 
 /* work popups */
-
 .ajb-img-work-main {
   margin-left: 10px;
   margin-bottom: 10px;
-}
-
-.ajb-img-work-popup {}
-
-.modal-body {
-/*    max-height: 460px; */
-}
-
-#image_popup {
-/*  width: 800px;
-  margin-left: -400px; */
 }
