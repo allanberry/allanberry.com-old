@@ -1,9 +1,9 @@
 class WorksControl
   attr_accessor :works
 
-  @@works_art = [:kill_them_all, :voronoi_bubbles, :shard, :swerve]
-  @@works_design = [:healthy_ringing]
-  @@works_preservation = [:gordon]
+  @@works_art = [:kill_them_all, :voronoi_bubbles, :shard, :swerve, :watertowers]
+  @@works_design = [:healthy_ringing, :connchem, :brooklyn_tablet]
+  @@works_preservation = [:gordon, :watertowers, :chicago_maps]
 
   @@categories = {
     :art => @@works_art,

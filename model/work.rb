@@ -8,6 +8,8 @@ class Work
     @slug   = yaml_["slug"]
     @images = yaml_["images"]
     @dates  = yaml_["dates"]
+    @note   = yaml_["note"]
+    @media = yaml_["media"]
 
     if @images
       @image = "img/260x260/" << yaml_["images"][0]["img_filename"]
@@ -40,6 +42,18 @@ class Work
     else
       'undated'
     end
+  end
+
+  def notes
+    @note.split("\n")
+  end
+
+  def media
+    array = []
+    @media.each do |m|
+      array << m["medium"]
+    end
+    array
   end
 
 end

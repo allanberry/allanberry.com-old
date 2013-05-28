@@ -2,8 +2,8 @@
 collection_name: Works by Allan
 works:
   - id: gordon
-    title: A Catalogue of the William A. Gordon Library of British Caricature
-    slug: The catalogue of a private collection.
+    title: Catalogue for the Gordon Library
+    slug: "The catalogue of a private collection: The William A. Gordon Library of British Caricature."
     creators:
       - creator: Berry, Allan
         role: designer
@@ -157,4 +157,121 @@ works:
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: voronoi_bubbles.jpg
         img_aspect: front view
+# --------------------------------------------------------------------------- #
+  - id: watertowers
+    title: Water Tower Collection
+    synopsis: A new work "collecting" water towers.
+    creators:
+      - creator: Berry, Allan
+        role: collector
+      - creator: Funk, Tiffany
+        role: collector
+    type: digital collection
+    dates:
+      - date: 2013
+        date_type: work started
+    media:
+      - medium: digital photography
+      - medium: web application
+    note: |
+      Water Towers are, by definition, the work of communities: they are built as common infrastructure, for a town, for a neighborhood, for a corporation.
+      Tiffany and I would like to document these structures in the spirit of <a href="http://www.moma.org/visit/calendar/exhibitions/95">Bernd and Hilla Becher</a>.
+      This project is new, and in progress.
+    keywords: collections, photography
+    images:
+      - img_filename: watertowers.jpg
+        img_aspect: front view
+# --------------------------------------------------------------------------- #
+  - id: connchem
+    title: Connected Chemistry
+    synopsis: A set of Java-based animations for a high-tech high-school chemistry curriculum.
+    creators:
+      - creator: Stieff, Mike
+        role: project lead
+      - creator: Berry, Allan
+        role: software and graphic designer
+      - creator: Nighelli, Teresa
+        role: curriculum writer
+      - creator: Li, Qin
+        role: programmer
+      - creator: Ryan, Stephanie
+        role: researcher
+      - creator: Yip, Jason
+        role: researcher
+    type: software, books
+    dates:
+      - date: 2010-09
+        date_type: creation
+      - date: 2012-08
+        date_type: completion
+    media:
+      - medium: Java
+      - medium: Processing
+      - medium: Swing
+      - medium: Adobe InDesign
+      - medium: Adobe Illustrator
+    note: |
+      Connected Chemistry is a set of books and software for a high-tech high-school chemistry curriculum.
+      I designed the software and the books.
+    keywords: programming, science, education
+    images:
+      - img_filename: connchem.png
+        img_aspect: book 1, front cover
+      - img_filename: connchem-1.png
+        img_aspect: water molecule
+      - img_filename: connchem-2.png
+        img_aspect: octane molecule
+      - img_filename: connchem-3.png
+        img_aspect: equilibrium graph
+#documents:
+#- doc_filename: filename.pdf
+#  doc_description: A sampler of the books
+# --------------------------------------------------------------------------- #
+  - id: brooklyn_tablet
+    title: A Tablet Interface for the Brooklyn Museum
+    synopsis: An alternative interface for the Brooklyn Museum API.
+    creators:
+      - creator: Berry, Allan
+        role: designer, programmer
+    type: desktop application
+    #sizes: 6.5 inches x 5.25 inches
+    dates:
+      - date: 2012-05
+        date_type: completion
+    media:
+      - medium: Processing
+      - medium: Android
+      - medium: Adobe Illustrator
+    note: |
+      This project is an alternative interface for the Brooklyn Museum API. It uses maps for a primary interface instead of text, and will eventually incorporate iconographic browsing. It is meant for, and runs on an Android tablet.
+    keywords: art, museums, android, java, processing
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: chicago_maps
+    title: Chicago Maps
+    synopsis: A virtual exhibition of Maps of Chicago
+    creators:
+      - creator: Berry, Allan
+        role: curator, designer
+    type: web application
+    #sizes: 6.5 inches x 5.25 inches
+    dates:
+      - date: 2012-12
+        date_type: completion
+    media:
+      - medium: Omeka
+    note: |
+      In this exhibition, using Omeka, I show items from the Hermon Dunlap Smith Center for the History of Cartography, at the Newberry Library in Chicago, where I spent a year cataloging over a thousand road maps from the Rand McNally archive.
+      I'd like to tell the story of Chicago, from its early days as a frontier fort until its heyday in the 20C. One of the best ways to do this is with maps. The Newberry Library has terrific maps of Chicago, many of which are both fascinating and beautiful. Why not have an exhibition of maps about Chicago, curated from the terrific Newberry collection?
+      This exhibition aims to provide a broad, yet shallow view of the very fabric of Chicago, directly documented via its cartography. If this exhibition increases interest in and knowledge of both how Chicago has developed over the years and also the strength of the Newberry’s collection, then I feel the exhibition has succeeded.
+      I have personally examined and attempted to photograph each item by hand. I built the system, wrote all text, and catalogued all items.    keywords: art, museums, android, java, processing
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
 ...
