@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'app'
-require 'bundler/setup'
+
+require File.dirname(__FILE__) + "/app.rb"
 
 run Sinatra::Application
