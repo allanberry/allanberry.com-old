@@ -1,29 +1,49 @@
-<h1 class="page-header"><%= work.title %></h1>
-<p class="lead"><%= work.slug %></p>
-<p><small><%= work.date %></small></p>
-<p><small><%= work.media.join(", ") %></small></p>
+<div class="span9">
 
-<!-- Button to trigger modal -->
-<a href="#image_popup" role="button" class="" data-toggle="modal">
-  <img src="<%= work.image('260') %>" class="pull-right ajb-img-work-main" alt="" />
-</a>
+  <h1 class="page-header"><%= work.title %></h1>
+  <p class="lead"><%= work.slug %></p>
+    <!-- Button to trigger modal -->
+  <a href="#image_popup" role="button" class="" data-toggle="modal">
+    <img src="<%= work.image('640') %>" class="pull-right ajb-img-work-main span4" alt=""/>
+  </a>
+  <p><small><%= work.date %></small></p>
+  <p><small><%= work.media.join(", ") %></small></p>
 
-<br />
- 
-<!-- Modal -->
-<div id="image_popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="popup_label" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h5 id="popup_label"><%= work.title %></h5>
+
+   
+  <!-- Modal -->
+  <div id="image_popup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="popup_label" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h5 id="popup_label"><%= work.title %></h5>
+    </div>
+    <div class="modal-body">
+      <img src="<%= work.image('640') %>" class="ajb-img-work-popup" alt="" />
+    </div>
+    <div class="modal-footer">
+      <!--<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>-->
+    </div>
   </div>
-  <div class="modal-body">
-    <img src="<%= work.image('640') %>" class="ajb-img-work-popup" alt="" />
-  </div>
-  <div class="modal-footer">
-    <!--<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>-->
-  </div>
+
+  <% work.notes.each do |p| %>
+    <p><%= p %></p>
+  <% end %>
+
+  <hr />
+
 </div>
 
-<% work.notes.each do |p| %>
-  <p><%= p %></p>
-<% end %>
+
+
+<div class="span9">
+  <ul class="thumbnails">
+    <% work.images('260').each do |i| %>
+      <li class="span2">
+        <a href="#" class="thumbnail">
+          <img src="<%= i %>" />
+        </a>
+        <h6></h6>
+      </li>
+    <% end %>
+  </ul>
+</div>

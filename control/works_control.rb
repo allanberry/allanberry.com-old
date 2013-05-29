@@ -43,4 +43,8 @@ class WorksControl
     end
     Work.new(hash)
   end
+
+  def sort_works(works_)
+    works_
+  end
 end

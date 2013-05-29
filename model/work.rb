@@ -33,6 +33,14 @@ class Work
     image
   end
 
+  def images(size_)
+    array = []
+    @images.each do |i|
+      array << "/img/260x260/" + i['img_filename']
+    end
+    array
+  end
+
   def date
     if @dates.length == 1
       @dates[0]['date'].to_s[0..3]
