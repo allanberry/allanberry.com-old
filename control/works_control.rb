@@ -1,6 +1,4 @@
 class WorksControl
-  attr_accessor :works
-
   @@works_art = [:kill_them_all, :voronoi_bubbles, :shard, :swerve, :watertowers]
   @@works_design = [:healthy_ringing, :connchem, :brooklyn_tablet]
   @@works_preservation = [:gordon, :watertowers, :chicago_maps]
@@ -18,19 +16,17 @@ class WorksControl
   end
 
   def get_works_all
+    array = []
     @yaml["works"].each do |w|
-      @works << Work.new(w)
+      array << Work.new(w)
     end
 
-    ###
-    #puts @works[0].id
-    #@works
-    ###
+    array.sort {|a,b| a.date_completed <=> b.date_completed }.reverse
   end
 
   def get_works_by_category(cat_)
     cat = cat_.to_sym
-    @yaml["works"].each do |w|
+    get_works_all do |w|
       if @@categories[cat].include?(w['id'].to_sym )
         @works << Work.new(w)
       end
@@ -38,13 +34,9 @@ class WorksControl
   end
 
   def get_work_by_id(id_)
-    hash = @yaml['works'].find do |item|
-      item['id'] == id_
+    hash = @yaml['works'].find do |w|
+      w['id'] == id_
     end
     Work.new(hash)
-  end
-
-  def sort_works(works_)
-    works_
   end
 end

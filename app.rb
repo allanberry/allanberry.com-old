@@ -25,7 +25,7 @@ get '/:page' do
     else
       control.get_works_by_category(params[:page])
     end
-    return erb :"pages/#{params[:page]}", :locals => {:works => control.works}
+    return erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_all}
   elsif pages_static.include?(params[:page].to_sym)
     return erb :"pages/#{params[:page]}"
   else

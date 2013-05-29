@@ -52,6 +52,10 @@ class Work
     end
   end
 
+  def date_completed
+    date[-4..-1].to_i
+  end
+
   def notes
     @note.split("\n")
   end
