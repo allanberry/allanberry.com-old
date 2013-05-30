@@ -1,7 +1,9 @@
-<a href="/"><img src="/img/site/logo_sidenav.png" id="logo_sidenav" class="align-center" alt="Allan's Logo" /></a>
+<div class="row span3">
+  <a href="/"><img src="/img/site/logo_sidenav.png" id="logo_sidenav" class="align-center" alt="Allan's Logo" /></a>
+</div>
 
 <ul class="nav nav-tabs nav-stacked">
-  <li><a href="/preservation">Digital Preservation</a></li>
-  <li><a href="/design">Design &amp; Illustration</a></li>
-  <li><a href="/art">Fine Art</a></li>
+  <% if request.path_info == '/preservation' %><li class="active"><% else %><li><% end %><a href="/preservation">Digital Preservation</a></li>
+  <% if request.path_info == '/design' %><li class="active"><% else %><li><% end %><a href="/design">Design &amp; Illustration</a></li>
+  <% if request.path_info == '/art' %><li class="active"><% else %><li><% end %><a href="/art">Fine Art</a></li>
 </ul>

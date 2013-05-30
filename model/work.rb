@@ -1,5 +1,5 @@
 class Work
-  attr_accessor :id, :title, :slug
+  attr_accessor :id, :title, :slug, :format
 
   def initialize(yaml_)
 
@@ -10,6 +10,7 @@ class Work
     @title  = yaml_["title"]
     @slug   = yaml_["slug"]
     @note   = yaml_["note"]
+    @format = yaml_["format"]
 
     #yaml data still
     @yaml_dates  = yaml_["dates"]
@@ -24,8 +25,12 @@ class Work
     end
   end
 
+  def images_with_aspects
+    @yaml_images
+  end
 
-  def image(size_)
+
+  def image_url(size_)
     default = "img/260x260/img_tmp_h.jpg"
     # make sure size_ is one we carry
     ok_sizes = [160, 260, 640, 1600]
@@ -39,7 +44,7 @@ class Work
     image
   end
 
-  def images(size_)
+  def image_urls(size_)
     output = []
     @yaml_images.each do |i|
       output << "/img/640x640/" + i['img_filename']

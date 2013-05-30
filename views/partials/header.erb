@@ -3,11 +3,11 @@
     <div class="navbar-inner">
       <a class="brand" href="/">allanberry.com</a>
       <ul class="nav">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <% if request.path_info == '/' %><li class="active"><% else %><li><% end %><a href="/">Home</a></li>
+        <% if request.path_info == '/about' %><li class="active"><% else %><li><% end %><a href="/about">About</a></li>
+        <% if request.path_info == '/contact' %><li class="active"><% else %><li><% end %><a href="/contact">Contact</a></li>
         <ul class="nav">
-          <li class="dropdown">
+          <% if request.path_info =~ /\/art|\/design|\/preservation|\/works/ %><li class="active dropdown"><% else %><li class="dropdown"><% end %>
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Works
               <b class="caret"></b>

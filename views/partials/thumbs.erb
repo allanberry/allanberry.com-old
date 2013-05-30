@@ -6,11 +6,9 @@
       <ul class="thumbnails">
         <% r.each do |work| # row cells %>
           <li class="span3">
-            <div class="thumbnail">
-              <a href="/works/<%= work.id %>"><img src="<%= work.image('260') %>" /></a>
-              <h6 class="thumb-label"><%= work.title %></h6>
-              <p><small><%= work.date %></small></p>
-            </div>
+            <a href="/works/<%= work.id %>"  role="button" class="thumbnail" ><img src="<%= work.image_url('260') %>" /></a>
+            <h6 class="thumb-label"><%= work.title %></h6>
+            <p><small><%= work.date %></small></p>
           </li>
         <% end %>
       </div>
