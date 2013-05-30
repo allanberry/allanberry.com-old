@@ -2,11 +2,11 @@
 
   <h1 class="page-header"><%= work.title %></h1>
   <p class="lead"><%= work.slug %></p>
+  <p class="lead"><%= work.date %></p>
     <!-- Button to trigger modal -->
-  <a href="#image_popup" role="button" class="" data-toggle="modal">
-    <img src="<%= work.image('640') %>" class="pull-right ajb-img-work-main span4" alt=""/>
+  <a href="#image_popup" role="button" class="thumbnail pull-right" data-toggle="modal">
+    <img src="<%= work.image('640') %>" class="ajb-img-work-main span5" alt=""/>
   </a>
-  <p><small><%= work.date %></small></p>
 
   <p><small><%= work.media.join(", ") %></small></p>
 
@@ -29,20 +29,25 @@
   <% end %>
 
   <hr />
-
 </div>
 
+<hr />
 
-
-<div class="span9">
-  <ul class="thumbnails">
-    <% work.images('260').each do |i| %>
-      <li class="span2">
-        <a href="#" class="thumbnail">
-          <img src="<%= i %>" />
-        </a>
-        <h6></h6>
-      </li>
-    <% end %>
+<% work_sub_images = work.images('260')[1..-1] %>
+<% if work_sub_images.size > 0 %>
+  <h5></h5>
+<% end %>
+<% work_sub_images.each_slice(4) do |r| # breaks into rows %>
+  <div class="row span9">
+    <ul class="thumbnails">
+      <% r.each do |image| # row cells %>
+        <li class="span2">
+          <div class="thumbnail">
+            <img src="<%= image %>" />
+            <h6 class="thumb-label">Duuuude.</h6>
+          </div>
+        </li>
+      <% end %>
+    </div>
   </ul>
-</div>
+<% end %>

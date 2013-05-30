@@ -42,7 +42,7 @@ class Work
   def images(size_)
     output = []
     @yaml_images.each do |i|
-      output << "/img/260x260/" + i['img_filename']
+      output << "/img/640x640/" + i['img_filename']
     end
     output
   end
