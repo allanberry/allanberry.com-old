@@ -1,6 +1,6 @@
 <ul class="thumbnails">
-  <% works.sort! {|a,b| a.years.max <=> b.years.max }.reverse! %>
-  <% works.each do |work| %>
+  <% @works.sort! {|a,b| a.years.max <=> b.years.max }.reverse! %>
+  <% @works.each do |work| %>
 
     <li class="span3">
       <a href="/works/<%= work.id %>" class="thumbnail">

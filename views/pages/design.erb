@@ -4,14 +4,5 @@
 <p>Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et. Nam vitae urna nec erat tincidunt rutrum. Aliquam odio turpis, placerat in cursus vel, lacinia id augue. Sed vestibulum magna a lacus gravida ullamcorper.</p>
 <p>Morbi eleifend, felis vel placerat congue, nisl nibh hendrerit elit, sit amet fermentum lorem leo ac est. Ut ipsum leo, luctus ac pretium sed, luctus quis dui. Fusce elit ipsum, lobortis eu pellentesque vitae, luctus in odio. Phasellus nunc tellus, ornare sit amet pellentesque consectetur, volutpat eu justo. Vestibulum id enim nec quam pulvinar cursus non feugiat orci.</p>
 
-<%# TODO: not DRY... The following code is repeated in the works.erb, art.erb and preservation.erb; I couldn't figure out how to pass variables to a partial. %>
-<ul class="thumbnails">
-  <% works.each do |work| %>
-    <li class="span3">
-      <a href="/works/<%= work.id %>" class="thumbnail">
-        <img src="<%= work.image('260') %>">
-      </a>
-      <h6><%= work.title %></h6>
-    </li>
-  <% end %>
-</ul>
+<% @works = works %>
+<%= partial :thumbs %>
