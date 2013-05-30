@@ -1,12 +1,19 @@
-<ul class="thumbnails">
-  <% @works.sort! {|a,b| a.years.max <=> b.years.max }.reverse! %>
-  <% @works.each do |work| %>
+<% @works.sort! {|a,b| a.years.max <=> b.years.max }.reverse! %>
 
-    <li class="span3">
-      <a href="/works/<%= work.id %>" class="thumbnail">
-        <img src="<%= work.image('260') %>">
-      </a>
-      <h6><%= work.title %>, <%= work.date %></h6>
-    </li>
+<div class="row">
+  <% @works.each_slice(3) do |r| # breaks into rows %>
+    <div class="row span9">
+      <ul class="thumbnails">
+        <% r.each do |work| # row cells %>
+          <li class="span3">
+            <div class="thumbnail">
+              <a href="/works/<%= work.id %>"><img src="<%= work.image('260') %>" /></a>
+              <h6 class="thumb-label"><%= work.title %></h6>
+              <p><small><%= work.date %></small></p>
+            </div>
+          </li>
+        <% end %>
+      </div>
+    </ul>
   <% end %>
-</ul>
+</div>
