@@ -1,0 +1,12 @@
+<ul class="thumbnails">
+  <% works.sort! {|a,b| a.years.max <=> b.years.max }.reverse! %>
+  <% works.each do |work| %>
+
+    <li class="span3">
+      <a href="/works/<%= work.id %>" class="thumbnail">
+        <img src="<%= work.image('260') %>">
+      </a>
+      <h6><%= work.title %>, <%= work.date %></h6>
+    </li>
+  <% end %>
+</ul>

@@ -53,6 +53,7 @@ works:
         date_type: creation
       - date: 2012
         date_type: new edition
+      - date: 2012
     media:
       - medium: pen and ink
       - medium: Adobe Photoshop

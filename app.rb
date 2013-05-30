@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'yaml'
+require 'chronic'
 Dir["./model/*.rb"].each   {|file| require file }
 Dir["./control/*.rb"].each {|file| require file }
 
@@ -14,22 +15,16 @@ get '/works/:work' do
 end
 
 get '/:page' do
-  pages_works  = [:works, :art, :design, :preservation] 
-  pages_static = [:about, :contact, :index]
-  pages_all    = pages_works + pages_static
-
-  if pages_works.include?(params[:page].to_sym)
+  # only use symbols to pass values
+  page = params[:page].to_sym
+  # router: static pages first, then dynamic, then unknown
+  if [:about, :contact, :index].include?(page)
+    erb :"pages/#{params[:page]}"
+  elsif [:works, :art, :design, :preservation].include?(page)
     control = WorksControl.new
-    if params[:page] == 'works'
-      control.get_works_all
-    else
-      control.get_works_by_category(params[:page])
-    end
-    return erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_all}
-  elsif pages_static.include?(params[:page].to_sym)
-    return erb :"pages/#{params[:page]}"
+    erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_category(page)}
   else
-    file_not_found
+    return file_not_found
   end
 end
 

@@ -3,15 +3,21 @@ class Work
 
   def initialize(yaml_)
 
-    @id     = yaml_["id"]
+    #symbols
+    @id     = yaml_["id"].to_sym
+
+    #strings
     @title  = yaml_["title"]
     @slug   = yaml_["slug"]
-    @images = yaml_["images"]
-    @dates  = yaml_["dates"]
     @note   = yaml_["note"]
-    @media = yaml_["media"]
 
-    if @images
+    #yaml data still
+    @yaml_dates  = yaml_["dates"]
+    @yaml_images = yaml_["images"]
+    @yaml_media = yaml_["media"]
+
+
+    if @yaml_images
       @image = "img/260x260/" << yaml_["images"][0]["img_filename"]
     else
       @image = "img/260x260/img_tmp_h.jpg"
@@ -25,8 +31,8 @@ class Work
     ok_sizes = [160, 260, 640, 1600]
 
     # make sure images exist, and if the supplied size is correct 
-    if @images && ok_sizes.include?(size_.to_i)
-      image = "/img/" << size_ << "x" << size_ << "/" << @images[0]["img_filename"]
+    if @yaml_images && ok_sizes.include?(size_.to_i)
+      image = "/img/" << size_ << "x" << size_ << "/" << @yaml_images[0]["img_filename"]
     else
       image = default
     end
@@ -34,26 +40,30 @@ class Work
   end
 
   def images(size_)
-    array = []
-    @images.each do |i|
-      array << "/img/260x260/" + i['img_filename']
+    output = []
+    @yaml_images.each do |i|
+      output << "/img/260x260/" + i['img_filename']
     end
-    array
+    output
+  end
+
+  def years
+    year_array = []
+    @yaml_dates.each do |y|
+      d = y['date'].to_s
+      year_array << d[0..3].to_i
+    end
+    return year_array
   end
 
   def date
-    if @dates.length == 1
-      @dates[0]['date'].to_s[0..3]
-    elsif @dates.length > 1
-      @dates.sort_by! { |hsh| hsh["date"] }
-      @dates[0]['date'].to_s[0..3] << "–" << @dates[-1]['date'].to_s[0..3]
+    if years.size == 0
+      return 'undated'
+    elsif years.size == 1
+      return years[0].to_s
     else
-      'undated'
+      return years.min.to_s << "–" << years.max.to_s
     end
-  end
-
-  def date_completed
-    date[-4..-1].to_i
   end
 
   def notes
@@ -61,11 +71,11 @@ class Work
   end
 
   def media
-    array = []
-    @media.each do |m|
-      array << m["medium"]
+    output = []
+    @yaml_media.each do |m|
+      output << m["medium"]
     end
-    array
+    output
   end
 
 end

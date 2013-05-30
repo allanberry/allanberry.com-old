@@ -6,12 +6,14 @@
 
 <%# TODO: not DRY... The following code is repeated in the art.erb, design.erb and preservation.erb; I couldn't figure out how to pass variables to a partial. %>
 <ul class="thumbnails">
+  <% works.sort! {|a,b| a.years.max <=> b.years.max }.reverse! %>
   <% works.each do |work| %>
+
     <li class="span3">
       <a href="/works/<%= work.id %>" class="thumbnail">
         <img src="<%= work.image('260') %>">
       </a>
-      <h6><%= work.title %><% if work.date %><%= ", " << work.date %><% end%></h6>
+      <h6><%= work.title %>, <%= work.date %></h6>
     </li>
   <% end %>
 </ul>
