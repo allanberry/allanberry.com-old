@@ -9,11 +9,17 @@ class WorksControl
     :design => [
       :healthy_ringing,
       :connchem,
-      :brooklyn_tablet],
+      :brooklyn_tablet,
+      :ahgsa_website,
+      :ajb_drupal_website,
+      :expensive_paint,
+      :age_gdp_v11n,
+      :hex_land],
     :preservation => [
       :healthy_ringing,
       :connchem,
-      :brooklyn_tablet]}
+      :brooklyn_tablet,
+      :chicago_maps]}
 
   def initialize
     @yaml = YAML.load_file('./data/works.yaml')

@@ -214,7 +214,14 @@ works:
     note: |
       Connected Chemistry is a set of books and software for a high-tech high-school chemistry curriculum.
       I designed the software and the books.
+      <div class="thumbnail span5 pull-right">
+        <iframe src="http://player.vimeo.com/video/44965293" class="pull-right span5" height="214" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <p><a href="http://vimeo.com/44965293">Connected Chemistry Curriculum Demonstration</a> from <a href="http://vimeo.com/user4310080">Allan Berry</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+      </div>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et. Nam vitae urna nec erat tincidunt rutrum. Aliquam odio turpis, placerat in cursus vel, lacinia id augue. Sed vestibulum magna a lacus gravida ullamcorper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed blandit pharetra urna, ac dapibus velit porta ut. Cras venenatis ligula erat, in consectetur mauris.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa. Aenean et fringilla metus. Nam laoreet arcu at neque pretium id sagittis metus vulputate. Vivamus hendrerit, lectus eu dictum condimentum, urna arcu consequat magna, nec blandit magna est in odio. Donec consequat eleifend tristique. Cras bibendum elit id massa lobortis vel porta nisl suscipit.
+      Aenean leo metus, interdum in fermentum eu, feugiat sed orci. Sed egestas ultrices ornare. Mauris vitae luctus risus. Nulla facilisi. Mauris in urna eros, nec accumsan nibh. Nam sit amet lectus tellus, a vehicula lorem. Sed gravida porttitor nunc vitae commodo. Morbi eleifend, felis vel placerat congue, nisl nibh hendrerit elit, sit amet fermentum lorem leo ac est. Ut ipsum leo, luctus ac pretium sed, luctus quis dui. Fusce elit ipsum, lobortis eu pellentesque vitae, luctus in odio. Phasellus nunc tellus, ornare sit amet pellentesque consectetur, volutpat eu justo. Vestibulum id enim nec quam pulvinar cursus non feugiat orci.
+      
     keywords: programming, science, education
     images:
       - img_filename: connchem.png
@@ -271,6 +278,160 @@ works:
       I'd like to tell the story of Chicago, from its early days as a frontier fort until its heyday in the 20C. One of the best ways to do this is with maps. The Newberry Library has terrific maps of Chicago, many of which are both fascinating and beautiful. Why not have an exhibition of maps about Chicago, curated from the terrific Newberry collection?
       This exhibition aims to provide a broad, yet shallow view of the very fabric of Chicago, directly documented via its cartography. If this exhibition increases interest in and knowledge of both how Chicago has developed over the years and also the strength of the Newberry’s collection, then I feel the exhibition has succeeded.
       I have personally examined and attempted to photograph each item by hand. I built the system, wrote all text, and catalogued all items.    keywords: art, museums, android, java, processing
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: ahgsa_website
+    title: AHGSA Website
+    synopsis: The Website for the Art History Graduate Students Association, at the University of Illinois at Chicago
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    type: website
+    dates:
+      - date: 2009
+        date_type: creation
+    media:
+      - medium: html
+      - medium: Drupal
+      - medium: PHP
+    location: http://ahgsa.org
+    note: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+    keywords: websites, art_history, academic, drupal
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: ajb_drupal_website
+    title: My Previous Website
+    synopsis: The previous iteration of this website was a Drupal application.
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    type: website
+    dates:
+      - date: 2012
+        date_type: creation
+    media:
+      - medium: html
+      - medium: Drupal
+      - medium: PHP
+    location: http://allanberry.com
+    note: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+    keywords: websites, ajb, drupal
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: chicago_maps
+    title: Chicago Maps
+    synopsis: An online exhibit using Omeka
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    type: website
+    dates:
+      - date: 2012
+        date_type: creation
+    media:
+      - medium: html
+      - medium: Omeka
+      - medium: Dublin Core
+      - medium: PHP
+    location: http://allanberry.omeka.net/
+    note: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+    keywords: websites, ajb, omeka
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: expensive_paint
+    title: Expensive Paint
+    synopsis: A data visualization of the world's most expensive artworks.
+    creators:
+      - creator: Berry, Allan
+        role: programmer, designer
+    type: application
+    dates:
+      - date: 2011
+        date_type: creation
+    media:
+      - medium: Processing
+    note: |
+      <div class="thumbnail span5 pull-right">
+        <iframe src="http://player.vimeo.com/video/13489658" class="pull-right span5" height="214" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <p><a href="http://vimeo.com/13489658">Expensive Paint</a> from <a href="http://vimeo.com/user4310080">Allan Berry</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+      </div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+    keywords: processing, sketches, datavis, art
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: age_gdp_v11n
+    title: National Age and GDP Visualization
+    synopsis: A data visualization of statistics from the <a href="https://www.cia.gov/library/publications/the-world-factbook/">CIA World Factbook</a>.
+    creators:
+      - creator: Berry, Allan
+        role: programmer, designer
+    type: application
+    dates:
+      - date: 2011
+        date_type: creation
+    media:
+      - medium: Processing
+    note: |
+      <div class="thumbnail span5 pull-right">
+        <iframe src="http://player.vimeo.com/video/13491964" class="pull-right span5" height="214" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <p><a href="http://vimeo.com/13491964">National Age and GDP Visualization</a> from <a href="http://vimeo.com/user4310080">Allan Berry</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+      </div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+    keywords: processing, sketches, datavis, art
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+      - img_filename: img_tmp_h.jpg
+        img_aspect: screenshot
+# --------------------------------------------------------------------------- #
+  - id: hex_land
+    title: Hex Land
+    synopsis: The final project for my Electronic Visualization class at UIC.
+    creators:
+      - creator: Berry, Allan
+        role: programmer, designer
+    type: application
+    dates:
+      - date: 2011
+        date_type: creation
+    media:
+      - medium: Processing
+    note: |
+      <div class="thumbnail span5 pull-right">
+        <iframe src="http://player.vimeo.com/video/13487462" class="pull-right span5" height="214" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        <p><a href="http://vimeo.com/13487462">Hex Land</a> from <a href="http://vimeo.com/user4310080">Allan Berry</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+      </div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+    keywords: processing, sketches, datavis, art
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: img_tmp_h.jpg
         img_aspect: screenshot
