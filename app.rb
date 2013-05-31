@@ -4,6 +4,12 @@ require 'chronic'
 Dir["./model/*.rb"].each   {|file| require file }
 Dir["./control/*.rb"].each {|file| require file }
 
+old_site_map = {
+  "/work/connected-chemistry-curriculum" => "/works/connchem",
+  "/content/icosahedra-tessellations" => "/works/icosahedra"
+}
+
+
 get '/' do
   erb :"pages/index", layout: :index_layout
 end
