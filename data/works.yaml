@@ -3,7 +3,7 @@ collection_name: Works by Allan
 works:
   - id: gordon
     title: Catalogue for the Gordon Library
-    slug: "The catalogue of a private collection: The William A. Gordon Library of British Caricature."
+    synopsis: "A catalogue of a private collection."
     creators:
       - creator: Berry, Allan
         role: designer
@@ -20,25 +20,29 @@ works:
       - medium: Adobe InDesign
       - medium: Filemaker Pro
       - medium: Ruby
-      - medium: Adobe Illustrator
     note: |
-      <p class="lead">For a client in the north shore of Chicago, I assisted in the cataloguing, photography and design necessary to build a comprehensive collection catalogue.</p>
-      <p>I catalogued and photographed several hundred items, in addition to the organization of several hundred more already catalogued by Mr. Gordon.</p>
-      <p>In addition, I designed and pushed through production a printed, bound catalogue.</p>
-      <p>This book has an ISBN, and is being distributed to several special collections libraries, including Harvard, Princeton and Northwestern's libraries.</p>
+      <p>For a client near Chicago, I provided the cataloguing, photography and design necessary to build a comprehensive special collection catalogue. I digitized most of the items, and designed and facilitated a printed, bound catalogue.</p>
+      <p>This collection consists of several hundred British prints, drawings, watercolors and objects, most from the late 18C to the early 19C.  Many are political cartoons for periodical distribution, including humorous comic strips predating 20C newspaper strips by over a century.</p>
+      <p>For cataloging, I used heavily modified AACR2/Dublin Core metadata; a primary limitation was to match extant records and established client preferences.  I catalogued into a custom Filemaker Pro database, wrote Ruby scripts to pull the data from Filemaker into a working XML translation format, which I could then import into Adobe InDesign.</p>
+      <p>The book is being distributed to several special collections libraries across the country.</p>
+      <p class="lead">Download <a href="/doc/gordon_sample.pdf">a sampler of this catalogue</a> (PDF, 2.6MB).</p>
     keywords: print, catalogues, library
     images:
-      - img_filename: gordon.jpg
+      - img_filename: gordon-1.jpg
         img_aspect: front cover
       - img_filename: gordon-2.jpg
         img_aspect: inside view
+      - img_filename: gordon-3.jpg
+        img_aspect: PDF page
+      - img_filename: gordon-4.jpg
+        img_aspect: PDF page
     documents:
-      - doc_filename: doc_tmp.pdf # gordon_sample.pdf
+      - doc_filename: gordon_sample.pdf # gordon_sample.pdf
         doc_description: A sample of the Gordon catalogue.
 # --------------------------------------------------------------------------- #
   - id: healthy_ringing
     title: Healthy Ringing
-    slug: An industry-standard technical manual.
+    synopsis: An industry-standard technical manual.
     creators:
       - creator: Berry, Susan
         role: writer
@@ -63,24 +67,34 @@ works:
         relation_target: ajb_0001
         relation_url: http://allanberry.com/works/ajb_0001
     note: |
-      <p>Healthy Ringing has become standard in the handbell and handchime industry, for teaching ringers and directors to play their instruments in more healthful, musical and creative ways.</p>
-      <p>This is a book I illustrated for my family's company Handbell Services, Inc. back in 2000. In 2012, I redesigned the cover (and reformatted some of the book's internals), and it is now on Amazon, as well as from my family's company website.</p>
-      <p>I originally illustrated this book, creating over 100 illustrations, both of a technical and whimsical nature.  The page layout was by a different designer.</p>
-      <p>Later, in 2012, I created a second edition of the book for print-on-demand.  The original QuarkXPress documents were barely readable, when they were readable at all; eventually I was able to reconstruct the book, including one chapter from scratch.  I also created the new cover design, and submitted it for publication.</p>
-      <p>This book has an ISBN, and is now <a href="http://www.amazon.com/Healthy-Ringing-For-handbells-handchimes/dp/0615603572">available from Amazon.com</a>, among other retailers (including my <a href="<a href="http://handbellservices.com/">">family's company website</a>, of course).  It is now distributed in all new ringing sets by Malmark Inc., and has sold thousands of copies.</p>
+      <p>I illustrated this book for my family's company, <a href="http://handbellservices.com">Handbell Services, Inc.</a>, back in 2000. In 2012, I redesigned the cover (and reformatted some of the book's internals).</p>
+      <p>Healthy Ringing has become standard in the handbell and handchime industry; it teaches ringers and directors to play in more healthful, musical and creative ways.</p>
+      <p>The book has an ISBN, and is now <a href="http://www.amazon.com/Healthy-Ringing-For-handbells-handchimes/dp/0615603572">available from Amazon.com</a>, among other retailers (including my family's <a href="http://www.handbellservices.com/healthy-ringing-book/">company website</a>, of course).  It is now distributed in all new ringing sets by <a href="http://malmark.com/">Malmark Inc.</a>, and has sold thousands of copies.
+      <p>I originally illustrated the book, creating over 100 illustrations, both of a technical and whimsical nature.  The page layout was by a different designer.</p>
+      <p>Later, in 2012, I created a second edition of the book for print-on-demand.  The original QuarkXPress documents were barely readable, forcing a bit of digital archaeology, including the restoration of at least one chapter from scratch.  I also created the new cover design, and submitted it for print-on-demand publication.</p>
     keywords: print, illustration, handbells
     images:
       - img_filename: healthy_ringing.jpg
         img_aspect: front cover
       - img_filename: healthy_ringing-2.jpg
         img_aspect: inside view
+      - img_filename: healthy_ringing-7.jpg
+        img_aspect: Bellman
+      - img_filename: healthy_ringing-3.jpg
+        img_aspect: musculature
+      - img_filename: healthy_ringing-5.jpg
+        img_aspect: Stretching Feels Good!
+      - img_filename: healthy_ringing-4.jpg
+        img_aspect: the Three Bell Weave
+      - img_filename: healthy_ringing-6.jpg
+        img_aspect: "ringing multiple bells: Shelley, Combo-Ring, Four-in-Hand"
     documents:
       - doc_filename: doc_tmp.pdf
         doc_description: A sampler of Healthy Ringing.
 # --------------------------------------------------------------------------- #
   - id: kill_them_all
     title: Kill Them All
-    slug: A painting from 2003, shortly after the US invasion of Iraq.
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: painter
@@ -92,8 +106,9 @@ works:
     media:
       - medium: oil on canvas
     note: |
-      <p>I painted this in 2003, shortly after the US invasion of Iraq.  The title is somewhat ironic, to say the least.</p>
-      <p>This work fit the strange cliche of arriving in a dream; I thought it up, and painted it in a week, as if executing a concept plan.  This is not how I usually work: paintings for me, especially oils, usually are far more pained and deliberate.</p>
+      <p>I painted this in 2003, during the sabre-rattling preceding the US invasion of Iraq.  Although I am not a pacifist, the title is certainly ironic: war should only accompany dire need, a measure thoroughly unmet in that case.</p>
+      <p>However, this piece is only tangential to that conflict, and concerns itself instead with a particular psychological space.</p>
+      <p>It's a cliche, I know, but this painting arrived in a dream; I thought it up, and painted it in a week, as if executing a concept plan.  This is not how I usually work: paintings for me, especially oils like this one, usually take more pain and deliberation.</p>
     keywords: politics, war
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: kill_them_all.jpg
@@ -101,7 +116,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: shard
     title: Shard
-    slug: A painting from 2002.
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: painter
@@ -123,7 +138,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: swerve
     title: Swerve
-    slug: A painting from 2002.
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: painter
@@ -144,8 +159,8 @@ works:
         img_aspect: front view
 # --------------------------------------------------------------------------- #
   - id: voronoi_bubbles
-    title: Vornoi Bubbles
-    slug: A painting from 2012.
+    title: Voronoi Bubbles
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: painter
@@ -157,16 +172,18 @@ works:
     media:
       - medium: acrylic on panel
     note: |
-      <p>A painting from 2002.</p>
       <p>Any way is up.</p>
+      <p>I got the idea for this painting by doing the dishes: the bubbles in the sink created a space-filling pattern I found transfixing.</p>
+      <p>Later, as the work was in progress, I learned of the very similar-looking <a href="http://en.wikipedia.org/wiki/Voronoi_diagram">Vornoi diagrams</a>: a regional tiling system, in which cells are seeded by specified points.  Although the two geometries have separate origins, their similarities seem to require association.</p>
+      <p>The <a href="http://en.wikipedia.org/wiki/Beijing_National_Aquatics_Center">Beijing Water Cube</a> also shares this form/pattern, so this idea apparently has broad artistic currency.
     keywords: geometry, networks, vision
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: voronoi_bubbles.jpg
         img_aspect: front view
 # --------------------------------------------------------------------------- #
   - id: watertowers
-    title: Water Tower Collection
-    synopsis: A new work "collecting" water towers.
+    title: American Water Towers
+    synopsis: '"Collecting" water towers (in progress).'
     creators:
       - creator: Berry, Allan
         role: collector
@@ -180,63 +197,62 @@ works:
       - medium: digital photography
       - medium: web application
     note: |
-      <p class="lead">Water Towers are, by definition, the work of communities: they are built as common infrastructure, for a town, for a neighborhood, for a corporation.</p>
-      <p><a href="http://tiffanyfunk.com">Tiffany</a> and I would like to document these structures in the spirit of <a href="http://www.moma.org/visit/calendar/exhibitions/95">Bernd and Hilla Becher</a>.</p>
-      <p>This project is new, and in progress.</p>
+      <p>Water Towers are, by definition, the work of communities: they are built as common infrastructure, for a town, for a neighborhood, for a corporation.</p>
+      <p>The American water tower is a defining characteristic of our landscape.  In the open, yet usually ignored, they stand as sign posts for their communities, proclaiming messages for miles surrounding: high school mascots, mottos, corporate or political logos, advertisements.</p>
+      <p><a href="http://tiffanyfunk.com">Tiffany</a> and I would like to document these structures in the spirit of <a href="http://www.moma.org/visit/calendar/exhibitions/95">Bernd and Hilla Becher</a>.  It's also a great way to get off the interstate during a road trip, and see regions otherwise overlooked.</p>
+      <p>This project is new, in progress, and will eventually be an online application.  We are collecting GPS data, and will create online maps and full metadata for our activities.</p>
     keywords: collections, photography
     images:
+      - img_filename: watertowers-1.jpg
+        img_aspect: Gaylord, MI
       - img_filename: watertowers.jpg
-        img_aspect: front view
-      - img_filename: watertowers-2.jpg
-        img_aspect: front view
+        img_aspect: Gaylord, MI
       - img_filename: watertowers-3.jpg
-        img_aspect: front view
+        img_aspect: Escanaba, MI
       - img_filename: watertowers-4.jpg
-        img_aspect: front view
+        img_aspect: Escanaba, MI
       - img_filename: watertowers-5.jpg
-        img_aspect: front view
+        img_aspect: Manistee, MI
       - img_filename: watertowers-6.jpg
-        img_aspect: front view
+        img_aspect: Mackinaw, MI
       - img_filename: watertowers-7.jpg
-        img_aspect: front view
+        img_aspect: Rogers City, MI
       - img_filename: watertowers-8.jpg
-        img_aspect: front view
-      - img_filename: watertowers-9.jpg
-        img_aspect: front view
+        img_aspect: Rogers City, MI
       - img_filename: watertowers-10.jpg
-        img_aspect: front view
+        img_aspect: Fletcher Corporation, Alpena, MI
       - img_filename: watertowers-11.jpg
-        img_aspect: front view
+        img_aspect: Alpena, MI
       - img_filename: watertowers-12.jpg
-        img_aspect: front view
+        img_aspect: Alpena Township, MI
       - img_filename: watertowers-13.jpg
-        img_aspect: front view
+        img_aspect: Onaway, MI
       - img_filename: watertowers-14.jpg
-        img_aspect: front view
+        img_aspect: Gaylord, MI
       - img_filename: watertowers-15.jpg
-        img_aspect: front view
+        img_aspect: Zeeland, MI
       - img_filename: watertowers-16.jpg
-        img_aspect: front view
+        img_aspect: Zeeland, MI
       - img_filename: watertowers-17.jpg
-        img_aspect: front view
+        img_aspect: Zeeland, MI
       - img_filename: watertowers-18.jpg
-        img_aspect: front view
+        img_aspect: Holland, MI
 # --------------------------------------------------------------------------- #
   - id: connchem
     title: Connected Chemistry
-    synopsis: A set of Java-based animations for a high-tech high-school chemistry curriculum.
+    synopsis: A set of books and software for a high-tech high-school chemistry curriculum.
     creators:
-      - creator: Stieff, Mike
+      - creator: <a href="http://www.linkedin.com/profile/view?id=174424935">Stieff, Mike</a>
         role: project lead
       - creator: Berry, Allan
         role: software and graphic designer
-      - creator: Nighelli, Teresa
+      - creator: <a href="http://www.linkedin.com/profile/view?id=106509570">Nighelli, Teresa</a>
         role: curriculum writer
-      - creator: Li, Qin
+      - creator: <a href="http://www.linkedin.com/profile/view?id=91157062">Li, Chris</a>
         role: programmer
-      - creator: Ryan, Stephanie
+      - creator: <a href="http://www.linkedin.com/profile/view?id=48098057">Ryan, Stephanie</a>
         role: researcher
-      - creator: Yip, Jason
+      - creator: <a href="http://www.linkedin.com/profile/view?id=180119889">Yip, Jason</a>
         role: researcher
     type: software, books
     dates:
@@ -251,37 +267,39 @@ works:
       - medium: Adobe InDesign
       - medium: Adobe Illustrator
     note: |
-      <p class="lead">Connected Chemistry is a set of books and software for a high-tech high-school chemistry curriculum.</p>
-      <p>I designed the software and the books.</p>
       <ul>
         <li><a href="http://connchem.org/">The Connected Chemistry home page</a></li>
         <li><a href="http://code.google.com/p/connchem/">Our Google Code repository</a></li>
         <li><a href="https://connectedchemistry.basecamphq.com/">Our BaseCamp development site</a></li>
       </ul>
+      <p>In collaboration with <a href="http://www.linkedin.com/profile/view?id=174424935">Mike Stieff, PhD</a>, <a href="http://www.linkedin.com/profile/view?id=48098057">Stephanie Ryan, PhD</a>, <a href="http://www.linkedin.com/profile/view?id=106509570">Teresa Nighelli</a>, <a href="http://www.linkedin.com/profile/view?id=91157062">Chris Li</a>, and <a href="http://www.linkedin.com/profile/view?id=180119889">Jason Yip</a>.</p>
       <div class="thumbnail span5 pull-right">
         <iframe src="http://player.vimeo.com/video/44965293" class="pull-right span5" height="214" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <p><a href="http://vimeo.com/44965293">Connected Chemistry Curriculum Demonstration</a> from <a href="http://vimeo.com/user4310080">Allan Berry</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
       </div>
-      <p>This project concerns the construction of a high-school chemistry curriculum, using innovative techniques to convey chemistry concepts, in particular drawing, use of software simulations, and teacher-facilitated discussion.</p>
-      <p>I architected the user interface and basic functionality of the software. This was done in Java Swing and Processing, and was created from a blank slate. Although eventually as the complexity of the necessary algorithms required the employ of computer scientists for the heavy lifting, I can nevertheless claim the basic user interface design as my own, all of the graphics and illustration, as well as basic functionality. When I handed majority software development to Tuan Dang and eventually Qin Li, all major aspects of the software were operational, although not necessarily feature rich.</p>
-      <p>I have designed and edited 18 books, each averaging 75 pages. Each of these books underwent dozens of revisions, including at least one entire rewrite. The most challenging aspect of these books was that their development needed to parallel the software (which they constantly reference in text); however, since the books were expected to progress linearly and the software grew in spiral fashion, such coordination became difficult at best.</p>
+      <p>This project concerns the construction of a high-school chemistry curriculum, using innovative techniques to convey chemistry concepts, in particular student drawing, use of software simulations, and teacher-facilitated discussion.</p>
+      <p>I built the user interface and initial functionality of the software, in close conversation with students, teachers, field specialists, and learning scientists. Programming was done in Java Swing and Processing, and was created from a blank slate. Although eventually as the complexity of the necessary algorithms required the employ of computer scientists for the heavy lifting, I can claim most of the user interface design, the choice of technologies, and most of the graphics and illustration as my own. When I handed majority software development to Tuan Dang and eventually Chris Li, all major aspects of the software were operational, although not necessarily feature rich.</p>
+      <p>I designed and edited 18 books, each averaging 75 pages. Each of these books underwent dozens of revisions, including at least one entire rewrite each.</p>
       <p>I created systems of graphics and illustrations for use in the software and books, including hundreds of compound molecules, nuclear representations, and several hundred quantitative illustrations.</p>
+      <p class="lead">Download <a href="http://www.connchem.org/resources/docs/books/U4S_2.2_interior.pdf">Student Book 4</a> (PDF, 9.9MB) of the curriculum.</p>
     keywords: programming, science, education
     images:
       - img_filename: connchem.png
         img_aspect: book 1, front cover
-      - img_filename: connchem-2.png
+      - img_filename: connchem-1.png
         img_aspect: water molecule
-      - img_filename: connchem-3.png
+      - img_filename: connchem-2.png
         img_aspect: octane molecule
-      - img_filename: connchem-4.png
+      - img_filename: connchem-3.png
         img_aspect: equilibrium graph
+      - img_filename: connchem-cylinder.png
+        img_aspect: internal combustion engine
 #documents:
 #- doc_filename: filename.pdf
 #  doc_description: A sampler of the books
 # --------------------------------------------------------------------------- #
   - id: brooklyn_tablet
-    title: A Tablet Interface for the Brooklyn Museum
+    title: Android Museum Interface
     synopsis: An alternative interface for the Brooklyn Museum API.
     creators:
       - creator: Berry, Allan
@@ -296,32 +314,19 @@ works:
       - medium: Android
       - medium: Adobe Illustrator
     note: |
-      <p>This project is an alternative interface for the Brooklyn Museum API. It uses maps for a primary interface instead of text, and will eventually incorporate iconographic browsing. It is meant for, and runs on an Android tablet. Unfortunately, the project is not yet finished, because of some insurmountable XML bugs in the Processing 2.0 branch. I will continue work on it once the software problems clear up.</p>
-      <h3>The Challenge
       <p>Art museums tend to heavily rely on text. From brochures to wall texts to website search keywords, museum artifacts overwhelmingly employ textual description for their consumption.</p>
       <p>I think this is a problem. First of all, artifacts resist textual description, which is slippery and often irrelevant to visitors. Art museums habitaully provide extensive textual analysis in hopes of bootstrapping audiences into artifact understanding, perhaps driving a wedge between those with experience digesting textual analysis and an increasingly weary art-consuming public. I wish for the means to explore museum collections without text, or with as little text as possible.</p>
-      <p>I intend text in the narrow sense, e.g. English language, or words. I contrast this with visual information, e.g. pictures and design. While visual information may be interpreted as a type of text, that is, a collection of signifiers with implicit or explicit meanings, I contend this definition does not adequately describe visual information.</p>
-      <p>If an institution wishes to convey concrete meaning, it would likely choose verbal explanation. Does this then provide no room for visual information, even within institutions primarily engaged in visual culture? Artifacts must contain meaning which does not translate well to text, otherwise artists would simply write.</p>
-      <p>Furthermore, text may not be the best way to engage audiences. A certain distance occurs in translation, even between different languages: details are smoothed, idioms are smothered, subtleties are lost. A description of a painting is not the painting itself, but a pale shadow. Even were museums to use visual information in ways analogous to text, information would be lost in translation. Nevertheless, the idioms of visual objects and visual information share fundamental characteristics extraneous to text, like elements of design, form and color; visual information may convey different aspects of an object than that available via textual description.</p>
-      <p>To illustrate my point, if after a visit to a museum, I asked my companion whether they remember the "blue" painting we had seen together, I might receive a blank stare in response. I could expand my inquiry, perhaps describing the subject matter of the painting, or its size, or the gallery in which it hangs: further clues which may help to jog the memory of my companion. On the other hand, were I to provide a photograph of the painting, my companion would quickly have a better, more efficient means of ascertaining the meaning I intend.</p>
-      <p>Visual information is not limited to photographs, however, and need not be qualitative. Were I to provide a series blue color swatches, relative representations of different painting sizes, or a map of the galleries we had visited, my companion may also ascertain my meaning, all without reliance upon text.</p>
-      <h3>An Hypothetical Solution</h3>
-      <p>While art museums rely on text, they do not eschew visual information altogether, of course. A visitor need look no further than the printed map provided upon arrival in a museum: the very navigation of a museum space is enabled by visual information. Nevertheless, when searching and browsing via technological resources, text reigns paramount. Usually the principle means of discovering a particular artifact on a museum website, for example, involves parsing the language used by the registrar to describe the piece. Hurdles of specialist jargon and hierarchical language-based navigation inhibit discovery. Perhaps museums might find a better way?</p>
-      <p>I envision a non-textual interface to a museum collection, where museum visitors, perhaps via a tablet, kiosk or website, might explore a collection without the difficulties inherent in textual description.</p>
-      <p>Such an interface may depend upon an iconographic vocabulary: a set of icons which tie like keywords to objects in the collection. The visitor might then click on an icon of a chair, and the system would return all items which had been tagged with the same icon, either by a registrar or another visitor. Such a search could presumably return items without the word "chair" in their description, like a stool, a throne, or a painting of a man sitting. Behind the scenes, the icon may well be tied to the word "chair," as software tends to rely upon textual identification; nevertheless, if such identification is hidden from the interface, the effect would be the same: navigation and tagging of a museum collection without obvious reliance upon text.</p>
-      <p>Otherwise, such an interface could employ other types of quantifiable visual information. Maps might be used to parse space, or timelines might allow browsing and searching through time. Software with these qualities currently exists: Google Goggles, for example, uses shape and color to identify arbitrary images on the internet. A museum interface might well provide analogous color spectrums and shapes for direct interaction by users, avoiding the pitfalls and hurdles of translation to and from text.</p>
-      <p>Such direct manipulation of visual information, as it more closely ties to inherent qualities of an artifact, may provide a closer connection with the material in a museum collection. Instead of merely consuming information about an artifact, visitors would endure less abstraction, and therefore may become more deeply engaged with a collection.</p>
-      <p>It is not yet complete because of a few major bugs in the Android port of Processing, which will hopefully become ironed out with the new 2.0 branch.</p>
-      <h3>A Specific Proposal</h3>
-      <p>While I cannot hope to create software of the sophistication of Google Goggles, I believe I can create an interface which begins to explore these issues, and perhaps illuminates further advantages or possible pitfalls in this arena.</p>
-      <p>At least, I wish to create a proof-of-concept displaying the feasibility of such visual discovery, hopefully which provides users with more success in content discovery. I believe this interface would be more intuitive, effective, and more fun than existing collection interfaces.</p>
-      <p>As a first step, I plan to create a tablet application for use in museum galleries themselves. This application would allow non-textual search of a museum collection, from within the museum's walls. For example, a Japanese tourist, with presumably a relatively weak command of the English language, might use the tablet to discover items in the collection which otherwise would only be available to native English speakers. A tech-savvy child might use the application, opening new avenues into the relationships between items in the collection, and expanding a broadening world perspective. Or, a museum professional might use the interface to discern weaker aspects of the collection, or to find pieces for exhibition which she might not otherwise consider.</p>
+      <p>Tablets can be used in museum galleries themselves: they can allow non-textual search of a museum collection, from within the museum's walls. For example, a Japanese tourist, with presumably a relatively weak command of the English language, might use the tablet to discover items in the collection which otherwise would only be available to native English speakers. A tech-savvy child might use the application, opening new avenues into the relationships between items in the collection, and expanding a broadening world perspective. Or, a museum professional might use the interface to discern weaker aspects of the collection, or to find pieces for exhibition which she might not otherwise consider.</p>
+      <p>This simple project is an alternative interface for the <a href="http://www.brooklynmuseum.org/opencollection/api/">Brooklyn Museum API</a>: a small step toward these goals. It uses maps for a primary interface instead of text, and would eventually incorporate iconographic browsing. It is meant for, and runs on an Android tablet.</p>
+      <p>The project is not yet finished, because of some insurmountable XML bugs in the Processing 2.0 branch. I will continue work on it once the software problems clear up.</p>
     keywords: art, museums, android, java, processing
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: brooklyn_tablet-2.jpg
         img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: brooklyn_tablet-1.jpg
         img_aspect: screenshot
+      - img_filename: brooklyn_tablet-3.jpg
+        img_aspect: screenshot of search results
 # --------------------------------------------------------------------------- #
   - id: chicago_maps
     title: Chicago Maps
@@ -335,18 +340,21 @@ works:
       - date: 2012-12
         date_type: completion
     media:
+      - medium: html
       - medium: Omeka
+      - medium: Dublin Core
+      - medium: PHP
+    location: http://allanberry.omeka.net/
     note: |
+      <p class="lead"><a href="http://allanberry.omeka.net/">Link to the Exhibition</a></p>
       <p>In this exhibition, using Omeka, I show items from the Hermon Dunlap Smith Center for the History of Cartography, at the Newberry Library in Chicago, where I spent a year cataloging over a thousand road maps from the Rand McNally archive.</p>
-      <p>I'd like to tell the story of Chicago, from its early days as a frontier fort until its heyday in the 20C. One of the best ways to do this is with maps. The Newberry Library has terrific maps of Chicago, many of which are both fascinating and beautiful. Why not have an exhibition of maps about Chicago, curated from the terrific Newberry collection?</p>
-      <p>This exhibition aims to provide a broad, yet shallow view of the very fabric of Chicago, directly documented via its cartography. If this exhibition increases interest in and knowledge of both how Chicago has developed over the years and also the strength of the Newberry’s collection, then I feel the exhibition has succeeded.</p>
+      <p>This was a project for a class in exhibition design; I decided to use <a href="http://www.omeka.net">Omeka.net</a> to create an online exhibit, partly because Omeka has a reputation as an easy-to-use platform for this sort of stuff.  I learned it's generally OK, and has decent Dublin Core data controls (more than, say, WordPress), but the configuration of the software leaves something to be desired.  In particular, I find it a bit unattractive.  This was back in the days of Omeka version 1; version 2 may be a bit better.</p>
+      <p>I intended to tell the story of Chicago, from its early days as a frontier fort until its heyday in the 20C.  I wanted to do it with maps: a great means to tell such a story. The Newberry Library has terrific maps of Chicago, many of which are both fascinating and beautiful.</p>
       <p>I have personally examined and attempted to photograph each item by hand. I built the system, wrote all text, and catalogued all items.</p>
-      keywords: maps, geography, chicago
+    keywords: maps, geography, chicago
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
+      - img_filename: chicago_maps.png
+        img_aspect: 1891 map of Chicago
 # --------------------------------------------------------------------------- #
   - id: ahgsa_website
     title: AHGSA Website
@@ -364,13 +372,16 @@ works:
       - medium: PHP
     location: http://ahgsa.allanberry.com
     note: |
-      <p>The Art History Graduate Student Association of the University of Illinois at Chicago needed a website. I created this as per their specifications. It is a Drupal site with heavy theming and modification, with special attention taken to assure user roles were robust and reflected the nature of the organization. It also has a forum and blog capabilities.</p>
+      <p class="lead"><a href="http://ahgsa.allanberry.com/">View the Site</a>.</p>
+      <p>The Art History Graduate Student Association of the University of Illinois at Chicago needed a website. I created this as per their specifications. It is a Drupal site with heavy theming and modification, with special attention taken to assure user roles were robust and reflected the nature of the organization. It also has a forum, calendar and blog capabilities.</p>
       <p>Originally, this site was located at the domain <strong>ahgsa.org</strong>. I maintain this app as a portfolio piece, although at this point it's merely a shell without much content.</p>
     keywords: websites, art_history, academic, drupal
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: ahgsa-2.png
         img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: ahgsa-1.png
+        img_aspect: screenshot
+      - img_filename: ahgsa-4.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: ajb_website
@@ -395,32 +406,6 @@ works:
     note: |
       This website has gone through some major iterations over the years.  The current design is brand new: I created it in the spring of 2013, using Ruby.  Before that, the website was made with Drupal, with a custom template crafted by yours truly.
     keywords: websites, ajb, drupal
-    images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
-# --------------------------------------------------------------------------- #
-  - id: chicago_maps
-    title: Chicago Maps
-    synopsis: An online exhibit using Omeka
-    creators:
-      - creator: Berry, Allan
-        role: designer
-    type: website
-    dates:
-      - date: 2012
-        date_type: creation
-    media:
-      - medium: html
-      - medium: Omeka
-      - medium: Dublin Core
-      - medium: PHP
-    location: http://allanberry.omeka.net/
-    note: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
-      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
-    keywords: websites, ajb, omeka
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: img_tmp_h.jpg
         img_aspect: screenshot
@@ -520,22 +505,34 @@ works:
     media:
       - medium: Adobe Illustrator
     note: |
-      <p>This is a set of tesselations meant for use in a three-dimensional context. This is an attempt to discern the optimal tile system to cover an icosahedron in the simplest repeatable fashion, in order to allow potential recursive hexagon fills. Eventually, this will form the basis for a video game geography: a geographic framework equally useful in three-dimensional and two-dimensional contexts.</p>
-      <p>Some of these patterns are more useful than aesthetic, some vice-versa.</p>
+      <p class="lead">A sister project to the <a href="/works/magnet_icosahedron">Icosahedron Globe</a>.</p>
+      <p>This is a set of tesselations meant to discern the optimal tiling system for covering an icosahedron in a simplest recursive fashion: recursive hexagon tessellation. Eventually, this will form the basis for a video game geography: a geographic framework equally useful in three-dimensional and two-dimensional contexts.</p>
+      <p>Some of these patterns are more effective (in this context) than aesthetic; some vice-versa.  Basically, I put them here because they look cool.</p>
       <p>Use of the icosahedron derives from several rationales, among them:</p>
       <ul>
         <li>It is one of the Platonic solids, gaining much from this repeatability and systematic nature</li>
-        <li>It can be unfolded flat (a characteristic lacking in spheres)</li>
-        <li>It is constructed entirely of isosceles triangles, which allow arbitrary and infinite recursive tiling with sub-isosceles triangles. In other words, you can fill an isosceles triangle with smaller isosceles triangles, and those with smaller ones, on and on, ad nauseam.</li>
-        <li>Isosceles triangles can be used to construct triangle meshes, hexagons, and hexagon maps, all of which are important tools in game design and geography</li>
+        <li>It can be unfolded flat (a characteristic lacking in spheres).</li>
         <li><a href="http://en.wikipedia.org/wiki/Dymaxion_map">It was used by Buckminster Fuller</a>, who is awesome</li>
+        <li>It is constructed entirely of isosceles triangles, which allow arbitrary and infinite recursive tiling with sub-isosceles triangles. In other words, you can fill an isosceles triangle with smaller isosceles triangles, and those with smaller ones, on and on, ad nauseam.</li>
       </ul>
+      <p>My preoccupation with hexagons comes from their tremendous effectiveness as a two-dimensional geographic grid.  Nerdy board and video games have often shown this effectiveness. I was anxious to shoehorn this facility into the Fuller projection, in order to allow complete 3D worlds which could be accurately viewed in a 2D context: on a computer screen, say.</p>
+      <p>Therefore, this project is something of a failed experiment, since I was generally unable to discover a system of hexagons which would fully and simply cover an icosahedron: after all, at its corners, an icosahedron has five sides, not six.  I came close, however, and I have not yet given up.<p>
     keywords: hexagons, tessellation, geometry
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: icosahedron-1.png
         img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: icosahedron-6.png
+        img_aspect: 'truncated icosahedron (like a soccer ball): the simplest hexagon-based "tessellation"'
+      - img_filename: icosahedron-2.png
         img_aspect: screenshot
+      - img_filename: icosahedron-3.png
+        img_aspect: screenshot
+      - img_filename: icosahedron-4.png
+        img_aspect: screenshot
+      - img_filename: icosahedron-5.png
+        img_aspect: screenshot
+      - img_filename: icosahedron-7.png
+        img_aspect: my favorite, but only because it looks nice
 # --------------------------------------------------------------------------- #
   - id: art_collection_dbs
     title: Art Collection Databases
@@ -580,7 +577,7 @@ works:
       <p>This image was created in 2001 for a friend's final recital for an MFA in music performance (she is a flautist). She was happy with the result.</p>
     keywords: illustration
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: pondfairy.png
         img_aspect: front
 # --------------------------------------------------------------------------- #
   - id: erd
@@ -594,12 +591,14 @@ works:
       - date: 2011
         date_type: creation
     media:
-      - medium: pen and ink
+      - medium: OmniGraffle
     note: |
-      <p>An Entity Relationship Diagram</p>
+      <p>This is an Entity Relationship Diagram, basically to show that I know how to model data.  It shows a basic, but comprehensive, order purchase system.</p>
+      <p>I did it for a class at <a href="http://www.lis.illinois.edu/">GSLIS</a> in systems analysis and design, under Prof. <a href="http://www.lis.illinois.edu/people/faculty/adjunct#trainor1">Kevin Trainor</a>.</p>
+      <p class="lead"><a href="/doc/erd.pdf">View as PDF</a> <small>(PDF, 141KB)</small>.</p>
     keywords: illustration
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: erd.png
         img_aspect: front
 # --------------------------------------------------------------------------- #
   - id: spurlock
@@ -620,14 +619,20 @@ works:
       <p>Using proper UI/UX methodology, and with two collaborators, this website was an attempt to redesign an online application (in this case, an art museum's website) according to formal user-interface tenets and concerns.</p>
     keywords: user_experience, interfaces, design
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: front
+      - img_filename: spurlock-1.png
+        img_aspect: screenshot of current interface
+      - img_filename: spurlock-2.png
+        img_aspect: screenshot of one proposed iteration
+      - img_filename: spurlock-3.png
+        img_aspect: proposed front page redesign wireframe
 # --------------------------------------------------------------------------- #
   - id: linux_infopack
     title: Linux InfoPack
     synopsis: Providing documentation for Linux to Librarians.
     creators:
       - creator: Berry, Allan
+        role: creator
+      - creator: Swierczek, Julie
         role: creator
     type: documentation
     dates:
@@ -637,12 +642,13 @@ works:
       - medium: Google Sites
     location: https://sites.google.com/site/linuxinfopack/
     note: |
-      <p><a href="https://sites.google.com/site/linuxinfopack/">Link to the project</a>.</p>
-      <p>Explanation and documentation of Linux, for a elementary librarian audience, to help them get up to speed</p>
+      <p class="lead"><a href="https://sites.google.com/site/linuxinfopack/">Link to the project</a>.</p>
+      <p>Explanation and documentation of Linux, for a elementary librarian audience, to help them get up to speed.</p>
+      <p>A collaboration with Julie Swierczek.</p>
     keywords: user_experience, interfaces, design
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: front
+      - img_filename: linux.png
+        img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: workflow_diagrams
     title: Workflow Diagrams for Connected Chemistry
@@ -665,7 +671,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: red_tessellation
     title: Red Tessellation
-    synopsis: A painting
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: creator
@@ -684,7 +690,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: dystopia
     title: Dystopia
-    synopsis: A painting
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: creator
@@ -703,7 +709,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: taube
     title: Taube
-    synopsis: A painting
+    synopsis: A painting.
     creators:
       - creator: Berry, Allan
         role: creator
@@ -714,7 +720,8 @@ works:
     media:
       - medium: acrylic on panel
     note: |
-      <p>A painting loosely based on the Rumpler Taube.</p>
+      <p>The somewhat ironic title of this piece ("Dove" in German) belies my enduring, rather juvenile, fascination with military aviation technology.</p>
+      <p>On the other hand, this piece seems more concerned with the dynamic aesthetics of machines in general, so maybe I can get a pass.</p>
     keywords: airplanes, machinery
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: taube.jpg
@@ -763,8 +770,8 @@ works:
         img_aspect: front view
 # --------------------------------------------------------------------------- #
   - id: magnet_icosahedron
-    title: Magnet Icosahedron
-    synopsis: A pseudo-three-dimensional geographic tiling system. 
+    title: Icosahedron Globe
+    synopsis: A pseudo-three-dimensional geographic tiling system (prototype). 
     creators:
       - creator: Berry, Allan
         role: creator
@@ -776,37 +783,69 @@ works:
     media:
       - medium: acrylic on vinyl magnets with steel icosahedron
     note: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
-      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+      <p class="lead">A sister project to the <a href="/works/icosahedra_tessellations">Icosahedron Tessellations</a>.</p>
+      <p>I am fascinated by geographic projections: translation of three-dimensional space onto a two-dimensional plane, or vice-versa.  <a href="http://en.wikipedia.org/wiki/Gerardus_Mercator">Mercator</a> and others have tried this with varying degrees of success; in my eyes, the best all-around projection is the <a href="http://en.wikipedia.org/wiki/Dymaxion_map">Fuller Projection</a>, which manages to minimize distortion across the globe.  The Fuller Projection uses the icosahedron: every side identical and regular.</p>
+      <p>One benefit of flat, two-dimensional planes is their suitability for a regular grid.  Most three-dimensional grids are irregular: Cartesian longitude and latitude, for example, work fine for locative purposes, but create massive distortion when used for cylindrical flat-plane projection.</p>
+      <p>This project is my attempt to provide a regular grid for a three-dimensional form: the icosahedron, the closest Platonic solid to the sphere.  The grid is a set of recursive regular equilateral triangles, set either positive or negative: land or sea.  Each triangle in turn could, in theory, be made of further triangles, allowing arbitrary resolution in the manner of fractal generation.  This is, essentially, a means to create form halfway between two two-dimensional and three-dimensional spaces, and to trasnlate between them.  The globe can be made as regular as a chessboard, with strong implications for art, geography, gaming, industry, or other uses.</p>
+      <p>Four tiles are possible, as each tile is its opposite when flipped.</p>
+      <p>To explain its somewhat shabby appearance: this is a prototype, made from steel and duct tape, with movable painted magnetic tiles.  It has been handled extensively, and acrylic paint does not apparently adhere well to vinyl.</p>
     keywords: geometry, hexagon, tessellation, icosahedron
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: magnet_icosahedron.jpg
+      - img_filename: magnet_icosahedron-1.jpg
         img_aspect: front view
       - img_filename: magnet_icosahedron-2.jpg
-        img_aspect: front view
-      - img_filename: magnet_icosahedron-2.jpg
-        img_aspect: front view
+        img_aspect: front view, showing movable magnets and steel form underneath
+      - img_filename: magnet-icosahedron-3.png
+        img_aspect: unwrapped icosahedron, analogous to Fuller projection
+      - img_filename: magnet-icosahedron-triangles.png
+        img_aspect: total number of possible piece combinations
 # --------------------------------------------------------------------------- #
   - id: mannequin
     title: Mannequin
-    synopsis: 
+    synopsis: A painting on a mannequin.
     creators:
       - creator: Berry, Allan
         role: creator
     type: painting
-    sizes: 12 inches diameter, 6 inch triangle side
+    sizes: 40 inches x 16 inches x 12 inches, approximate, not including stand
     dates:
       - date: 2006
         date_type: creation
     media:
-      - medium: acrylic on vinyl magnets with steel icosahedron
+      - medium: oil on mannequin
+    note: |
+      <p>This is a painting on a mannequin. Conceptually, there's not much else to it, although I'm sure interpretations could vary.</p>
+      <p>Formally, there's a lot going on here.  First, the palette is limited to the absolute basics: black and white.  Much attention was paid on balance: I didn't want either the black or the white to function as figure or ground, but rather to put them in constant competition and tension.  This was a lot harder than it may look.  In addition, I worked to keep all forms flowing into one another, like an active whirlpool, an attempt made complicated by the intrinsic curves of the female mannequin.</p>
+      <p>I really enjoyed this project; I've been looking for a comparable male mannequin ever since, so I might complete the gesture.</p>
+    keywords: mannequin
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: mannequin-2.jpg
+        img_aspect: front view
+      - img_filename: mannequin.jpg
+        img_aspect: back view
+# --------------------------------------------------------------------------- #
+  - id: cities_at_war
+    title: Cities At War
+    synopsis: Urban archaeology, using rectification of antique maps over Google Earth.
+    creators:
+      - creator: Berry, Allan
+        role: creator
+    type: paper and presentation
+    dates:
+      - date: 2007
+        date_type: creation
+    media:
+      - medium: old maps
+      - medium: Adobe Illustrator
+      - medium: Google Earth
+      - medium: Apple Keynote
     note: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
       Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
-    keywords: mannequin
+    keywords: geography, maps
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: mannequin.jpg
+      - img_filename: citis_at_war-1.jpg
         img_aspect: front view
-      - img_filename: mannequin-2.jpg
+      - img_filename: cities_at_war-2.jpg
         img_aspect: front view
 ...

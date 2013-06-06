@@ -1,5 +1,5 @@
 class Work
-  attr_accessor :id, :title, :slug, :format
+  attr_accessor :id, :title, :synopsis, :format
 
   def initialize(yaml_)
 
@@ -8,7 +8,7 @@ class Work
 
     #strings
     @title  = yaml_["title"]
-    @slug   = yaml_["slug"]
+    @synopsis = yaml_["synopsis"]
     @note   = yaml_["note"]
     @format = yaml_["format"]
 

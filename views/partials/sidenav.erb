@@ -3,7 +3,9 @@
 </div>
 
 <ul class="nav nav-tabs nav-stacked">
-  <% if request.path_info == '/preservation' %><li class="active"><% else %><li><% end %><a href="/preservation">Digital Preservation</a></li>
+  <% if request.path_info == '/preservation' %><li class="active"><% else %><li><% end %><a href="/preservation">Systems &amp; Digital Preservation</a></li>
   <% if request.path_info == '/design' %><li class="active"><% else %><li><% end %><a href="/design">Design &amp; Illustration</a></li>
   <% if request.path_info == '/art' %><li class="active"><% else %><li><% end %><a href="/art">Fine Art</a></li>
+  <br />
+  <% if request.path_info == '/works' %><li class="active"><% else %><li><% end %><a href="/works">All Works</a></li>
 </ul>
