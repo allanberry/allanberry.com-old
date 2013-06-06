@@ -99,7 +99,7 @@ works:
       - creator: Berry, Allan
         role: painter
     type: painting
-    sizes: 35.5 inches x 35.5 inches
+    format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003-05
         date_type: creation
@@ -121,7 +121,7 @@ works:
       - creator: Berry, Allan
         role: painter
     type: painting
-    sizes: 35.5 inches x 35.5 inches
+    format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
         date_type: creation
@@ -143,7 +143,7 @@ works:
       - creator: Berry, Allan
         role: painter
     type: painting
-    sizes: 35.5 inches x 35.5 inches
+    format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
         date_type: creation
@@ -158,6 +158,26 @@ works:
       - img_filename: swerve.jpg
         img_aspect: front view
 # --------------------------------------------------------------------------- #
+  - id: hemingway
+    title: Hemingway
+    synopsis: A painting.
+    creators:
+      - creator: Berry, Allan
+        role: painter
+    type: painting
+    format: 35.5 inches x 35.5 inches
+    dates:
+      - date: 2005
+        date_type: creation
+    media:
+      - medium: oil on canvas
+    note: |
+      <p>Known for heavy drinking, war, sports, bull fighting... Hemingway reveled in his physicality.  Eventually he took his own head off with a shotgun.</p>
+    keywords: figure
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: hemingway.jpg
+        img_aspect: front view
+# --------------------------------------------------------------------------- #
   - id: voronoi_bubbles
     title: Voronoi Bubbles
     synopsis: A painting.
@@ -165,7 +185,7 @@ works:
       - creator: Berry, Allan
         role: painter
     type: painting
-    sizes: 17.75 inches x 5.5 inches
+    format: 17.75 inches x 5.5 inches
     dates:
       - date: 2012-03-15
         date_type: completion
@@ -210,9 +230,9 @@ works:
       - img_filename: watertowers-3.jpg
         img_aspect: Escanaba, MI
       - img_filename: watertowers-4.jpg
-        img_aspect: Escanaba, MI
+        img_aspect: Manistique, MI
       - img_filename: watertowers-5.jpg
-        img_aspect: Manistee, MI
+        img_aspect: Manistique, MI
       - img_filename: watertowers-6.jpg
         img_aspect: Mackinaw, MI
       - img_filename: watertowers-7.jpg
@@ -305,7 +325,7 @@ works:
       - creator: Berry, Allan
         role: designer, programmer
     type: desktop application
-    #sizes: 6.5 inches x 5.25 inches
+    #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-05
         date_type: completion
@@ -335,7 +355,7 @@ works:
       - creator: Berry, Allan
         role: curator, designer
     type: web application
-    #sizes: 6.5 inches x 5.25 inches
+    #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-12
         date_type: completion
@@ -384,33 +404,33 @@ works:
       - img_filename: ahgsa-4.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
-  - id: ajb_website
-    title: My Previous Website
-    synopsis: The previous iteration of this website was a Drupal application.
-    creators:
-      - creator: Berry, Allan
-        role: designer
-    type: website
-    dates:
-      - date: 2011
-        date_type: redesign
-      - date: 2007
-        date_type: redesign
-      - date: 2001
-        date_type: design
-    media:
-      - medium: html
-      - medium: Drupal
-      - medium: PHP
-    location: http://allanberry.com
-    note: |
-      This website has gone through some major iterations over the years.  The current design is brand new: I created it in the spring of 2013, using Ruby.  Before that, the website was made with Drupal, with a custom template crafted by yours truly.
-    keywords: websites, ajb, drupal
-    images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
+#  - id: ajb_website
+#    title: My Previous Website
+#    synopsis: The previous iteration of this website was a Drupal application.
+#    creators:
+#      - creator: Berry, Allan
+#        role: designer
+#    type: website
+#    dates:
+#      - date: 2011
+#        date_type: redesign
+#      - date: 2007
+#        date_type: redesign
+#      - date: 2001
+#        date_type: design
+#    media:
+#      - medium: html
+#      - medium: Drupal
+#      - medium: PHP
+#    location: http://allanberry.com
+#    note: |
+#      This website has gone through some major iterations over the years.  The current #design is brand new: I created it in the spring of 2013, using Ruby.  Before #that, the website was made with Drupal, with a custom template crafted by yours #truly.
+#    keywords: websites, ajb, drupal
+#    images: # independent of file size, thumbs, etc.  No URLs.
+#      - img_filename: img_tmp_h.jpg
+#        img_aspect: screenshot
+#      - img_filename: img_tmp_h.jpg
+#        img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: expensive_paint
     title: Expensive Paint
@@ -431,12 +451,17 @@ works:
       </div>
       <p>This visualization takes a database of the most expensive paintings ever sold at auction, and contextualizes them. It does this by comparing the sold price of the painting, adjusted for inflation, against other goods which could be purchased for an equivalent amount of money.</p>
       <p>In this piece, I explore the most expensive paintings ever exposed to an auction, and then I recontextualize them based upon the absurd prices they fetch. For example, for the same price as one of these pieces, you could purchase a number of Caribbean islands, private jets, or even an aircraft carrier. The percentages of these other commodities for which these paintings are equivalent shows in the right panel.</p>
+      <p>I implemented the user interface of this application from scratch.</p>
       <p>The project was originally constructed in Processing, during the first Electronic Visualization course at the University of Illinois at Chicago, under Professor Daniel Sauter.</p>
     keywords: processing, sketches, datavis, art
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: expensive_paint-1.png
         img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: expensive_paint-2.png
+        img_aspect: screenshot
+      - img_filename: expensive_paint-3.png
+        img_aspect: screenshot
+      - img_filename: expensive_paint-4.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: age_gdp_v11n
@@ -461,9 +486,9 @@ works:
       <p>The project was originally constructed in Processing, during the first Electronic Visualization course at the University of Illinois at Chicago, under Professor Daniel Sauter.</p>
     keywords: processing, sketches, datavis, art
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: gdp-1.png
         img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: gdp-2.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: hex_land
@@ -483,13 +508,11 @@ works:
         <iframe src="http://player.vimeo.com/video/13487462" class="pull-right span5" height="214" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         <p><a href="http://vimeo.com/13487462">Hex Land</a> from <a href="http://vimeo.com/user4310080">Allan Berry</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
       </div>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
-      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
-    keywords: processing, sketches, datavis, art
+      <p>My preoccupation with hexagons and geography continues: a means to create hexagon-based geography.  This <a href="http://processing.org/">Processing</a> sketch functions as a drawing machine, i.e. a basic Photoshop clone, while using an internally consistent hexagon grid.</p>
+      <p>The sketch also includes a "carbon credit" system, where different hexes can have cities, and can give off or receive carbon from neighboring hexes.  The sharing mechanism functions a bit like <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a>, although the implementation of this functionality is cursory.  It was never a central aspect of my concept.</p>
+    keywords: processing, geography, hexagons, datavis
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: hex_land.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: icosahedra_tessellations
@@ -536,7 +559,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: art_collection_dbs
     title: Art Collection Databases
-    synopsis: A series of databases organizing the art collections of private clients.
+    synopsis: A series of desktop applications for the art collections of private clients.
     creators:
       - creator: Berry, Allan
         role: creator
@@ -545,18 +568,18 @@ works:
       - date: 2004
         date_type: begin date
       - date: 2010
-        date_type: begin date
+        date_type: end date
     media:
       - medium: Filemaker Pro
       - medium: Adobe Photoshop
     note: |
-      <p>Over the space of several years while I worked with Roberta Kramer (an appraiser in Chicago), I had the opportunity to create art collection databases for several private and institutional clients. These included a Fortune 500 law firm, a liberal arts college, a major insurance company, and several high net worth individuals.</p>
-      <p>These applications were written in Filemaker Pro, included elaborate metadata backends, and sometimes tracked hundreds of objects.</p>
+      <p>Over the space of several years while I worked with <a href="http://rkramerassociates.com">Roberta Kramer</a> (an appraiser in Chicago), I had the opportunity to create art collection databases for several private and institutional clients. These included a Fortune 500 law firm, a liberal arts college, a major insurance company, and several high net worth individuals.</p>
+      <p>These applications were written in Filemaker Pro, which provides a lot of capability, while still allowing a single developer to launch an entire application from the ground up, and deploy it across many platforms.  These applicatios included elaborate metadata backends, and sometimes tracked thousands of objects.</p>
     keywords: filemaker, collections
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: art_collection_db-2.png
         img_aspect: screenshot
-      - img_filename: img_tmp_h.jpg
+      - img_filename: art_collection_db-1.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: pondfairy
@@ -602,8 +625,8 @@ works:
         img_aspect: front
 # --------------------------------------------------------------------------- #
   - id: spurlock
-    title: Spurlock Museum Website Redesign
-    synopsis: Redesigning an art museum's website.
+    title: Spurlock Website Redesign
+    synopsis: Proposed redesign of an art museum's website.
     creators:
       - creator: Berry, Allan
         role: creator
@@ -615,7 +638,7 @@ works:
       - medium: Google Sites
     location: https://sites.google.com/site/590iilspurlockmuseum/
     note: |
-      <p><a href="https://sites.google.com/site/590iilspurlockmuseum/">Link to the project</a>.</p>
+      <p class="lead"><a href="https://sites.google.com/site/590iilspurlockmuseum/">Link to the project</a>.</p>
       <p>Using proper UI/UX methodology, and with two collaborators, this website was an attempt to redesign an online application (in this case, an art museum's website) according to formal user-interface tenets and concerns.</p>
     keywords: user_experience, interfaces, design
     images: # independent of file size, thumbs, etc.  No URLs.
@@ -663,11 +686,14 @@ works:
     media:
       - medium: Adobe Illustrator
     note: |
-      <p>Workflow Diagrams</p>
+      <p class="lead">View the <a href="/doc/ccc/ccc-revision-flow-1.pdf">first</a> (PDF, 146KB) and the <a href="/doc/ccc/ccc-revision-flow-2.pdf">second</a> (PDF, 165KB) flowchart in PDF format.</p>
+      <p>The <a href="/works/connchem">Connected Chemistry</a> project required substantial workflow planning to manage success; these wireframes were created to standardize how different team members were to interact with common documents and resources, as well as the creation of deliverables and revisions.</p>
     keywords: systems, workflow
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
-        img_aspect: front
+      - img_filename: ccc-revision-flow-1.png
+        img_aspect: flowchart 1
+      - img_filename: ccc-revision-flow-2.png
+        img_aspect: flowchart 2
 # --------------------------------------------------------------------------- #
   - id: red_tessellation
     title: Red Tessellation
@@ -676,6 +702,7 @@ works:
       - creator: Berry, Allan
         role: creator
     type: painting
+    format: 9 inches x 16 inches
     dates:
       - date: 2011
         date_type: creation
@@ -695,6 +722,7 @@ works:
       - creator: Berry, Allan
         role: creator
     type: painting
+    format: 9 inches x 16 inches
     dates:
       - date: 2010
         date_type: creation
@@ -707,6 +735,29 @@ works:
       - img_filename: dystopia.jpg
         img_aspect: front
 # --------------------------------------------------------------------------- #
+  - id: wash
+    title: Wash
+    synopsis: A series of photographs.
+    creators:
+      - creator: Berry, Allan
+        role: creator
+    type: photography
+    dates:
+      - date: 2012
+        date_type: creation
+    media:
+      - medium: digital photograph
+    note: |
+      <p>A series of serene, abstract photographs.  There's not much more to it... I think they're pretty.</p>
+    keywords: serenity, wash
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: wash.jpg
+        img_aspect: front
+      - img_filename: wash-2.jpg
+        img_aspect: front
+      - img_filename: wash-3.jpg
+        img_aspect: front
+# --------------------------------------------------------------------------- #
   - id: taube
     title: Taube
     synopsis: A painting.
@@ -714,6 +765,7 @@ works:
       - creator: Berry, Allan
         role: creator
     type: painting
+    format: 9 inches x 16 inches
     dates:
       - date: 2009
         date_type: creation
@@ -727,9 +779,30 @@ works:
       - img_filename: taube.jpg
         img_aspect: front
 # --------------------------------------------------------------------------- #
+  - id: struts
+    title: Struts
+    synopsis: A painting.
+    creators:
+      - creator: Berry, Allan
+        role: creator
+    type: painting
+    format: 9 inches x 16 inches
+    dates:
+      - date: 2010
+        date_type: creation
+    media:
+      - medium: acrylic on panel
+    note: |
+      <p>I'm not quite sure how to explain this one; sort of an exploration of the fabric and structure of space.</p>
+      <p>This one is actually still in progress, and looks substantially different than when I took this photograph.</p>
+    keywords: space, structure
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: struts.jpg
+        img_aspect: front
+# --------------------------------------------------------------------------- #
   - id: credit_card_paintings
     title: Credit Card Paintings
-    synopsis: Paintings on credit cards
+    synopsis: A series of small chance-based paintings.
     creators:
       - creator: Berry, Allan
         role: creator
@@ -740,10 +813,27 @@ works:
     media:
       - medium: acrylic on polyvinyl chloride acetate (credit card blanks)
     note: |
-      <p>A set of colorful painting from 2012.</p>
+      <p>A set of colorful mini-paintings, most created via the <em>Rorschach schmear</em> technique.</p>
+      <p>They're really not that deep.  I just think they look neat.  I have a lot of these credit card blanks... so I will make more!</p>
     keywords: graffiti, chance
     images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: img_tmp_h.jpg
+      - img_filename: credit.jpg
+        img_aspect: front
+      - img_filename: credit-2.jpg
+        img_aspect: front
+      - img_filename: credit-3.jpg
+        img_aspect: front
+      - img_filename: credit-4.jpg
+        img_aspect: front
+      - img_filename: credit-5.jpg
+        img_aspect: front
+      - img_filename: credit-6.jpg
+        img_aspect: front
+      - img_filename: credit-7.jpg
+        img_aspect: front
+      - img_filename: credit-8.jpg
+        img_aspect: front
+      - img_filename: credit-9.jpg
         img_aspect: front
 # --------------------------------------------------------------------------- #
   - id: hexagon_tiles
@@ -753,7 +843,7 @@ works:
       - creator: Berry, Allan
         role: creator
     type: painting
-    sizes: various; each tile 2 inches wide
+    format: various; each tile 2 inches wide
     dates:
       - date: 2011
         date_type: creation
@@ -776,7 +866,7 @@ works:
       - creator: Berry, Allan
         role: creator
     type: painting
-    sizes: 12 inches diameter, 6 inch triangle side
+    format: 12 inches diameter, 6 inch triangle side
     dates:
       - date: 2012
         date_type: creation
@@ -807,7 +897,7 @@ works:
       - creator: Berry, Allan
         role: creator
     type: painting
-    sizes: 40 inches x 16 inches x 12 inches, approximate, not including stand
+    format: 40 inches x 16 inches x 12 inches, approximate, not including stand
     dates:
       - date: 2006
         date_type: creation
@@ -824,28 +914,28 @@ works:
       - img_filename: mannequin.jpg
         img_aspect: back view
 # --------------------------------------------------------------------------- #
-  - id: cities_at_war
-    title: Cities At War
-    synopsis: Urban archaeology, using rectification of antique maps over Google Earth.
-    creators:
-      - creator: Berry, Allan
-        role: creator
-    type: paper and presentation
-    dates:
-      - date: 2007
-        date_type: creation
-    media:
-      - medium: old maps
-      - medium: Adobe Illustrator
-      - medium: Google Earth
-      - medium: Apple Keynote
-    note: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
-      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
-    keywords: geography, maps
-    images: # independent of file size, thumbs, etc.  No URLs.
-      - img_filename: citis_at_war-1.jpg
-        img_aspect: front view
-      - img_filename: cities_at_war-2.jpg
-        img_aspect: front view
+#  - id: cities_at_war
+#    title: Cities At War
+#    synopsis: Urban archaeology, using rectification of antique maps over Google Earth.
+#    creators:
+#      - creator: Berry, Allan
+#        role: creator
+#    type: paper and presentation
+#    dates:
+#      - date: 2007
+#        date_type: creation
+#    media:
+#      - medium: old maps
+#      - medium: Adobe Illustrator
+#      - medium: Google Earth
+#      - medium: Apple Keynote
+#    note: |
+#      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. #Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor #laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna #dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo #sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec #augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim #interdum massa, at consectetur nisl porta et.
+#      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod.# Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula #scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate #ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+#    keywords: geography, maps
+#    images: # independent of file size, thumbs, etc.  No URLs.
+#      - img_filename: citis_at_war-1.jpg
+#        img_aspect: front view
+#      - img_filename: cities_at_war-2.jpg
+#        img_aspect: front view
 ...
