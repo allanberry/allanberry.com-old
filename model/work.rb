@@ -4,7 +4,17 @@ class Work
   def initialize(yaml_)
 
     #symbols
-    @id     = yaml_["id"].to_sym
+    # id must exist
+    begin
+      @id = yaml_["id"].to_sym
+    rescue
+      begin
+        @id = yaml_["title"].to_sym
+      rescue
+        @id = :undefined
+      end
+      @id
+    end
 
     #strings
     @title  = yaml_["title"]

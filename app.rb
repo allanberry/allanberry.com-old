@@ -1,14 +1,16 @@
 require 'sinatra'
 require 'yaml'
 require 'chronic'
+
+# gimme some pages to load
 Dir["./model/*.rb"].each   {|file| require file }
 Dir["./control/*.rb"].each {|file| require file }
 
+# got links to former drupal site? TODO: expand me.
 old_site_map = {
   "/work/connected-chemistry-curriculum" => "/works/connchem",
   "/content/icosahedra-tessellations" => "/works/icosahedra"
 }
-
 
 get '/' do
   erb :"pages/index", layout: :index_layout
