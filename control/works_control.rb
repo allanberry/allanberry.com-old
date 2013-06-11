@@ -34,6 +34,8 @@ class WorksControl
     :preservation => [
       :linux_infopack,
       :erd,
+      :expensive_paint,
+      :age_gdp_v11n,
       :workflow_diagrams,
       :spurlock,
       :art_collection_dbs,

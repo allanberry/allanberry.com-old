@@ -202,7 +202,7 @@ works:
         img_aspect: front view
 # --------------------------------------------------------------------------- #
   - id: watertowers
-    title: American Water Towers
+    title: Midwest Water Towers
     synopsis: '"Collecting" water towers (in progress).'
     creators:
       - creator: Berry, Allan
@@ -211,7 +211,7 @@ works:
         role: collector
     type: digital collection
     dates:
-      - date: 2013
+      - date: 2012
         date_type: work started
     media:
       - medium: digital photography
@@ -220,7 +220,7 @@ works:
       <p>Water Towers are, by definition, the work of communities: they are built as common infrastructure, for a town, for a neighborhood, for a corporation.</p>
       <p>The American water tower is a defining characteristic of our landscape.  In the open, yet usually ignored, they stand as sign posts for their communities, proclaiming messages for miles surrounding: high school mascots, mottos, corporate or political logos, advertisements.</p>
       <p><a href="http://tiffanyfunk.com">Tiffany</a> and I would like to document these structures in the spirit of <a href="http://www.moma.org/visit/calendar/exhibitions/95">Bernd and Hilla Becher</a>.  It's also a great way to get off the interstate during a road trip, and see regions otherwise overlooked.</p>
-      <p>This project is new, in progress, and will eventually be an online application.  We are collecting GPS data, and will create online maps and full metadata for our activities.</p>
+      <p>This project is new, in progress, and will eventually be an online application.  We are <a href="http://goo.gl/maps/oNnV5">collecting GPS data</a>, and will create online maps and full metadata for our activities.</p>
     keywords: collections, photography
     images:
       - img_filename: watertowers-icon.jpg
