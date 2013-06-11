@@ -223,40 +223,70 @@ works:
       <p>This project is new, in progress, and will eventually be an online application.  We are collecting GPS data, and will create online maps and full metadata for our activities.</p>
     keywords: collections, photography
     images:
-      - img_filename: watertowers-1.jpg
-        img_aspect: Gaylord, MI
-      - img_filename: watertowers.jpg
-        img_aspect: Gaylord, MI
-      - img_filename: watertowers-3.jpg
-        img_aspect: Escanaba, MI
-      - img_filename: watertowers-4.jpg
-        img_aspect: Manistique, MI
-      - img_filename: watertowers-5.jpg
-        img_aspect: Manistique, MI
-      - img_filename: watertowers-6.jpg
-        img_aspect: Mackinaw, MI
-      - img_filename: watertowers-7.jpg
-        img_aspect: Rogers City, MI
-      - img_filename: watertowers-8.jpg
-        img_aspect: Rogers City, MI
-      - img_filename: watertowers-10.jpg
-        img_aspect: Fletcher Corporation, Alpena, MI
-      - img_filename: watertowers-11.jpg
-        img_aspect: Alpena, MI
-      - img_filename: watertowers-12.jpg
-        img_aspect: Alpena Township, MI
-      - img_filename: watertowers-13.jpg
-        img_aspect: Onaway, MI
-      - img_filename: watertowers-14.jpg
-        img_aspect: Gaylord, MI
-      - img_filename: watertowers-15.jpg
-        img_aspect: Zeeland, MI
-      - img_filename: watertowers-16.jpg
-        img_aspect: Zeeland, MI
-      - img_filename: watertowers-17.jpg
-        img_aspect: Zeeland, MI
-      - img_filename: watertowers-18.jpg
-        img_aspect: Holland, MI
+      - img_filename: watertowers-icon.jpg
+        img_aspect: Watertowers
+      - img_filename: watertowers-Alpena-2.jpg
+        img_aspect: Alpena, Michigan
+      - img_filename: watertowers-Alpena-3.jpg
+        img_aspect: Alpena, Michigan
+      - img_filename: watertowers-Alpena.jpg
+        img_aspect: Alpena, Michigan
+      - img_filename: watertowers-Bronson.jpg
+        img_aspect: Bronson, Michigan
+      - img_filename: watertowers-Brooklyn.jpg
+        img_aspect: Brooklyn, Michigan
+      - img_filename: watertowers-Clinton.jpg
+        img_aspect: Clinton, Michigan
+      - img_filename: watertowers-Coldwater.jpg
+        img_aspect: Coldwater, Michigan
+      - img_filename: watertowers-Edwardsburg.jpg
+        img_aspect: Edwardsburg, Michigan
+      - img_filename: watertowers-Escanaba.jpg
+        img_aspect: Escanaba, Michigan
+      - img_filename: watertowers-Gaylord-2.jpg
+        img_aspect: Gaylord, Michigan
+      - img_filename: watertowers-Gaylord.jpg
+        img_aspect: Gaylord, Michigan
+      - img_filename: watertowers-Holland.jpg
+        img_aspect: Holland, Michigan
+      - img_filename: watertowers-Jonesville.jpg
+        img_aspect: Jonesville, Michigan
+      - img_filename: watertowers-Mackinaw-City.jpg
+        img_aspect: Mackinaw City, Michigan
+      - img_filename: watertowers-Manistique-2.jpg
+        img_aspect: Manistique, Michigan
+      - img_filename: watertowers-Manistique.jpg
+        img_aspect: Manistique, Michigan
+      - img_filename: watertowers-Niles.jpg
+        img_aspect: Niles, Michigan
+      - img_filename: watertowers-Onaway.jpg
+        img_aspect: Onaway, Michigan
+      - img_filename: watertowers-Quincy-2.jpg
+        img_aspect: Quincy, Michigan
+      - img_filename: watertowers-Quincy.jpg
+        img_aspect: Quincy, Michigan
+      - img_filename: watertowers-Rockford.jpg
+        img_aspect: Rockford, Michigan
+      - img_filename: watertowers-Rogers-City-2.jpg
+        img_aspect: Rogers City, Michigan
+      - img_filename: watertowers-Rogers-City.jpg
+        img_aspect: Rogers City, Michigan
+      - img_filename: watertowers-Saline-2.jpg
+        img_aspect: Saline, Michigan
+      - img_filename: watertowers-Saline.jpg
+        img_aspect: Saline, Michigan
+      - img_filename: watertowers-South-Haven.jpg
+        img_aspect: South Haven, Michigan
+      - img_filename: watertowers-Three-Oaks.jpg
+        img_aspect: Three Oaks, Michigan
+      - img_filename: watertowers-White-Pigeon.jpg
+        img_aspect: White Pigeon, Michigan
+      - img_filename: watertowers-Ypsilanti.jpg
+        img_aspect: Ypsilanti, Michigan
+      - img_filename: watertowers-Zeeland-2.jpg
+        img_aspect: Zeeland, Michigan
+      - img_filename: watertowers-Zeeland.jpg
+        img_aspect: Zeeland, Michigan
 # --------------------------------------------------------------------------- #
   - id: connchem
     title: Connected Chemistry
