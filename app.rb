@@ -17,22 +17,40 @@ old_site_map = {
 # :index_layout has no sidebar
 # :sketch_layout is very minimal
 
-# TODO make trailing slashes optional
 
 get '/' do
   erb :"pages/index", layout: :index_layout
 end
 
+
 get '/sketches/:sketch/?' do
   control = SketchControl.new # a Ruby sidecar, to feed variables to the sketch, etc.
-  erb :"pages/sketch", layout: :sketch_layout, :locals => {:control => control}
+
+  # get sketches
+  all_sketches = Array.new
+  Dir.entries("./public/sketchbook").each do |file|
+    next if [".", "..", ".DS_Store"].include?(file) # ignore system files
+    all_sketches << file.to_sym
+  end
+
+  if all_sketches.include?(params[:sketch].to_sym) 
+    erb :"sketches/#{params[:sketch]}", layout: :sketch_layout, :locals => {:control => control}
+  # TODO currently, this code requires both a sketch folder, a sketch PDE, and a sketch ERB.
+  # I'd like to create a default sketch ERB file, for sketches which don't need the overhead
+  # of an entire ERB file to themselves:
+  # elsif
+  else
+    file_not_found
+  end
 end
+
 
 get '/works/:work/?' do
   control = WorksControl.new
   work = control.get_work_by_id("#{params[:work]}")
   erb :"pages/work", :locals => {:work => work}
 end
+
 
 get '/:page/?' do
   # only use symbols to pass values
@@ -48,15 +66,18 @@ get '/:page/?' do
   end
 end
 
+
 get '*' do
   file_not_found
 end
+
 
 helpers do
   def partial(template)
     erb :"partials/#{template}"
   end
 end
+
 
 def file_not_found
   erb :"pages/404"
