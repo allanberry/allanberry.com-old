@@ -24,7 +24,7 @@ works:
       <p>For a client near Chicago, I provided the cataloguing, photography and design necessary to build a comprehensive special collection catalogue. I digitized most of the items, and designed and facilitated a printed, bound catalogue.</p>
       <p>This collection consists of several hundred British prints, drawings, watercolors and objects, most from the late 18C to the early 19C.  Many are political cartoons for periodical distribution, including humorous comic strips predating 20C newspaper strips by over a century.</p>
       <p>For cataloging, I used heavily modified AACR2/Dublin Core metadata; a primary limitation was to match extant records and established client preferences.  I catalogued into a custom Filemaker Pro database, wrote Ruby scripts to pull the data from Filemaker into a working XML translation format, which I could then import into Adobe InDesign.</p>
-      <p>The book is being distributed to several special collections libraries across the country, including at <a href="http://nucat.library.northwestern.edu/cgi-bin/Pwebrecon.cgi?BBRecID=6531017&v3=1&SEQ=20130620100753&PID=YLbmrKW_-iZjaSm-C5lbwfTshXT">Northwestern.</a></p>
+      <p>The book is being distributed to several special collections libraries across the country, including at <a href="http://nucat.library.northwestern.edu/cgi-bin/Pwebrecon.cgi?BBID=6531017">Northwestern University.</a></p>
       <p class="lead">Download <a href="/doc/gordon_sample.pdf">a sampler of this catalogue</a> (PDF, 2.6MB).</p>
     keywords: print, catalogues, library
     images:
