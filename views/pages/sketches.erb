@@ -1,0 +1,14 @@
+<h1 class="page-header">Allan's Sketches</h1>
+<p class="lead">An online sketchbook.</p>
+<p>Items available here are <em>sketches</em>, meaning:</p>
+<ul>
+  <li>Not to be taken too seriously.</li>
+  <li>Probably of a smaller scale than my more full-fledged projects.</li>
+  <li>Usually born-digital in nature.</li>
+</ul>
+<p>This section is in active develpment, so more metadata is forthcoming.</p>
+
+<h3>Sketches</h3>
+<ul><% sketch_names.each do |sketch_name| %>
+  <li><a href="/sketches/<%= sketch_name %>"><%= sketch_name %></a></li>
+  <% end %></ul>

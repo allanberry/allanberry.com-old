@@ -1,11 +1,19 @@
 class SketchControl
-  def initialize
-  # @yaml = YAML.load_file('./data/works.yaml')
+  attr_accessor :p5_files
 
-  # # initialize works
-  # @works = []
-  # @yaml["works"].each do |w|
-  #   @works << Work.new(w)
-  # end
+  def initialize(sketch_name_)
+    @sketch_name = sketch_name_
   end
+
+  def p5_files # p5 files in the sketchbook/sketch_name directory
+    output = Array.new 
+    Dir.entries('./public/sketchbook/' + @sketch_name.to_s).each do |file|
+      next if ['..', '.', '.DS_Store'].include? file
+      if file =~ /.pde$/ # check if file is p5
+        output << ( '/sketchbook/' + @sketch_name.to_s + '/' + file )
+      end
+    end
+    output
+  end
+
 end
