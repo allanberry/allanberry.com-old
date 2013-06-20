@@ -12,21 +12,33 @@ old_site_map = {
   "/content/icosahedra-tessellations" => "/works/icosahedra"
 }
 
+# LAYOUTS
+# :layout has a sidebar
+# :index_layout has no sidebar
+# :sketch_layout is very minimal
+
+# TODO make trailing slashes optional
+
 get '/' do
   erb :"pages/index", layout: :index_layout
 end
 
-get '/works/:work' do
+get '/sketches/:sketch/?' do
+  control = SketchControl.new # a Ruby sidecar, to feed variables to the sketch, etc.
+  erb :"pages/sketch", layout: :sketch_layout, :locals => {:control => control}
+end
+
+get '/works/:work/?' do
   control = WorksControl.new
   work = control.get_work_by_id("#{params[:work]}")
   erb :"pages/work", :locals => {:work => work}
 end
 
-get '/:page' do
+get '/:page/?' do
   # only use symbols to pass values
   page = params[:page].to_sym
   # router: static pages first, then dynamic, then unknown
-  if [:about, :contact, :index].include?(page)
+  if [:about, :contact, :index, :copyright].include?(page)
     erb :"pages/#{params[:page]}"
   elsif [:works, :art, :design, :preservation].include?(page)
     control = WorksControl.new

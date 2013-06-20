@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= partial :meta %>
+    <title>Allan Berry</title>
+    <%= partial :css %>
+
+    <script src="/lib/processing-1.4.1.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <%= partial :header %>
+    </div>
+    <div id="ajb-body" class="container">
+      <div class="row">
+          <div class="span12">
+            <%= yield %>
+          </div>
+      </div>
+      <div class="row">
+          <%= partial :footer_minimal %>
+      </div>
+    </div>
+    <%= partial :js %>
+  </body>
+</html>
