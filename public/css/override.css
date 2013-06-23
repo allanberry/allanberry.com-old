@@ -12,7 +12,8 @@ h1, h2, h3, h4, h5, h6, .brand {
 }
 
 #logo_sidenav {
-  text-align: center;
+  -webkit-filter: drop-shadow( 5px 5px 5px #ccc );
+          filter: drop-shadow( 5px 5px 5px #ccc ); /* Same syntax as box-shadow */
   margin-bottom: 10px;
 }
 
