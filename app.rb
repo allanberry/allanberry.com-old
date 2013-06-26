@@ -27,7 +27,7 @@ def sketch_names
   # TODO get this into the controller?
   # get sketches
   output = Array.new
-  Dir.entries("./public/sketchbook").each do |file|
+  Dir.entries("./public/p5").each do |file|
     next if [".", "..", ".DS_Store"].include?(file) # ignore system files
     output << file.to_sym
   end

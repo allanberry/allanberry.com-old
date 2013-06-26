@@ -1,8 +1,19 @@
 <div id="logoland" class="row text-center">
-  <div class="span3">
-    <a href="/"><img src="/img/site/logo_sidenav.svg" id="logo_sidenav" class="" alt="Allan's Logo" /></a>
+  <div class="span3" id="logogo_sidenav">
+    <a href="/">
+      <object data="/img/site/logogo.svg" type="image/svg+xml" class="logogo" >
+        <img src="/img/site/logogo.png" class="logogo" /><!-- fallback -->
+      </object>
+    </a>
   </div>
 </div>
+
+<script>
+  var svg = document.getElementsByTagName('object')[0];
+
+  var flurg = d3.select(svg);
+  console.log(svg);
+</script>
 
 <ul class="nav nav-tabs nav-stacked">
   <% if request.path_info == '/preservation' %><li class="active"><% else %><li><% end %><a href="/preservation">Systems &amp; Digital Preservation</a></li>

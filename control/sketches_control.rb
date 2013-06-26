@@ -7,10 +7,10 @@ class SketchControl
 
   def p5_files # p5 files in the sketchbook/sketch_name directory
     output = Array.new 
-    Dir.entries('./public/sketchbook/' + @sketch_name.to_s).each do |file|
+    Dir.entries('./public/p5/' + @sketch_name.to_s).each do |file|
       next if ['..', '.', '.DS_Store'].include? file
       if file =~ /.pde$/ # check if file is p5
-        output << ( '/sketchbook/' + @sketch_name.to_s + '/' + file )
+        output << ( '/p5/' + @sketch_name.to_s + '/' + file )
       end
     end
     output
