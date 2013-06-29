@@ -783,25 +783,17 @@ works:
     media:
       - medium: digital photograph
     note: |
-      <p>A series of serene, abstract photographs.  I think they're pretty.</p>
+      <p>A series of serene, abstract photographs.</p>
     keywords: serenity, wash
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: wash.jpg
-        img_aspect: shot
       - img_filename: wash-2.jpg
-        img_aspect: shot
       - img_filename: wash-3.jpg
-        img_aspect: shot
       - img_filename: wash-4.jpg
-        img_aspect: shot
       - img_filename: wash-5.jpg
-        img_aspect: shot
       - img_filename: wash-6.jpg
-        img_aspect: shot
       - img_filename: wash-7.jpg
-        img_aspect: shot
       - img_filename: wash-8.jpg
-        img_aspect: shot
 # --------------------------------------------------------------------------- #
   - id: taube
     title: Taube
