@@ -10,11 +10,9 @@
 
 <script>
   function animate_logo() {
-    var ajb_logo = getSvgById("logogo_sidebar_svg").selectAll("polygon");
-    ajb_logo.on("mouseover", function(){d3.select(this).style("fill", "none").style("stroke", "none")});
+    var polygons = getSvgById("logogo_sidebar_svg").selectAll("polygon");
+        polygons.on("mouseover", function(){d3.select(this).style("fill", "none").style("stroke", "#BBE")});
   }
-
-
 </script>
 
 <ul class="nav nav-tabs nav-stacked">

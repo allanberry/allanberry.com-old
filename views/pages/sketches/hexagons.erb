@@ -1,0 +1,14 @@
+<h1 class="page-header">Hexagons</h1>
+<p class="lead">28 June, 2013: Making it work with hexagons</p>
+
+<object data="/svg/hexagons.svg" type="image/svg+xml" id="hexagons" onload="changeColor()"></object>
+
+<script>
+  function changeColor() {
+    var regex = /#hex_000/;
+
+    var hexagons = getSvgById("hexagons").selectAll("polygon");
+    hexagons.on("mouseover", function(){d3.select(this).style("fill", "#0A0").style("stroke", "#0F0")});
+    hexagons.on("mousedown", function(){d3.select(this).style("fill", "#00A").style("stroke", "#00F")});
+  }
+</script>
