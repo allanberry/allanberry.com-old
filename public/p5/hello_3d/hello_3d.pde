@@ -5,17 +5,18 @@ Icosahedron ico2;
 Icosahedron ico3;
 
 void setup(){
-  size(600, 600, OPENGL);
+  size(200, 200, OPENGL);
+  smooth();
   ico1 = new Icosahedron(width/4);
 }
 
 void draw(){
-  //ortho();
   beginCamera();
-  camera(width/2.0, height/2.0, 450, width/2.0, height/2.0, 0, 0, 1, 0);
+  lights();
+  camera(width/2.0, height/2.0, 150, width/2.0, height/2.0, 0, 0, 1, 0);
   endCamera();
 
-  background(25);
+  background(100, 0, 0);
   lights();
   smooth();
   strokeWeight(2);
@@ -24,8 +25,8 @@ void draw(){
     translate(width/2, height/2);
     rotateX(PI/2);
     rotateZ(TWO_PI*norm(mouseX, 0, width) * -1);
-    stroke(127, 0, 0);
-    fill(255, 0, 0);
+    stroke(255, 0, 0);
+    fill(150, 0, 0);
     ico1.create();
   popMatrix();
 }

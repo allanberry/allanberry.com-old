@@ -1,15 +1,27 @@
-<h1 class="page-header">Allan's Sketches</h1>
-<p class="lead">An online sketchbook.</p>
-<p>Items available here are <em>sketches</em>, meaning:</p>
+<h1 class="page-header">Sketchbook</h1>
+<div class="pull-left" style="padding-right: 30px">
+  <canvas data-processing-sources="/p5/hello_3d/hello_3d.pde"></canvas>
+</div>
+
+<p class="lead">Playing with code.</p>
+<p>For the first time, I have a platform (namely, this website) suitable to use for general graphics programming.  I'm pretty excited.  I'll have lots of new stuff here in the near future.</p>
+<p>Items here are <em>sketches</em>, meaning:</p>
 <ul>
   <li>Not to be taken too seriously.</li>
   <li>Probably of a smaller scale than my more full-fledged projects.</li>
   <li>Usually born-digital in nature.</li>
 </ul>
-<p>This section is in active develpment, so more metadata is forthcoming.</p>
+<p>This section is in active development... please excuse any bugs, etc.</p>
 
-<h3>Sketches</h3>
-<ul><% sketch_names.each do |sketch_name| %>
-  <li><a href="/sketches/<%= sketch_name %>"><%= sketch_name %></a></li>
-  <% end %>
-</ul>
+<hr />
+
+<dl>
+  <dt><a href="/sketches/hello_p5">Hello Processing</a></dt>
+  <dd>June, 2013: A test of Processing.</dd>
+
+  <dt><a href="/sketches/hello_3d">Hello 3D</a></dt>
+  <dd>June, 2013: A test of WebGL via Processing.</dd>
+
+  <dt><a href="/sketches/hello_d3svg">Hello D3 and SVG</a></dt>
+  <dd>June, 2013: A test of Data Driven Documents and linked SVG.</dd>
+</dl>

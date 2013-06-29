@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200px" height="200px" >
+  <circle id="c_red" fill="#900" stroke="#E00" stroke-width="2" cx="80" cy="80" r="75"/>
+  <circle id="c_grn" fill="#090" stroke="#0E0" stroke-width="2" cx="120" cy="120" r="75"/>
+</svg>

@@ -3,11 +3,11 @@
     <div class="navbar-inner">
       <a class="brand" href="/">allanberry.com</a>
       <ul class="nav">
-        <% if request.path_info == '/' %><li class="active"><% else %><li><% end %><a href="/">Home</a></li>
-        <% if request.path_info == '/about' %><li class="active"><% else %><li><% end %><a href="/about">About</a></li>
-        <% if request.path_info == '/contact' %><li class="active"><% else %><li><% end %><a href="/contact">Contact</a></li>
+        <li <% if request.path_info == '/'            %>class="active"<% end %> ><a href="/">Home</a></li>
+        <li <% if request.path_info =~ /\/about\/?/   %>class="active"<% end %> ><a href="/about">About</a></li>
+        <li <% if request.path_info =~ /\/contact\/?/ %>class="active"<% end %> ><a href="/contact">Contact</a></li>
         <ul class="nav">
-          <% if request.path_info =~ /\/art|\/design|\/preservation|\/works/ %><li class="active dropdown"><% else %><li class="dropdown"><% end %>
+          <li class="<% if request.path_info =~ /\/(art|design|preservation|works)\/?/ %>active ><% end %>dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Works
               <b class="caret"></b>
@@ -21,7 +21,7 @@
               </ul>
           </li>
         </ul>
-        <li class="pull-right"><a href="/sketches">Sketchbook</a></li>
+        <li <% if request.path_info =~ /\/sketches\/?/ %>class="active"<% end %> ><a href="/sketches">Sketchbook</a></li>
       </ul>
       <!--<form class="navbar-form navbar-search pull-right">
         <input type="text" class="search-query span2"  placeholder="Search">

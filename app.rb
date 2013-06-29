@@ -1,10 +1,14 @@
 require 'sinatra'
-require 'yaml'
 require 'chronic'
+require 'pathname'
+require 'yaml'
+
+models_dir   = "./model/*.rb"
+controls_dir = "./control/*.rb"
 
 # gimme some pages to load
-Dir["./model/*.rb"].each   {|file| require file }
-Dir["./control/*.rb"].each {|file| require file }
+Dir[models_dir].each   {|file| require file }
+Dir[controls_dir].each {|file| require file }
 
 # got links to former drupal site? TODO: expand me.
 old_site_map = {
@@ -14,42 +18,12 @@ old_site_map = {
 
 # LAYOUTS
 # :layout has a sidebar
-# :index_layout has no sidebar
-# :sketch_layout is very minimal
-
+# :layout_index has no sidebar
+# :layout_sketch is very minimal
 
 get '/' do
-  erb :"pages/index", layout: :index_layout
+  erb :"pages/index", layout: :layout_index
 end
-
-
-def sketch_names
-  # TODO get this into the controller?
-  # get sketches
-  output = Array.new
-  Dir.entries("./public/p5").each do |file|
-    next if [".", "..", ".DS_Store"].include?(file) # ignore system files
-    output << file.to_sym
-  end
-  output
-end
-
-get '/sketches/:sketch/?' do
-  sketch_name = params[:sketch].to_sym
-  control = SketchControl.new(sketch_name)
-
-  if sketch_names.include?(sketch_name) 
-    erb :"sketches/#{params[:sketch]}", layout: :sketch_layout, :locals => {:control => control}
-  # TODO currently, this code requires both a sketch folder, a sketch PDE, and a sketch ERB.
-  # I'd like to create a default sketch ERB file, for sketches which don't need the overhead
-  # of an entire ERB file to themselves.  Probably, this means the sketch will use an absolutely
-  # minimal layout.
-  # elsif
-  else
-    file_not_found
-  end
-end
-
 
 get '/works/:work/?' do
   control = WorksControl.new
@@ -57,26 +31,49 @@ get '/works/:work/?' do
   erb :"pages/work", :locals => {:work => work}
 end
 
+# gimme a list of sketches
+def sketches
+  output = Array.new
+  sketches_dir = "./views/pages/sketches/"
+  Dir.foreach(sketches_dir) do |file|
+    next if [".","..",".DS_Store"].include? file
+    output << File.basename(file, ".erb").to_s.to_sym
+  end
+  output
+end
+
+get '/sketches/:sketch/?' do
+  if sketches.include? :"#{params[:sketch]}"
+    erb :"pages/sketches/#{params[:sketch]}"
+  else
+    file_not_found
+  end
+end
 
 get '/:page/?' do
+  basic_pages = [:about, :contact, :index, :copyright, :sketches]
+  works_pages = [:works, :art, :design, :preservation]
+
   # only use symbols to pass values
   page_name = params[:page].to_sym
-  # router: static pages first, then dynamic, then unknown
-  if [:about, :contact, :index, :copyright, :sketches].include?(page_name)
+
+  # pages
+  if basic_pages.include?(page_name)
     erb :"pages/#{params[:page]}"
-  elsif [:works, :art, :design, :preservation].include?(page_name)
+
+  # portfolio
+  elsif works_pages.include?(page_name)
     control = WorksControl.new
     erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_category(page_name)}
+
   else
     return file_not_found
   end
 end
 
-
 get '*' do
   file_not_found
 end
-
 
 helpers do
   def partial(template)
