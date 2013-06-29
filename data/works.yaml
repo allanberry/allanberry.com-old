@@ -213,6 +213,8 @@ works:
     dates:
       - date: 2012
         date_type: work started
+      - date: 2013
+        date_type: continuing
     media:
       - medium: digital photography
       - medium: web application
@@ -740,6 +742,7 @@ works:
       - medium: acrylic on panel
     note: |
       <p>A colorful painting from 2011.</p>
+      <p>I went out of my way to make a completely balanced painting, yet without any symmetry I could discern.</p>
     keywords: tessellation, graffiti
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: red_tessellation.jpg
@@ -767,7 +770,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: wash
     title: Wash
-    synopsis: A series of photographs.
+    synopsis: A series of photographs (in progress).
     creators:
       - creator: Berry, Allan
         role: creator
@@ -775,10 +778,12 @@ works:
     dates:
       - date: 2012
         date_type: creation
+      - date: 2013
+        date_type: creation
     media:
       - medium: digital photograph
     note: |
-      <p>A series of serene, abstract photographs.  There's not much more to it... I think they're pretty.</p>
+      <p>A series of serene, abstract photographs.  I think they're pretty.</p>
     keywords: serenity, wash
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: wash.jpg
@@ -793,7 +798,7 @@ works:
         img_aspect: shot
       - img_filename: wash-6.jpg
         img_aspect: shot
-      - img_filename: wash-8.jpg
+      - img_filename: wash-7.jpg
         img_aspect: shot
       - img_filename: wash-8.jpg
         img_aspect: shot
