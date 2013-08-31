@@ -43,6 +43,9 @@ class WorksControl
       :brooklyn_tablet,
       :chicago_maps]}
 
+  @@keywords = []
+
+
   def initialize
     @yaml = YAML.load_file('./data/works.yaml')
 
@@ -51,6 +54,13 @@ class WorksControl
     @yaml["works"].each do |w|
       @works << Work.new(w)
     end
+
+    # fill global keywords array
+    @works.each { |w| @@keywords.concat(w.keywords) }
+    @@keywords.sort!.uniq!
+
+    puts "\n\n"
+    puts @@keywords
   end
 
   def get_work_by_id(id_)
