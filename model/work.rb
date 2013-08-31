@@ -21,6 +21,7 @@ class Work
     @synopsis = yaml_["synopsis"]
     @note   = yaml_["note"]
     @format = yaml_["format"]
+    @types = yaml_["types"]
     @keywords = yaml_["keywords"]
 
     #yaml data still
@@ -70,6 +71,13 @@ class Work
       year_array << d[0..3].to_i
     end
     return year_array
+  end
+
+  def types
+    types = @types.split(',')
+    types.map! do |t|
+      t = t.strip.gsub(/\s+/, "_").downcase.to_sym
+    end
   end
 
   def keywords

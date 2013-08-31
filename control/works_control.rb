@@ -1,4 +1,8 @@
 class WorksControl
+
+  # Categories are a hierarchical structure, entirely determined here a priori.
+  # Types are a flat structure, determined (and enforced) from a controlled vocabulary, defined below, and keyed in the YAML file
+  # Keywords are a free tagging structure from the YAML file
   @@categories = {
     :art => [
       :kill_them_all,
@@ -43,6 +47,23 @@ class WorksControl
       :brooklyn_tablet,
       :chicago_maps]}
 
+  @@type  = [
+    :books,
+    :collections,
+    :data_visualization,
+    :documentation,
+    :graphics,
+    :illustration,
+    :interfaces,
+    :painting,
+    :photography,
+    :software,
+    :sculpture,
+    :systems,
+    :websites,
+    :writing
+  ]
+
   @@keywords = []
 
 
@@ -59,8 +80,9 @@ class WorksControl
     @works.each { |w| @@keywords.concat(w.keywords) }
     @@keywords.sort!.uniq!
 
-    puts "\n\n"
-    puts @@keywords
+    #test
+    puts "---"
+    puts get_works_by_keyword(:print)
   end
 
   def get_work_by_id(id_)
@@ -80,4 +102,19 @@ class WorksControl
       return []
     end
   end
+
+  def get_works_by_keyword(key_)
+    output = []
+    if @@keywords.include? key_
+      @works.each do |w|
+        if w.keywords.include? key_
+          output << w
+        end
+      end
+      return output
+    else
+      return []
+    end
+  end
+
 end

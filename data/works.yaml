@@ -9,7 +9,7 @@ works:
         role: designer
       - creator: Gordon, William A
         role: author
-    type: book
+    types: collections, books, systems
     format: 11.5 inches x 9 inches; 284 pages
     dates:
       - date: 2012-11
@@ -50,7 +50,7 @@ works:
         role: illustrator
       - creator: Berry, David
         role: editor
-    type: book
+    types: illustration, books
     format: 9.25 inches x 7.5 inches; 200 pages; 200 illustrations
     dates:
       - date: 1999
@@ -98,7 +98,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    type: painting
+    types: painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003-05
@@ -109,7 +109,7 @@ works:
       <p>I painted this in 2003, during the sabre-rattling preceding the US invasion of Iraq.  Although I am not a pacifist, the title is certainly ironic: war should only accompany dire need, a measure thoroughly unmet in that case.</p>
       <p>However, this piece is only tangential to that conflict, and concerns itself instead with a particular psychological space.</p>
       <p>It's a cliche, I know, but this painting arrived in a dream; I thought it up, and painted it in a week, as if executing a concept plan.  This is not how I usually work: paintings for me, especially oils like this one, usually take more pain and deliberation.</p>
-    keywords: politics, war
+    keywords: politics, war, painting
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: kill_them_all.jpg
         img_aspect: front view
@@ -120,7 +120,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    type: painting
+    types: painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
@@ -131,7 +131,7 @@ works:
       <p>Originally intended as one of a large set of paintings for an exhibition, the ambitious nature of this project presaged its lack of completion. Still, I still really enjoy this painting.</p>
       <p>It has some figures buried in the seaweed, and there's some symbolic stuff going on; in general, though, these characteristics are beside the point. This is a piece of abstraction leaning toward the figurative.</p>
       <p>I showed this at a friend's personal gallery space during the Pilsen art walk, back in 2005 or thereabouts, and we found it was tremendous to view with a pair of polarized 3D glasses.</p>
-    keywords: city, conflict
+    keywords: city, conflict, abstract
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: shard.jpg
         img_aspect: front view
@@ -142,7 +142,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    type: painting
+    types: painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
@@ -153,7 +153,7 @@ works:
       <p>Originally intended as one of a large set of paintings for an exhibition, the ambitious nature of this project presaged its lack of completion. Still, I still really enjoy this painting.</p>
       <p>It has some figures buried in the seaweed, and there's some symbolic stuff going on; in general, though, these characteristics are beside the point. This is a piece of abstraction leaning toward the figurative.</p>
       <p>I showed this at a friend's personal gallery space during the Pilsen art walk, back in 2005 or thereabouts, and we found it was tremendous to view with a pair of polarized 3D glasses.</p>
-    keywords: forest, water, grace, figure
+    keywords: forest, water, grace, figure, abstract
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: swerve.jpg
         img_aspect: front view
@@ -164,7 +164,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    type: painting
+    types: painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2005
@@ -184,7 +184,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    type: painting
+    types: painting, systems
     format: 17.75 inches x 5.5 inches
     dates:
       - date: 2012-03-15
@@ -195,7 +195,7 @@ works:
       <p>Any way is up.</p>
       <p>I got the idea for this painting by doing the dishes: the bubbles in the sink created a space-filling pattern I found transfixing.</p>
       <p>Later, as the work was in progress, I learned of the very similar-looking <a href="http://en.wikipedia.org/wiki/Voronoi_diagram">Vornoi diagrams</a>: a regional tiling system, in which cells are seeded by specified points.  Although the two geometries have separate origins, their similarities seem to require association.</p>
-      <p>The <a href="http://en.wikipedia.org/wiki/Beijing_National_Aquatics_Center">Beijing Water Cube</a> also shares this form/pattern, so this idea apparently has broad artistic currency.
+      <p>The <a href="http://en.wikipedia.org/wiki/Beijing_National_Aquatics_Center">Beijing Water Cube</a> also shares this form/pattern, so this idea apparently has broad artistic currency.</p>
     keywords: geometry, networks, vision
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: voronoi_bubbles.jpg
@@ -209,7 +209,7 @@ works:
         role: collector
       - creator: Funk, Tiffany
         role: collector
-    type: digital collection
+    types: photography, collections, systems
     dates:
       - date: 2012
         date_type: work started
@@ -306,7 +306,7 @@ works:
         role: researcher
       - creator: <a href="http://www.linkedin.com/profile/view?id=180119889">Yip, Jason</a>
         role: researcher
-    type: software, books
+    types: software, graphics, interfaces, systems, books
     dates:
       - date: 2010-09
         date_type: creation
@@ -356,7 +356,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer, programmer
-    type: desktop application
+    types: software, interfaces
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-05
@@ -386,7 +386,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: curator, designer
-    type: web application
+    types: collections, software, websites
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-12
@@ -414,7 +414,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer
-    type: website
+    types: website
     dates:
       - date: 2009
         date_type: creation
@@ -442,7 +442,7 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: designer
-#    type: website
+#   types: website
 #    dates:
 #      - date: 2011
 #        date_type: redesign
@@ -470,7 +470,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    type: application
+    types: software, interfaces
     dates:
       - date: 2011
         date_type: creation
@@ -502,7 +502,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    type: application
+    types: software, interfaces, data visualization
     dates:
       - date: 2011
         date_type: creation
@@ -529,7 +529,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    type: application
+    types: software, graphics, systems
     dates:
       - date: 2011
         date_type: creation
@@ -553,7 +553,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: illustration
+    types: graphics, systems
     dates:
       - date: 2011
         date_type: creation
@@ -595,7 +595,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: application
+    types: collections, systems, software
     dates:
       - date: 2004
         date_type: begin date
@@ -620,7 +620,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: illustration
+    types: illustration
     format: 8.5 inches x 11 inches
     dates:
       - date: 2001
@@ -641,7 +641,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: diagram
+    types: systems, data
     dates:
       - date: 2011
         date_type: creation
@@ -662,7 +662,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: user experience
+    types: interfaces, websites
     dates:
       - date: 2012
         date_type: creation
@@ -689,7 +689,7 @@ works:
         role: creator
       - creator: Swierczek, Julie
         role: creator
-    type: documentation
+    types: documentation, websites
     dates:
       - date: 2012
         date_type: creation
@@ -711,7 +711,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: systems
+    types: systems, documentation, graphics
     dates:
       - date: 2011
         date_type: creation
@@ -733,7 +733,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting, systems
     format: 9 inches x 16 inches
     dates:
       - date: 2011
@@ -754,7 +754,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting
     format: 9 inches x 16 inches
     dates:
       - date: 2010
@@ -774,7 +774,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: photography
+    types: photography
     dates:
       - date: 2012
         date_type: creation
@@ -801,7 +801,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting
     format: 9 inches x 16 inches
     dates:
       - date: 2009
@@ -822,7 +822,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting
     format: 9 inches x 16 inches
     dates:
       - date: 2010
@@ -843,7 +843,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting, collections
     dates:
       - date: 2011
         date_type: creation
@@ -879,7 +879,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting, systems
     format: various; each tile 2 inches wide
     dates:
       - date: 2011
@@ -902,7 +902,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting, systems, sculpture
     format: 12 inches diameter, 6 inch triangle side
     dates:
       - date: 2012
@@ -933,7 +933,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    type: painting
+    types: painting, sculpture
     format: 40 inches x 16 inches x 12 inches, approximate, not including stand
     dates:
       - date: 2006
@@ -957,7 +957,7 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: creator
-#    type: paper and presentation
+#   types: paper and presentation
 #    dates:
 #      - date: 2007
 #        date_type: creation
