@@ -42,7 +42,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: healthy_ringing
     title: Healthy Ringing
-    synopsis: An industry-standard technical manual.
+    synopsis: Illustrations for an industry-standard technical manual.
     creators:
       - creator: Berry, Susan
         role: writer
@@ -74,6 +74,8 @@ works:
       <p>Later, in 2012, I created a second edition of the book for print-on-demand.  The original QuarkXPress documents were barely readable, forcing a bit of digital archaeology, including the restoration of at least one chapter from scratch.  I also created the new cover design, and submitted it for print-on-demand publication.</p>
     keywords: print, illustration, handbells
     images:
+      - img_filename: healthy_ringing-6.jpg
+        img_aspect: "ringing multiple bells: Shelley, Combo-Ring, Four-in-Hand"
       - img_filename: healthy_ringing.jpg
         img_aspect: front cover
       - img_filename: healthy_ringing-2.jpg
@@ -950,6 +952,111 @@ works:
         img_aspect: front view
       - img_filename: mannequin.jpg
         img_aspect: back view
+# --------------------------------------------------------------------------- #
+  - id: bell_family
+    title: Bell Family
+    synopsis: A set of cartoon characters for use by <a href="/hsi">Handbell Services</a> for myriad products, in particular for <a href="/ringwear">textiles.</a>
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    type: illustration, graphics, systems
+    dates:
+      - date: 2013-08
+        date_type: creation
+    media:
+      - medium: Adobe Illustrator
+    note: |
+      A set of cartoon characters for use by <a href="/hsi">Handbell Services</a> for myriad products, in particular for textiles.
+      The man and woman will be used first as a pair of adult shirts.  If the budget allows, I plan to create shirts for the rest of the characters, in particular the cat and dog characters.
+      Armatures of the characters are proportioned to give maximum flexibility: I'd like to be able to use the various characters in various situations, say, like riding bikes, swimming, or sitting.  These "human scale" activities make designing characters difficult, or at least require them to possess reasonably human proportions.  in addition, Susan Berry has ideas for these characters which could facilitate many further products.
+      This is therefore a system for illustration, or for creating products.  Several repeating components are reused among multiple characters, for the sake of efficiency.  
+    keywords: characters, comics
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: 8th_note.png
+        img_aspect: 8th Note
+      - img_filename: bell_family.png
+        img_aspect: the whole Bell family
+      - img_filename: ringo.png
+        img_aspect: Ringo Bell
+      - img_filename: bella.png
+        img_aspect: Bella Bell
+      - img_filename: martin.png
+        img_aspect: Martin
+      - img_filename: carillon.png
+        img_aspect: Carillon
+      - img_filename: 8th_note.png
+        img_aspect: 8th Note
+      - img_filename: ding_dog.png
+        img_aspect: Ding Dog
+      - img_filename: clapper_cat.png
+        img_aspect: Clapper Cat
+# --------------------------------------------------------------------------- #
+  - id: shirt_designs
+    title: Designs for Shirts and Textiles
+    synopsis: Designs for bell-related T-shirts and textiles.
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    type: graphics, illustration
+    sizes: 6.5 inches x 5.25 inches
+    dates:
+      - date: 1999
+      - date: 2013
+        date_type: creation
+    media:
+      - medium: Adobe Illustrator
+    note: |
+      <p>Over the years, I have done many designs for T-shirts and textiles, for <a href="/hsi">Handbell Services, Inc.</a></p>
+      <p>These designs are for a very specific market.  Our demographics skew highly religious and "red state," highly religious, musically and educationally inclined.</p>
+    keywords: textiles, shirts, bellman, graphics
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: shirt_cedric_underwood.png
+        img_aspect: Cedric and Underwood
+      - img_filename: shirt_all_rung_out.png
+        img_aspect: All Rung Out shirt
+      - img_filename: shirt_bell_dove.png
+        img_aspect: Bell Dove
+      - img_filename: shirt_bellman_all_rung_out.png
+        img_aspect: Frazzled Bellman
+      - img_filename: shirt_bellman_new.png
+        img_aspect: New Bellman
+      - img_filename: shirt_bellman_original.png
+        img_aspect: Original Bellman
+      - img_filename: shirt_bells_garden.png
+        img_aspect: Bells in the Garden
+      - img_filename: shirt_celtic_circle.png
+        img_aspect: Celtic Circle of Bells
+      - img_filename: shirt_eat_sleep_ring.png
+        img_aspect: Eat Sleep Ring
+      - img_filename: shirt_get_a_grip.png
+        img_aspect: Get a Grip
+      - img_filename: shirt_like.png
+        img_aspect: Like
+      - img_filename: shirt_ring_with_bling.png
+        img_aspect: Ring with Bling
+# --------------------------------------------------------------------------- #
+  - id: godbaby
+    title: Godbaby
+    synopsis: A large acrylic painting in the mode of the circus sideshow banner.
+    creators:
+      - creator: Berry, Allan
+        role: painter
+    type: painting, illustration
+    sizes: 72 inches x 49 inches
+    dates:
+      - date: 2002-12
+        date_type: creation
+    media:
+      - medium: acrylic on paper
+    note: |
+      <p>This painting of Jesus was for lobby art for a nativity play in Chicago, called the "Shamanic Nativity Trance" by Keralee Froebel.</p>
+      <p>The poster, and the play more generally, are intended to poke fun at the Christmas Story, while retaining reverance.</p>
+      <p>This poster also heavily references circus sideshow banners, in style, scale and subject.  At the time I made this poster, I was working at the Carl Hammer Gallery in Chicago, which has maintained <a href="http://www.hammergallery.com/Banners/vintage_sideshow_banners.htm">a terrific collection</a> of these banners for sale.</p>
+    location: Chicago
+    keywords: art, painting, poster, jesus, religion, circus, sideshow, christmas
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: godbaby.jpg
+        img_aspect: front view
 # --------------------------------------------------------------------------- #
 #  - id: cities_at_war
 #    title: Cities At War

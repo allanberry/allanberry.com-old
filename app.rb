@@ -51,7 +51,7 @@ get '/sketches/:sketch/?' do
 end
 
 get '/:page/?' do
-  basic_pages = [:about, :contact, :index, :copyright, :sketches]
+  basic_pages = [:about, :contact, :index, :copyright, :sketches, :hsi]
   works_pages = [:works, :art, :design, :preservation]
 
   # only use symbols to pass values

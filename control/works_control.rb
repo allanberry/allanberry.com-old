@@ -21,7 +21,8 @@ class WorksControl
       :hexagon_tiles,
       :struts,
       :wash,
-      :hemingway],
+      :hemingway,
+      :godbaby],
     :design => [
       :gordon,
       :healthy_ringing,
@@ -34,7 +35,9 @@ class WorksControl
       :age_gdp_v11n,
       :hex_land,
       :icosahedra_tessellations,
-      :pondfairy],
+      :bell_family,
+      :pondfairy,
+      :shirt_designs],
     :preservation => [
       :linux_infopack,
       :erd,
@@ -47,7 +50,7 @@ class WorksControl
       :brooklyn_tablet,
       :chicago_maps]}
 
-  @@type  = [
+  @@types  = [
     :books,
     :collections,
     :data_visualization,
@@ -98,6 +101,20 @@ class WorksControl
       return output
     elsif cat_ == :works
       return @works
+    else
+      return []
+    end
+  end
+
+  def get_works_by_type(type_)
+    output = []
+    if @@types.include? type_
+      @works.each do |w|
+        if w.types.include? type_
+          output << w
+        end
+      end
+      return output
     else
       return []
     end
