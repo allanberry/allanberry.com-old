@@ -8,6 +8,7 @@ works:
       - creator: Berry, Allan
         role: designer
     type: painting
+    keywords: art, painting, dogs
     sizes: 6.5 inches x 5.25 inches
     dates:
       - date: 2013-05-22T14:24
@@ -23,7 +24,6 @@ works:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
       Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
     location: Museum of Modern Art, New York
-    keywords: art, painting, dogs
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: imagedurp.png
         img_aspect: front view

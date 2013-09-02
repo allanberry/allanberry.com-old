@@ -9,7 +9,8 @@ works:
         role: designer
       - creator: Gordon, William A
         role: author
-    types: collections, books, systems
+    types: preservation, collections, books, systems
+    keywords: print, catalogues, library
     format: 11.5 inches x 9 inches; 284 pages
     dates:
       - date: 2012-11
@@ -26,7 +27,6 @@ works:
       <p>For cataloging, I used heavily modified AACR2/Dublin Core metadata; a primary limitation was to match extant records and established client preferences.  I catalogued into a custom Filemaker Pro database, wrote Ruby scripts to pull the data from Filemaker into a working XML translation format, which I could then import into Adobe InDesign.</p>
       <p>The book is being distributed to several special collections libraries across the country, including at <a href="http://nucat.library.northwestern.edu/cgi-bin/Pwebrecon.cgi?BBID=6531017">Northwestern University.</a></p>
       <p class="lead">Download <a href="/doc/gordon_sample.pdf">a sampler of this catalogue</a> (PDF, 2.6MB).</p>
-    keywords: print, catalogues, library
     images:
       - img_filename: gordon-1.jpg
         img_aspect: front cover
@@ -50,7 +50,8 @@ works:
         role: illustrator
       - creator: Berry, David
         role: editor
-    types: illustration, books
+    types: illustration, books, design
+    keywords: print, illustration, handbells
     format: 9.25 inches x 7.5 inches; 200 pages; 200 illustrations
     dates:
       - date: 1999
@@ -72,7 +73,6 @@ works:
       <p>The book has an ISBN, and is now <a href="http://www.amazon.com/Healthy-Ringing-For-handbells-handchimes/dp/0615603572">available from Amazon.com</a>, among other retailers (including my family's <a href="http://www.handbellservices.com/healthy-ringing-book/">company website</a>, of course).  It is now distributed in all new ringing sets by <a href="http://malmark.com/">Malmark Inc.</a>, and has sold thousands of copies.
       <p>I originally illustrated the book, creating over 100 illustrations, both of a technical and whimsical nature.  The page layout was by a different designer.</p>
       <p>Later, in 2012, I created a second edition of the book for print-on-demand.  The original QuarkXPress documents were barely readable, forcing a bit of digital archaeology, including the restoration of at least one chapter from scratch.  I also created the new cover design, and submitted it for print-on-demand publication.</p>
-    keywords: print, illustration, handbells
     images:
       - img_filename: healthy_ringing-6.jpg
         img_aspect: "ringing multiple bells: Shelley, Combo-Ring, Four-in-Hand"
@@ -100,7 +100,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: painting
+    types: art, painting
+    keywords: politics, war, painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003-05
@@ -111,7 +112,6 @@ works:
       <p>I painted this in 2003, during the sabre-rattling preceding the US invasion of Iraq.  Although I am not a pacifist, the title is certainly ironic: war should only accompany dire need, a measure thoroughly unmet in that case.</p>
       <p>However, this piece is only tangential to that conflict, and concerns itself instead with a particular psychological space.</p>
       <p>It's a cliche, I know, but this painting arrived in a dream; I thought it up, and painted it in a week, as if executing a concept plan.  This is not how I usually work: paintings for me, especially oils like this one, usually take more pain and deliberation.</p>
-    keywords: politics, war, painting
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: kill_them_all.jpg
         img_aspect: front view
@@ -123,6 +123,7 @@ works:
       - creator: Berry, Allan
         role: painter
     types: painting
+    keywords: city, conflict, abstract
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
@@ -133,7 +134,6 @@ works:
       <p>Originally intended as one of a large set of paintings for an exhibition, the ambitious nature of this project presaged its lack of completion. Still, I still really enjoy this painting.</p>
       <p>It has some figures buried in the seaweed, and there's some symbolic stuff going on; in general, though, these characteristics are beside the point. This is a piece of abstraction leaning toward the figurative.</p>
       <p>I showed this at a friend's personal gallery space during the Pilsen art walk, back in 2005 or thereabouts, and we found it was tremendous to view with a pair of polarized 3D glasses.</p>
-    keywords: city, conflict, abstract
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: shard.jpg
         img_aspect: front view
@@ -145,6 +145,7 @@ works:
       - creator: Berry, Allan
         role: painter
     types: painting
+    keywords: forest, water, grace, figure, abstract
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
@@ -155,7 +156,6 @@ works:
       <p>Originally intended as one of a large set of paintings for an exhibition, the ambitious nature of this project presaged its lack of completion. Still, I still really enjoy this painting.</p>
       <p>It has some figures buried in the seaweed, and there's some symbolic stuff going on; in general, though, these characteristics are beside the point. This is a piece of abstraction leaning toward the figurative.</p>
       <p>I showed this at a friend's personal gallery space during the Pilsen art walk, back in 2005 or thereabouts, and we found it was tremendous to view with a pair of polarized 3D glasses.</p>
-    keywords: forest, water, grace, figure, abstract
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: swerve.jpg
         img_aspect: front view
@@ -167,6 +167,7 @@ works:
       - creator: Berry, Allan
         role: painter
     types: painting
+    keywords: figure
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2005
@@ -175,7 +176,6 @@ works:
       - medium: oil on canvas
     note: |
       <p>Known for heavy drinking, war, sports, bull fighting... Hemingway reveled in his physicality.  Eventually he took his own head off with a shotgun.</p>
-    keywords: figure
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: hemingway.jpg
         img_aspect: front view
@@ -187,6 +187,7 @@ works:
       - creator: Berry, Allan
         role: painter
     types: painting, systems
+    keywords: geometry, networks, vision
     format: 17.75 inches x 5.5 inches
     dates:
       - date: 2012-03-15
@@ -198,7 +199,6 @@ works:
       <p>I got the idea for this painting by doing the dishes: the bubbles in the sink created a space-filling pattern I found transfixing.</p>
       <p>Later, as the work was in progress, I learned of the very similar-looking <a href="http://en.wikipedia.org/wiki/Voronoi_diagram">Vornoi diagrams</a>: a regional tiling system, in which cells are seeded by specified points.  Although the two geometries have separate origins, their similarities seem to require association.</p>
       <p>The <a href="http://en.wikipedia.org/wiki/Beijing_National_Aquatics_Center">Beijing Water Cube</a> also shares this form/pattern, so this idea apparently has broad artistic currency.</p>
-    keywords: geometry, networks, vision
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: voronoi_bubbles.jpg
         img_aspect: front view
@@ -212,6 +212,7 @@ works:
       - creator: Funk, Tiffany
         role: collector
     types: photography, collections, systems
+    keywords: collections, photography
     dates:
       - date: 2012
         date_type: work started
@@ -225,7 +226,6 @@ works:
       <p>The American water tower is a defining characteristic of our landscape.  In the open, yet usually ignored, they stand as sign posts for their communities, proclaiming messages for miles surrounding: high school mascots, mottos, corporate or political logos, advertisements.</p>
       <p><a href="http://tiffanyfunk.com">Tiffany</a> and I would like to document these structures in the spirit of <a href="http://www.moma.org/visit/calendar/exhibitions/95">Bernd and Hilla Becher</a>.  It's also a great way to get off the interstate during a road trip, and see regions otherwise overlooked.</p>
       <p>This project is new, in progress, and will eventually be an online application.  We are <a href="http://goo.gl/maps/oNnV5">collecting GPS data</a>, and will create online maps and full metadata for our activities.  Currently they're living here until they find a new home, a Ruby on Rails application I'm crafting.  More to come...</p>
-    keywords: collections, photography
     images:
       - img_filename: watertowers-icon.jpg
         img_aspect: Watertowers
@@ -309,6 +309,7 @@ works:
       - creator: <a href="http://www.linkedin.com/profile/view?id=180119889">Yip, Jason</a>
         role: researcher
     types: software, graphics, interfaces, systems, books
+    keywords: programming, science, education
     dates:
       - date: 2010-09
         date_type: creation
@@ -336,7 +337,6 @@ works:
       <p>I designed and edited 18 books, each averaging 75 pages. Each of these books underwent dozens of revisions, including at least one entire rewrite each.</p>
       <p>I created systems of graphics and illustrations for use in the software and books, including hundreds of compound molecules, nuclear representations, and several hundred quantitative illustrations.</p>
       <p class="lead">Download <a href="http://www.connchem.org/resources/docs/books/U4S_2.2_interior.pdf">Student Book 4</a> (PDF, 9.9MB) of the curriculum.</p>
-    keywords: programming, science, education
     images:
       - img_filename: connchem.png
         img_aspect: book 1, front cover
@@ -359,6 +359,7 @@ works:
       - creator: Berry, Allan
         role: designer, programmer
     types: software, interfaces
+    keywords: art, museums, android, java, processing
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-05
@@ -373,7 +374,6 @@ works:
       <p>Tablets can be used in museum galleries themselves: they can allow non-textual search of a museum collection, from within the museum's walls. For example, a Japanese tourist, with presumably a relatively weak command of the English language, might use the tablet to discover items in the collection which otherwise would only be available to native English speakers. A tech-savvy child might use the application, opening new avenues into the relationships between items in the collection, and expanding a broadening world perspective. Or, a museum professional might use the interface to discern weaker aspects of the collection, or to find pieces for exhibition which she might not otherwise consider.</p>
       <p>This simple project is an alternative interface for the <a href="http://www.brooklynmuseum.org/opencollection/api/">Brooklyn Museum API</a>: a small step toward these goals. It uses maps for a primary interface instead of text, and would eventually incorporate iconographic browsing. It is meant for, and runs on an Android tablet.</p>
       <p>The project is not yet finished, because of some insurmountable XML bugs in the Processing 2.0 branch. I will continue work on it once the software problems clear up.</p>
-    keywords: art, museums, android, java, processing
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: brooklyn_tablet-2.jpg
         img_aspect: screenshot
@@ -389,6 +389,7 @@ works:
       - creator: Berry, Allan
         role: curator, designer
     types: collections, software, websites
+    keywords: maps, geography, chicago
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-12
@@ -405,7 +406,6 @@ works:
       <p>This was a project for a class in exhibition design; I decided to use <a href="http://www.omeka.net">Omeka.net</a> to create an online exhibit, partly because Omeka has a reputation as an easy-to-use platform for this sort of stuff.  I learned it's generally OK, and has decent Dublin Core data controls (more than, say, WordPress), but the configuration of the software leaves something to be desired.  In particular, I find it a bit unattractive.  This was back in the days of Omeka version 1; version 2 may be a bit better.</p>
       <p>I intended to tell the story of Chicago, from its early days as a frontier fort until its heyday in the 20C.  I wanted to do it with maps: a great means to tell such a story. The Newberry Library has terrific maps of Chicago, many of which are both fascinating and beautiful.</p>
       <p>I have personally examined and attempted to photograph each item by hand. I built the system, wrote all text, and catalogued all items.</p>
-    keywords: maps, geography, chicago
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: chicago_maps.png
         img_aspect: 1891 map of Chicago
@@ -417,6 +417,7 @@ works:
       - creator: Berry, Allan
         role: designer
     types: website
+    keywords: websites, art_history, academic, drupal
     dates:
       - date: 2009
         date_type: creation
@@ -429,7 +430,6 @@ works:
       <p class="lead"><a href="http://ahgsa.allanberry.com/">View the Site</a>.</p>
       <p>The Art History Graduate Student Association of the University of Illinois at Chicago needed a website. I created this as per their specifications. It is a Drupal site with heavy theming and modification, with special attention taken to assure user roles were robust and reflected the nature of the organization. It also has a forum, calendar and blog capabilities.</p>
       <p>Originally, this site was located at the domain <strong>ahgsa.org</strong>. I maintain this app as a portfolio piece, although at this point it's merely a shell without much content.</p>
-    keywords: websites, art_history, academic, drupal
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: ahgsa-2.png
         img_aspect: screenshot
@@ -473,6 +473,7 @@ works:
       - creator: Berry, Allan
         role: programmer, designer
     types: software, interfaces
+    keywords: processing, sketches, datavis, art
     dates:
       - date: 2011
         date_type: creation
@@ -487,7 +488,6 @@ works:
       <p>In this piece, I explore the most expensive paintings ever exposed to an auction, and then I recontextualize them based upon the absurd prices they fetch. For example, for the same price as one of these pieces, you could purchase a number of Caribbean islands, private jets, or even an aircraft carrier. The percentages of these other commodities for which these paintings are equivalent shows in the right panel.</p>
       <p>I implemented the user interface of this application from scratch.</p>
       <p>The project was originally constructed in Processing, during the first Electronic Visualization course at the University of Illinois at Chicago, under Professor Daniel Sauter.</p>
-    keywords: processing, sketches, datavis, art
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: expensive_paint-1.png
         img_aspect: screenshot
@@ -505,6 +505,7 @@ works:
       - creator: Berry, Allan
         role: programmer, designer
     types: software, interfaces, data visualization
+    keywords: processing, sketches, datavis, art
     dates:
       - date: 2011
         date_type: creation
@@ -518,7 +519,6 @@ works:
       <p>This project was done in the second Electronic Visualization course at the University of Illinois at Chicago. Via a live database, the interface takes the data and presents it in a circular context, juxtaposing the age of various countries with their GDP. This allows the viewer to directly see the relative strength of, for example, European countries and sub-equatorial countries.</p>
       <p>Interaction with the database takes place via manipulation of the central wheel, which (for this use) allowed multiple pieces of information to be browsed simultaneously, as well as resisting implicit value judgments about the merit of individual nations.</p>
       <p>The project was originally constructed in Processing, during the first Electronic Visualization course at the University of Illinois at Chicago, under Professor Daniel Sauter.</p>
-    keywords: processing, sketches, datavis, art
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: gdp-1.png
         img_aspect: screenshot
@@ -532,6 +532,7 @@ works:
       - creator: Berry, Allan
         role: programmer, designer
     types: software, graphics, systems
+    keywords: processing, geography, hexagons, datavis
     dates:
       - date: 2011
         date_type: creation
@@ -544,7 +545,6 @@ works:
       </div>
       <p>My preoccupation with hexagons and geography continues: a means to create hexagon-based geography.  This <a href="http://processing.org/">Processing</a> sketch functions as a drawing machine, i.e. a basic Photoshop clone, while using an internally consistent hexagon grid.</p>
       <p>The sketch also includes a "carbon credit" system, where different hexes can have cities, and can give off or receive carbon from neighboring hexes.  The sharing mechanism functions a bit like <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a>, although the implementation of this functionality is cursory.  It was never a central aspect of my concept.</p>
-    keywords: processing, geography, hexagons, datavis
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: hex_land.png
         img_aspect: screenshot
@@ -598,6 +598,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: collections, systems, software
+    keywords: filemaker, collections
     dates:
       - date: 2004
         date_type: begin date
@@ -609,7 +610,6 @@ works:
     note: |
       <p>Over the space of several years while I worked with <a href="http://rkramerassociates.com">Roberta Kramer</a> (an appraiser in Chicago), I had the opportunity to create art collection databases for several private and institutional clients. These included a Fortune 500 law firm, a liberal arts college, a major insurance company, and several high net worth individuals.</p>
       <p>These applications were written in Filemaker Pro, which provides a lot of capability, while still allowing a single developer to launch an entire application from the ground up, and deploy it across many platforms.  These applicatios included elaborate metadata backends, and sometimes tracked thousands of objects.</p>
-    keywords: filemaker, collections
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: art_collection_db-2.png
         img_aspect: screenshot
@@ -623,6 +623,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: illustration
+    keywords: illustration
     format: 8.5 inches x 11 inches
     dates:
       - date: 2001
@@ -632,7 +633,6 @@ works:
     note: |
       <p>I know this work is a bit cheesy, and a bit of ancient history, but I like it anyways.</p>
       <p>This image was created in 2001 for a friend's final recital for an MFA in music performance (she is a flautist). She was happy with the result.</p>
-    keywords: illustration
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: pondfairy.png
         img_aspect: front
@@ -644,6 +644,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: systems, data
+    keywords: illustration
     dates:
       - date: 2011
         date_type: creation
@@ -653,7 +654,6 @@ works:
       <p>This is an Entity Relationship Diagram, basically to show that I know how to model data.  It shows a basic, but comprehensive, order purchase system.</p>
       <p>I did it for a class at <a href="http://www.lis.illinois.edu/">GSLIS</a> in systems analysis and design, under Prof. <a href="http://www.lis.illinois.edu/people/faculty/adjunct#trainor1">Kevin Trainor</a>.</p>
       <p class="lead"><a href="/doc/erd.pdf">View as PDF</a> <small>(PDF, 141KB)</small>.</p>
-    keywords: illustration
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: erd.png
         img_aspect: front
@@ -665,6 +665,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: interfaces, websites
+    keywords: user_experience, interfaces, design
     dates:
       - date: 2012
         date_type: creation
@@ -674,7 +675,6 @@ works:
     note: |
       <p class="lead"><a href="https://sites.google.com/site/590iilspurlockmuseum/">Link to the project</a>.</p>
       <p>Using proper UI/UX methodology, and with two collaborators, this website was an attempt to redesign an online application (in this case, an art museum's website) according to formal user-interface tenets and concerns.</p>
-    keywords: user_experience, interfaces, design
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: spurlock-1.png
         img_aspect: screenshot of current interface
@@ -692,6 +692,7 @@ works:
       - creator: Swierczek, Julie
         role: creator
     types: documentation, websites
+    keywords: user_experience, interfaces, design
     dates:
       - date: 2012
         date_type: creation
@@ -702,7 +703,6 @@ works:
       <p class="lead"><a href="https://sites.google.com/site/linuxinfopack/">Link to the project</a>.</p>
       <p>Explanation and documentation of Linux, for a elementary librarian audience, to help them get up to speed.</p>
       <p>A collaboration with Julie Swierczek.</p>
-    keywords: user_experience, interfaces, design
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: linux.png
         img_aspect: screenshot
@@ -714,6 +714,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: systems, documentation, graphics
+    keywords: systems, workflow
     dates:
       - date: 2011
         date_type: creation
@@ -722,7 +723,6 @@ works:
     note: |
       <p class="lead">View the <a href="/doc/ccc/ccc-revision-flow-1.pdf">first</a> (PDF, 146KB) and the <a href="/doc/ccc/ccc-revision-flow-2.pdf">second</a> (PDF, 165KB) flowchart in PDF format.</p>
       <p>The <a href="/works/connchem">Connected Chemistry</a> project required substantial workflow planning to manage success; these wireframes were created to standardize how different team members were to interact with common documents and resources, as well as the creation of deliverables and revisions.</p>
-    keywords: systems, workflow
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: ccc-revision-flow-1.png
         img_aspect: flowchart 1
@@ -736,6 +736,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting, systems
+    keywords: tessellation, graffiti
     format: 9 inches x 16 inches
     dates:
       - date: 2011
@@ -745,7 +746,6 @@ works:
     note: |
       <p>A colorful painting from 2011.</p>
       <p>I went out of my way to make a completely balanced painting, yet without any symmetry I could discern.</p>
-    keywords: tessellation, graffiti
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: red_tessellation.jpg
         img_aspect: front
@@ -757,6 +757,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting
+    keywords: graffiti
     format: 9 inches x 16 inches
     dates:
       - date: 2010
@@ -765,7 +766,6 @@ works:
       - medium: acrylic on panel
     note: |
       <p>A colorful painting from 2010.</p>
-    keywords: graffiti
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: dystopia.jpg
         img_aspect: front
@@ -777,6 +777,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: photography
+    keywords: serenity, wash
     dates:
       - date: 2012
         date_type: creation
@@ -786,7 +787,6 @@ works:
       - medium: digital photograph
     note: |
       <p>A series of serene, abstract photographs.</p>
-    keywords: serenity, wash
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: wash.jpg
       - img_filename: wash-2.jpg
@@ -804,6 +804,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting
+    keywords: airplanes, machinery
     format: 9 inches x 16 inches
     dates:
       - date: 2009
@@ -813,7 +814,6 @@ works:
     note: |
       <p>The somewhat ironic title of this piece ("Dove" in German) belies my enduring, rather juvenile, fascination with military aviation technology.</p>
       <p>On the other hand, this piece seems more concerned with the dynamic aesthetics of machines in general, so maybe I can get a pass.</p>
-    keywords: airplanes, machinery
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: taube.jpg
         img_aspect: front
@@ -825,6 +825,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting
+    keywords: space, structure
     format: 9 inches x 16 inches
     dates:
       - date: 2010
@@ -834,7 +835,6 @@ works:
     note: |
       <p>I'm not quite sure how to explain this one; sort of an exploration of the fabric and structure of space.</p>
       <p>This one is actually still in progress, and looks substantially different than when I took this photograph.</p>
-    keywords: space, structure
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: struts.jpg
         img_aspect: front
@@ -846,6 +846,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting, collections
+    keywords: graffiti, chance
     dates:
       - date: 2011
         date_type: creation
@@ -854,7 +855,6 @@ works:
     note: |
       <p>A set of colorful mini-paintings, most created via the <em>Rorschach schmear</em> technique.</p>
       <p>They're really not that deep.  I just think they look neat.  I have a lot of these credit card blanks... so I will make more!</p>
-    keywords: graffiti, chance
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: credit.jpg
         img_aspect: front
@@ -882,6 +882,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting, systems
+    keywords: geometry, hexagon, tessellation
     format: various; each tile 2 inches wide
     dates:
       - date: 2011
@@ -891,7 +892,6 @@ works:
     note: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
       Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
-    keywords: geometry, hexagon, tessellation
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: hexagon_tiles.jpg
         img_aspect: front view
@@ -906,6 +906,7 @@ works:
         role: creator
     types: painting, systems, sculpture
     format: 12 inches diameter, 6 inch triangle side
+    keywords: geometry, hexagon, tessellation, icosahedron
     dates:
       - date: 2012
         date_type: creation
@@ -918,7 +919,6 @@ works:
       <p>This project is my attempt to provide a regular grid for a three-dimensional form: the icosahedron, the closest Platonic solid to the sphere.  The grid is a set of recursive regular equilateral triangles, set either positive or negative: land or sea.  Each triangle in turn could, in theory, be made of further triangles, allowing arbitrary resolution in the manner of fractal generation.  This is, essentially, a means to create form halfway between two two-dimensional and three-dimensional spaces, and to trasnlate between them.  The globe can be made as regular as a chessboard, with strong implications for art, geography, gaming, industry, or other uses.</p>
       <p>Four tiles are possible, as each tile is its opposite when flipped.</p>
       <p>To explain its somewhat shabby appearance: this is a prototype, made from steel and duct tape, with movable painted magnetic tiles.  It has been handled extensively, and acrylic paint does not apparently adhere well to vinyl.</p>
-    keywords: geometry, hexagon, tessellation, icosahedron
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: magnet_icosahedron-1.jpg
         img_aspect: front view
@@ -936,6 +936,7 @@ works:
       - creator: Berry, Allan
         role: creator
     types: painting, sculpture
+    keywords: mannequin
     format: 40 inches x 16 inches x 12 inches, approximate, not including stand
     dates:
       - date: 2006
@@ -946,7 +947,6 @@ works:
       <p>This is a painting on a mannequin. Conceptually, there's not much else to it, although I'm sure interpretations could vary.</p>
       <p>Formally, there's a lot going on here.  First, the palette is limited to the absolute basics: black and white.  Much attention was paid on balance: I didn't want either the black or the white to function as figure or ground, but rather to put them in constant competition and tension.  This was a lot harder than it may look.  In addition, I worked to keep all forms flowing into one another, like an active whirlpool, an attempt made complicated by the intrinsic curves of the female mannequin.</p>
       <p>I really enjoyed this project; I've been looking for a comparable male mannequin ever since, so I might complete the gesture.</p>
-    keywords: mannequin
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: mannequin-2.jpg
         img_aspect: front view
@@ -960,6 +960,7 @@ works:
       - creator: Berry, Allan
         role: designer
     type: illustration, graphics, systems
+    keywords: characters, comics
     dates:
       - date: 2013-08
         date_type: creation
@@ -970,7 +971,6 @@ works:
       The man and woman will be used first as a pair of adult shirts.  If the budget allows, I plan to create shirts for the rest of the characters, in particular the cat and dog characters.
       Armatures of the characters are proportioned to give maximum flexibility: I'd like to be able to use the various characters in various situations, say, like riding bikes, swimming, or sitting.  These "human scale" activities make designing characters difficult, or at least require them to possess reasonably human proportions.  in addition, Susan Berry has ideas for these characters which could facilitate many further products.
       This is therefore a system for illustration, or for creating products.  Several repeating components are reused among multiple characters, for the sake of efficiency.  
-    keywords: characters, comics
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: 8th_note.png
         img_aspect: 8th Note
@@ -998,6 +998,7 @@ works:
       - creator: Berry, Allan
         role: designer
     type: graphics, illustration
+    keywords: textiles, shirts, bellman, graphics
     sizes: 6.5 inches x 5.25 inches
     dates:
       - date: 1999
@@ -1008,7 +1009,6 @@ works:
     note: |
       <p>Over the years, I have done many designs for T-shirts and textiles, for <a href="/hsi">Handbell Services, Inc.</a></p>
       <p>These designs are for a very specific market.  Our demographics skew highly religious and "red state," highly religious, musically and educationally inclined.</p>
-    keywords: textiles, shirts, bellman, graphics
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: shirt_cedric_underwood.png
         img_aspect: Cedric and Underwood
@@ -1042,6 +1042,7 @@ works:
       - creator: Berry, Allan
         role: painter
     type: painting, illustration
+    keywords: art, painting, poster, jesus, religion, circus, sideshow, christmas
     sizes: 72 inches x 49 inches
     dates:
       - date: 2002-12
@@ -1053,10 +1054,33 @@ works:
       <p>The poster, and the play more generally, are intended to poke fun at the Christmas Story, while retaining reverance.</p>
       <p>This poster also heavily references circus sideshow banners, in style, scale and subject.  At the time I made this poster, I was working at the Carl Hammer Gallery in Chicago, which has maintained <a href="http://www.hammergallery.com/Banners/vintage_sideshow_banners.htm">a terrific collection</a> of these banners for sale.</p>
     location: Chicago
-    keywords: art, painting, poster, jesus, religion, circus, sideshow, christmas
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: godbaby.jpg
         img_aspect: front view
+# --------------------------------------------------------------------------- #
+  - id: mucha
+    title: Job
+    synopsis: An SVG tracing of Mucha's Job cigarette poster, for manipulating via D3.
+    creators:
+      - creator: Berry, Allan
+        role: illustrator
+    keywords: art, design, d3, tracing, interfaces
+    dates:
+      - date: 2013-August
+        date_type: creation
+    media:
+      - medium: Adobe Illustrator
+      - medium: Data Driven Documents
+    note: |
+      <p class="lead">In progress.</p>
+      <p>Here I'm tracing a poster by Alphonse Mucha, the great Czech/American artist (who taught at the Art Institute of Chicago, by the way).</p>
+      <p>I'm using it as an exercise in SVG and D3.</p>
+      <p>This will be an interactive SVG; <a href="/sketches/mucha">here is the original SVG</a>, which I will animate and make interactive with SVG.</p>
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: job-1896.png
+        img_aspect: rendered view of SVG
+      - img_filename: job-1896.jpg
+        img_aspect: original image
 # --------------------------------------------------------------------------- #
 #  - id: cities_at_war
 #    title: Cities At War
@@ -1064,7 +1088,8 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: creator
-#   types: paper and presentation
+#    types: paper and presentation
+#    keywords: geography, maps
 #    dates:
 #      - date: 2007
 #        date_type: creation
@@ -1076,7 +1101,6 @@ works:
 #    note: |
 #      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. #Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor #laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna #dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo #sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec #augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim #interdum massa, at consectetur nisl porta et.
 #      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod.# Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula #scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate #ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
-#    keywords: geography, maps
 #    images: # independent of file size, thumbs, etc.  No URLs.
 #      - img_filename: citis_at_war-1.jpg
 #        img_aspect: front view
