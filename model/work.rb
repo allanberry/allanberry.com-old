@@ -21,7 +21,7 @@ class Work
     @synopsis = yaml_["synopsis"]
     @note   = yaml_["note"]
     @format = yaml_["format"]
-    @types = yaml_["types"]
+    @types = yaml_["types"] || "other"
     @keywords = yaml_["keywords"]
 
     #yaml data still

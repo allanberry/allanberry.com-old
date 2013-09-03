@@ -13,7 +13,8 @@ Dir[controls_dir].each {|file| require file }
 # got links to former drupal site? TODO: expand me.
 old_site_map = {
   "/work/connected-chemistry-curriculum" => "/works/connchem",
-  "/content/icosahedra-tessellations" => "/works/icosahedra"
+  "/content/icosahedra-tessellations" => "/works/icosahedra",
+  "/preservation" => "/collections"
 }
 
 # LAYOUTS
@@ -52,7 +53,7 @@ end
 
 get '/:page/?' do
   basic_pages = [:about, :contact, :index, :copyright, :sketches, :hsi]
-  works_pages = [:works, :art, :design, :preservation]
+  works_pages = [:works, :art, :design, :collections, :illustration, :software]
 
   # only use symbols to pass values
   page_name = params[:page].to_sym
@@ -64,7 +65,7 @@ get '/:page/?' do
   # portfolio
   elsif works_pages.include?(page_name)
     control = WorksControl.new
-    erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_category(page_name)}
+    erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_type(page_name)}
 
   else
     return file_not_found

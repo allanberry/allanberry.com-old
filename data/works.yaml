@@ -9,8 +9,8 @@ works:
         role: designer
       - creator: Gordon, William A
         role: author
-    types: preservation, collections, books, systems
-    keywords: print, catalogues, library
+    types: collections, design
+    keywords: print, catalogues, library, preservation, collections, books, systems
     format: 11.5 inches x 9 inches; 284 pages
     dates:
       - date: 2012-11
@@ -50,8 +50,8 @@ works:
         role: illustrator
       - creator: Berry, David
         role: editor
-    types: illustration, books, design
-    keywords: print, illustration, handbells
+    types: illustration
+    keywords: print, handbells, illustration, books, design
     format: 9.25 inches x 7.5 inches; 200 pages; 200 illustrations
     dates:
       - date: 1999
@@ -100,8 +100,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art, painting
-    keywords: politics, war, painting
+    types: art
+    keywords: politics, war, painting, art
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003-05
@@ -122,8 +122,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: painting
-    keywords: city, conflict, abstract
+    types: art
+    keywords: city, conflict, abstract, painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
@@ -144,8 +144,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: painting
-    keywords: forest, water, grace, figure, abstract
+    types: art
+    keywords: forest, water, grace, figure, abstract, painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2003
@@ -166,8 +166,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: painting
-    keywords: figure
+    types: art
+    keywords: figure, painting
     format: 35.5 inches x 35.5 inches
     dates:
       - date: 2005
@@ -186,8 +186,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: painting, systems
-    keywords: geometry, networks, vision
+    types: art
+    keywords: geometry, networks, vision, painting, systems
     format: 17.75 inches x 5.5 inches
     dates:
       - date: 2012-03-15
@@ -211,8 +211,8 @@ works:
         role: collector
       - creator: Funk, Tiffany
         role: collector
-    types: photography, collections, systems
-    keywords: collections, photography
+    types: collections, art
+    keywords: collections, photography, photography, collections, systems
     dates:
       - date: 2012
         date_type: work started
@@ -308,8 +308,8 @@ works:
         role: researcher
       - creator: <a href="http://www.linkedin.com/profile/view?id=180119889">Yip, Jason</a>
         role: researcher
-    types: software, graphics, interfaces, systems, books
-    keywords: programming, science, education
+    types: software, design, illustration
+    keywords: programming, science, education, software, graphics, interfaces, systems, books
     dates:
       - date: 2010-09
         date_type: creation
@@ -358,8 +358,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer, programmer
-    types: software, interfaces
-    keywords: art, museums, android, java, processing
+    types: software, design
+    keywords: art, museums, android, java, processing, software, interfaces
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-05
@@ -388,8 +388,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: curator, designer
-    types: collections, software, websites
-    keywords: maps, geography, chicago
+    types: software, collections
+    keywords: maps, geography, chicago, collections, software, websites
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-12
@@ -416,7 +416,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer
-    types: website
+    types: software, design
     keywords: websites, art_history, academic, drupal
     dates:
       - date: 2009
@@ -472,8 +472,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    types: software, interfaces
-    keywords: processing, sketches, datavis, art
+    types: software, design
+    keywords: processing, sketches, datavis, art, software, interfaces
     dates:
       - date: 2011
         date_type: creation
@@ -504,8 +504,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    types: software, interfaces, data visualization
-    keywords: processing, sketches, datavis, art
+    types: software, design
+    keywords: processing, sketches, datavis, art, software, interfaces, data visualization
     dates:
       - date: 2011
         date_type: creation
@@ -531,8 +531,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    types: software, graphics, systems
-    keywords: processing, geography, hexagons, datavis
+    types: software, art, design
+    keywords: processing, geography, hexagons, datavis, software, graphics, systems
     dates:
       - date: 2011
         date_type: creation
@@ -555,7 +555,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: graphics, systems
+    types: art, design
+    keywords: hexagons, tessellation, geometry, graphics, systems
     dates:
       - date: 2011
         date_type: creation
@@ -574,7 +575,6 @@ works:
       </ul>
       <p>My preoccupation with hexagons comes from their tremendous effectiveness as a two-dimensional geographic grid.  Nerdy board and video games have often shown this effectiveness. I was anxious to shoehorn this facility into the Fuller projection, in order to allow complete 3D worlds which could be accurately viewed in a 2D context: on a computer screen, say.</p>
       <p>Therefore, this project is something of a failed experiment, since I was generally unable to discover a system of hexagons which would fully and simply cover an icosahedron: after all, at its corners, an icosahedron has five sides, not six.  I came close, however, and I have not yet given up.<p>
-    keywords: hexagons, tessellation, geometry
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: icosahedron-1.png
         img_aspect: screenshot
@@ -597,8 +597,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: collections, systems, software
-    keywords: filemaker, collections
+    types: software, collections, design
+    keywords: filemaker, collections, collections, systems, software
     dates:
       - date: 2004
         date_type: begin date
@@ -643,8 +643,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: systems, data
-    keywords: illustration
+    types: software
+    keywords: illustration, systems, data
     dates:
       - date: 2011
         date_type: creation
@@ -664,8 +664,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: interfaces, websites
-    keywords: user_experience, interfaces, design
+    types: software, design
+    keywords: user_experience, interfaces, design, interfaces, websites
     dates:
       - date: 2012
         date_type: creation
@@ -691,8 +691,8 @@ works:
         role: creator
       - creator: Swierczek, Julie
         role: creator
-    types: documentation, websites
-    keywords: user_experience, interfaces, design
+    types: software
+    keywords: user_experience, interfaces, design, documentation, websites
     dates:
       - date: 2012
         date_type: creation
@@ -713,8 +713,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: systems, documentation, graphics
-    keywords: systems, workflow
+    types: software
+    keywords: workflow, systems, documentation, graphics
     dates:
       - date: 2011
         date_type: creation
@@ -735,8 +735,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting, systems
-    keywords: tessellation, graffiti
+    types: art
+    keywords: tessellation, graffiti, painting, systems
     format: 9 inches x 16 inches
     dates:
       - date: 2011
@@ -756,8 +756,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting
-    keywords: graffiti
+    types: art
+    keywords: graffiti, painting
     format: 9 inches x 16 inches
     dates:
       - date: 2010
@@ -776,8 +776,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: photography
-    keywords: serenity, wash
+    types: art
+    keywords: photography, serenity, wash, collections
     dates:
       - date: 2012
         date_type: creation
@@ -803,8 +803,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting
-    keywords: airplanes, machinery
+    types: art
+    keywords: painting, airplanes, machinery
     format: 9 inches x 16 inches
     dates:
       - date: 2009
@@ -824,8 +824,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting
-    keywords: space, structure
+    types: art
+    keywords: painting, space, structure
     format: 9 inches x 16 inches
     dates:
       - date: 2010
@@ -845,8 +845,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting, collections
-    keywords: graffiti, chance
+    types: art
+    keywords: painting, collections, graffiti, chance
     dates:
       - date: 2011
         date_type: creation
@@ -881,8 +881,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting, systems
-    keywords: geometry, hexagon, tessellation
+    types: art
+    keywords: painting, systems, geometry, hexagon, tessellation
     format: various; each tile 2 inches wide
     dates:
       - date: 2011
@@ -904,9 +904,9 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting, systems, sculpture
+    types: art
+    keywords: painting, systems, sculpture, geometry, hexagon, tessellation, icosahedron
     format: 12 inches diameter, 6 inch triangle side
-    keywords: geometry, hexagon, tessellation, icosahedron
     dates:
       - date: 2012
         date_type: creation
@@ -935,8 +935,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: painting, sculpture
-    keywords: mannequin
+    types: art
+    keywords: painting, sculpture, mannequin
     format: 40 inches x 16 inches x 12 inches, approximate, not including stand
     dates:
       - date: 2006
@@ -955,22 +955,22 @@ works:
 # --------------------------------------------------------------------------- #
   - id: bell_family
     title: Bell Family
-    synopsis: A set of cartoon characters for use by <a href="/hsi">Handbell Services</a> for myriad products, in particular for <a href="/ringwear">textiles.</a>
+    synopsis: A set of cartoon characters for use by <a href="/hsi">Handbell Services</a> for myriad products, in particular for textiles.</p>
     creators:
       - creator: Berry, Allan
         role: designer
-    type: illustration, graphics, systems
-    keywords: characters, comics
+    types: illustration
+    keywords: illustration, graphics, systems, figure, characters, comics
     dates:
       - date: 2013-08
         date_type: creation
     media:
       - medium: Adobe Illustrator
     note: |
-      A set of cartoon characters for use by <a href="/hsi">Handbell Services</a> for myriad products, in particular for textiles.
-      The man and woman will be used first as a pair of adult shirts.  If the budget allows, I plan to create shirts for the rest of the characters, in particular the cat and dog characters.
-      Armatures of the characters are proportioned to give maximum flexibility: I'd like to be able to use the various characters in various situations, say, like riding bikes, swimming, or sitting.  These "human scale" activities make designing characters difficult, or at least require them to possess reasonably human proportions.  in addition, Susan Berry has ideas for these characters which could facilitate many further products.
-      This is therefore a system for illustration, or for creating products.  Several repeating components are reused among multiple characters, for the sake of efficiency.  
+      <p>A set of cartoon characters for use by <a href="/hsi">Handbell Services</a> for myriad products, in particular for textiles.</p>
+      <p>The man and woman will be used first as a pair of adult shirts.  If the budget allows, I plan to create shirts for the rest of the characters, in particular the cat and dog characters.</p>
+      <p>Armatures of the characters are proportioned to give maximum flexibility: I'd like to be able to use the various characters in various situations, say, like riding bikes, swimming, or sitting.  These "human scale" activities make designing characters difficult, or at least require them to possess reasonably human proportions.  in addition, Susan Berry has ideas for these characters which could facilitate many further products.</p>
+      <p>This is therefore a system for illustration, or for creating products.  Several repeating components are reused among multiple characters, for the sake of efficiency.</p>
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: 8th_note.png
         img_aspect: 8th Note
@@ -997,8 +997,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer
-    type: graphics, illustration
-    keywords: textiles, shirts, bellman, graphics
+    types: illustration, design
+    keywords: textiles, shirts, bellman, graphics, graphics, illustration
     sizes: 6.5 inches x 5.25 inches
     dates:
       - date: 1999
@@ -1041,8 +1041,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    type: painting, illustration
-    keywords: art, painting, poster, jesus, religion, circus, sideshow, christmas
+    types: art, illustration
+    keywords: art, painting, poster, jesus, religion, circus, sideshow, christmas, painting, illustration
     sizes: 72 inches x 49 inches
     dates:
       - date: 2002-12
@@ -1064,6 +1064,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: illustrator
+    types: illustration, design
     keywords: art, design, d3, tracing, interfaces
     dates:
       - date: 2013-August
@@ -1082,14 +1083,62 @@ works:
       - img_filename: job-1896.jpg
         img_aspect: original image
 # --------------------------------------------------------------------------- #
+  - id: internal_combustion_engine
+    title: Internal Combustion Engine
+    synopsis: A diagram showing the different stages of the engine.
+    creators:
+      - creator: Berry, Allan
+        role: illustrator
+    types: illustration, design
+    keywords: art, design, d3, tracing, interfaces
+    dates:
+      - date: 2012
+        date_type: creation
+    media:
+      - medium: Adobe Illustrator
+      - medium: Data Driven Documents
+    note: |
+      <p>A diagram for <a href="/works/connchem">Connected Chemistry</a>, showing the workings of the internal combustion engine, for purposes of teaching students concepts of pressure, volume and temperature.</p>
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: connchem-cylinder.png
+        img_aspect: All four stages
+# --------------------------------------------------------------------------- #
+#  - id: hsi_website
+#    title: Website for Handbell Services, Inc.
+#    synopsis: A corporate retail website.
+#    creators:
+#      - creator: Berry, Allan
+#        role: designer
+#    type: software, collections
+#    keywords: hsi, retail, website
+#    dates:
+#      - date: 2011
+#        date_type: creation
+#    media:
+#      - medium: BigCommerce
+#      - medium: PHP
+#    relations:
+#      - relation: prototype for
+#        relation_target: ajb_0001
+#        relation_url: http://allanberry.com/works/ajb_0001
+#    note: |
+#      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus #risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas #est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
+#      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. #Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.</p>
+#    images: # independent of file size, thumbs, etc.  No URLs.
+#      - img_filename: imagedurp.png
+#        img_aspect: front view
+#    documents:
+#      - doc_filename: filename.pdf
+#        doc_description: a complete catalogue
+# --------------------------------------------------------------------------- #
 #  - id: cities_at_war
 #    title: Cities At War
 #    synopsis: Urban archaeology, using rectification of antique maps over Google Earth.
 #    creators:
 #      - creator: Berry, Allan
 #        role: creator
-#    types: paper and presentation
-#    keywords: geography, maps
+#    types: 
+#    keywords: geography, maps, paper and presentation
 #    dates:
 #      - date: 2007
 #        date_type: creation

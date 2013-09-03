@@ -58,22 +58,21 @@ class WorksControl
   @@types  = [
     :art,
     :illustration,
-    :collections,
     :design,
-      :software,
-      :preservation,
-      :painting,
-      :collections,
+    :collections,
+    :software,
+      :systems,
       :books,
       :data_visualization,
-      :interfaces,
+      :documentation,
       :graphics,
+      :interfaces,
+      :painting,
       :photography,
+      :preservation,
       :sculpture,
-      :systems,
       :websites,
       :writing,
-      :documentation
   ]
 
   @@keywords = []
@@ -103,16 +102,16 @@ class WorksControl
 
   def get_works_by_category(cat_)
     output = []
-    if @@categories.has_key? cat_
-      @@categories[cat_].each do |sym|
-        output << get_work_by_id(sym)
-      end
-      return output
-    elsif cat_ == :works
-      return @works
-    else
-      return []
-    end
+  #  if @@categories.has_key? cat_
+  #    @@categories[cat_].each do |sym|
+  #      output << get_work_by_id(sym)
+  #    end
+  #    return output
+  #  elsif cat_ == :works
+  #    return @works
+  #  else
+  #    return []
+  #  end
   end
 
   def get_works_by_type(type_)

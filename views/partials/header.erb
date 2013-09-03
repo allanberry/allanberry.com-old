@@ -7,15 +7,17 @@
         <li <% if request.path_info =~ /\/about\/?/   %>class="active"<% end %> ><a href="/about">About</a></li>
         <li <% if request.path_info =~ /\/contact\/?/ %>class="active"<% end %> ><a href="/contact">Contact</a></li>
         <ul class="nav">
-          <li class="<% if request.path_info =~ /\/(art|design|preservation|works)\/?/ %>active ><% end %>dropdown">
+          <li class="<% if request.path_info =~ /\/(art|design|collection|software|illustration|works)\/?/ %>active ><% end %>dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               Works
               <b class="caret"></b>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="/preservation">Systems &amp; Digital Preservation</a></li>
-                <li><a href="/design">Design &amp; Illustration</a></li>
                 <li><a href="/art">Fine Art</a></li>
+                <li><a href="/collections">Collections &amp; Preservation</a></li>
+                <li><a href="/design">Design</a></li>
+                <li><a href="/illustration">Illustration</a></li>
+                <li><a href="/software">Software &amp; Systems</a></li>
                 <hr />
                 <li><a href="/works">All Works</a></li>
               </ul>
