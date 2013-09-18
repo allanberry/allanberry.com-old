@@ -51,7 +51,7 @@ works:
       - creator: Berry, David
         role: editor
     categories: illustration
-    keywords: print, handbells, illustration, books, design
+    keywords: print, handbells, illustration, books, design, hsi
     format: 9.25 inches x 7.5 inches; 200 pages; 200 illustrations
     dates:
       - date: 1999
@@ -417,7 +417,7 @@ works:
       - creator: Berry, Allan
         role: designer
     categories: software, design
-    keywords: websites, art_history, academic, drupal
+    keywords: websites, art history, academic, drupal
     dates:
       - date: 2009
         date_type: creation
@@ -960,7 +960,7 @@ works:
       - creator: Berry, Allan
         role: designer
     categories: illustration
-    keywords: illustration, graphics, systems, figure, characters, comics
+    keywords: illustration, graphics, systems, figure, characters, comics, hsi
     dates:
       - date: 2013-08
         date_type: creation
@@ -998,7 +998,7 @@ works:
       - creator: Berry, Allan
         role: designer
     categories: illustration, design
-    keywords: textiles, shirts, bellman, graphics, graphics, illustration
+    keywords: textiles, shirts, bellman, graphics, graphics, illustration, hsi
     sizes: 6.5 inches x 5.25 inches
     dates:
       - date: 1999
@@ -1102,6 +1102,27 @@ works:
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: connchem-cylinder.png
         img_aspect: All four stages
+# --------------------------------------------------------------------------- #
+  - id: unicorn
+    title: Unicorn
+    synopsis: An illustration for a T-shirt vendor, shortly after arriving in Chicago.
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    categories: illustration
+    keywords: figure, animals
+    sizes: 11 inches x 7 inches
+    dates:
+      - date: 2001-04
+        date_type: creation
+    media:
+      - medium: Adobe Photoshop
+    note: |
+      When I first arrived in Chicago, in the fall of 2000, I didn't know what I wanted to do.  My first inclination was to write and design children's books; illustration was a sometime fascination with me, although I didn't give it the attention it deserved.
+      This design was done for a friend, a T-shirt vendor named Bob Bobber.  It's "colorful" subject matter reflects a possible audience for the shirt, namely, preteen girls.  I am entirely aware of the troublesome subtext of this piece; I was 23, and a bit lost.  For example, today I might have toned down the princess programming: I didn't get it at the time.
+      Still, I think it's technically well done, and I meant well.
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: unicorn.png
 # --------------------------------------------------------------------------- #
 #  - id: hsi_website
 #    title: Website for Handbell Services, Inc.

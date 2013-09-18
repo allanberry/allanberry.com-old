@@ -1,5 +1,5 @@
 class Work
-  attr_accessor :id, :title, :synopsis, :format
+  attr_accessor :id, :title, :synopsis
 
   def initialize(yaml_)
 

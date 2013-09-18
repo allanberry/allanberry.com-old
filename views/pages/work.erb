@@ -14,7 +14,10 @@
 <p class="lead"><%= work.synopsis %></p>
 <% if work.date %><p><span class="muted">Date:</span> <%= work.date %></p><% end %>
 <% if work.media.size > 0 %><p><span class="muted">Media:</span> <%= work.media.join(", ") %></p><% end %>
-<% if work.format %><p><span class="muted">Format:</span> <%= work.format %></p><% end %>
+<% if work.keywords %><p><span class="muted">Keywords:</span>
+    <% strings = work.keywords.map { |i| "<a href='/" << i.to_s << "'>" << i.to_s << "</a>" } %>
+    <%= strings.join(", ") %>
+  </p><% end %>
 
 <hr />
 

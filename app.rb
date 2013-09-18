@@ -27,8 +27,8 @@ get '/' do
 end
 
 get '/works/:work/?' do
-  control = WorksControl.new
-  work = control.get_work_by_id("#{params[:work]}")
+  works_control = WorksControl.new
+  work = works_control.get_work_by_id("#{params[:work]}")
   erb :"pages/work", :locals => {:work => work}
 end
 
@@ -36,11 +36,7 @@ end
 def sketches
   output = Array.new
   sketches_dir = "./views/pages/sketches/"
-  Dir.foreach(sketches_dir) do |file|
-    next if [".","..",".DS_Store"].include? file
-    output << File.basename(file, ".erb").to_s.to_sym
-  end
-  output
+  names_in_dir(sketches_dir)
 end
 
 get '/sketches/:sketch/?' do
@@ -52,21 +48,28 @@ get '/sketches/:sketch/?' do
 end
 
 get '/:page/?' do
-  basic_pages = [:about, :contact, :index, :copyright, :sketches, :hsi]
-  works_pages = [:works, :art, :design, :collections, :illustration, :software]
+  works_control = WorksControl.new
+
+  # stock pages array
+  pages = []
+  pages_dir = "./views/pages/"
+  names_in_dir(pages_dir).each do |p|
+    pages << p
+  end
 
   # only use symbols to pass values
   page_name = params[:page].to_sym
 
-  # pages
-  if basic_pages.include?(page_name)
-    erb :"pages/#{params[:page]}"
+  # predefined pages
+  if pages.include?(page_name)
+    works = works_control.get_works_by_category(page_name) ||
+            works_control.get_works_by_keyword(page_name)
+    erb :"pages/#{params[:page]}", locals: { works: works }
 
-  # portfolio
-  elsif works_pages.include?(page_name)
-    control = WorksControl.new
-    erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_category(page_name)}
-
+  # auto-generated pages
+  elsif works_control.get_works_by_keyword(page_name)
+    works = works_control.get_works_by_keyword(page_name)
+    erb :"pages/keyword_page", locals: { works: works, keyword: page_name}
   else
     return file_not_found
   end
@@ -82,6 +85,14 @@ helpers do
   end
 end
 
+def names_in_dir(dir)
+  output = []
+  Dir.foreach(dir) do |file|
+    next if [".","..",".DS_Store"].include? file
+    output << File.basename(file, ".erb").to_s.to_sym
+  end
+  return output
+end
 
 def file_not_found
   erb :"pages/404"
