@@ -49,12 +49,18 @@ class WorksControl
   end
 
   def get_works_by_category(cat_)
+
     output = []
     if @@categories.include? cat_
       @works.each do |w|
         if w.categories.include? cat_
           output << w
         end
+      end
+      return output
+    elsif cat_ == :works
+      @works.each do |w|
+        output << w
       end
       return output
     else
