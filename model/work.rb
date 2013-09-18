@@ -21,7 +21,7 @@ class Work
     @synopsis = yaml_["synopsis"]
     @note   = yaml_["note"]
     @format = yaml_["format"]
-    @types = yaml_["types"] || "other"
+    @categories = yaml_["categories"] || "other"
     @keywords = yaml_["keywords"]
 
     #yaml data still
@@ -73,10 +73,10 @@ class Work
     return year_array
   end
 
-  def types
-    types = @types.split(',')
-    types.map! do |t|
-      t = t.strip.gsub(/\s+/, "_").downcase.to_sym
+  def categories
+    cats = @categories.split(',')
+    cats.map! do |c|
+      c = c.strip.gsub(/\s+/, "_").downcase.to_sym
     end
   end
 

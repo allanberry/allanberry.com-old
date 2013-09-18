@@ -9,7 +9,7 @@ works:
         role: designer
       - creator: Gordon, William A
         role: author
-    types: collections, design
+    categories: collections, design
     keywords: print, catalogues, library, preservation, collections, books, systems
     format: 11.5 inches x 9 inches; 284 pages
     dates:
@@ -50,7 +50,7 @@ works:
         role: illustrator
       - creator: Berry, David
         role: editor
-    types: illustration
+    categories: illustration
     keywords: print, handbells, illustration, books, design
     format: 9.25 inches x 7.5 inches; 200 pages; 200 illustrations
     dates:
@@ -100,7 +100,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art
+    categories: art
     keywords: politics, war, painting, art
     format: 35.5 inches x 35.5 inches
     dates:
@@ -122,7 +122,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art
+    categories: art
     keywords: city, conflict, abstract, painting
     format: 35.5 inches x 35.5 inches
     dates:
@@ -144,7 +144,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art
+    categories: art
     keywords: forest, water, grace, figure, abstract, painting
     format: 35.5 inches x 35.5 inches
     dates:
@@ -166,7 +166,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art
+    categories: art
     keywords: figure, painting
     format: 35.5 inches x 35.5 inches
     dates:
@@ -186,7 +186,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art
+    categories: art
     keywords: geometry, networks, vision, painting, systems
     format: 17.75 inches x 5.5 inches
     dates:
@@ -211,7 +211,7 @@ works:
         role: collector
       - creator: Funk, Tiffany
         role: collector
-    types: collections, art
+    categories: collections, art
     keywords: collections, photography, photography, collections, systems
     dates:
       - date: 2012
@@ -308,7 +308,7 @@ works:
         role: researcher
       - creator: <a href="http://www.linkedin.com/profile/view?id=180119889">Yip, Jason</a>
         role: researcher
-    types: software, design, illustration
+    categories: software, design, illustration
     keywords: programming, science, education, software, graphics, interfaces, systems, books
     dates:
       - date: 2010-09
@@ -358,7 +358,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer, programmer
-    types: software, design
+    categories: software, design
     keywords: art, museums, android, java, processing, software, interfaces
     #format: 6.5 inches x 5.25 inches
     dates:
@@ -388,7 +388,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: curator, designer
-    types: software, collections
+    categories: software, collections
     keywords: maps, geography, chicago, collections, software, websites
     #format: 6.5 inches x 5.25 inches
     dates:
@@ -416,7 +416,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer
-    types: software, design
+    categories: software, design
     keywords: websites, art_history, academic, drupal
     dates:
       - date: 2009
@@ -444,7 +444,7 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: designer
-#   types: website
+#   categories: website
 #    dates:
 #      - date: 2011
 #        date_type: redesign
@@ -472,7 +472,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    types: software, design
+    categories: software, design
     keywords: processing, sketches, datavis, art, software, interfaces
     dates:
       - date: 2011
@@ -504,7 +504,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    types: software, design
+    categories: software, design
     keywords: processing, sketches, datavis, art, software, interfaces, data visualization
     dates:
       - date: 2011
@@ -531,7 +531,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    types: software, art, design
+    categories: software, art, design
     keywords: processing, geography, hexagons, datavis, software, graphics, systems
     dates:
       - date: 2011
@@ -555,7 +555,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art, design
+    categories: art, design
     keywords: hexagons, tessellation, geometry, graphics, systems
     dates:
       - date: 2011
@@ -597,7 +597,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: software, collections, design
+    categories: software, collections, design
     keywords: filemaker, collections, collections, systems, software
     dates:
       - date: 2004
@@ -622,7 +622,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: illustration
+    categories: illustration
     keywords: illustration
     format: 8.5 inches x 11 inches
     dates:
@@ -643,7 +643,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: software
+    categories: software
     keywords: illustration, systems, data
     dates:
       - date: 2011
@@ -664,7 +664,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: software, design
+    categories: software, design
     keywords: user_experience, interfaces, design, interfaces, websites
     dates:
       - date: 2012
@@ -691,7 +691,7 @@ works:
         role: creator
       - creator: Swierczek, Julie
         role: creator
-    types: software
+    categories: software
     keywords: user_experience, interfaces, design, documentation, websites
     dates:
       - date: 2012
@@ -713,7 +713,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: software
+    categories: software
     keywords: workflow, systems, documentation, graphics
     dates:
       - date: 2011
@@ -735,7 +735,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: tessellation, graffiti, painting, systems
     format: 9 inches x 16 inches
     dates:
@@ -756,7 +756,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: graffiti, painting
     format: 9 inches x 16 inches
     dates:
@@ -776,7 +776,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: photography, serenity, wash, collections
     dates:
       - date: 2012
@@ -803,7 +803,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: painting, airplanes, machinery
     format: 9 inches x 16 inches
     dates:
@@ -824,7 +824,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: painting, space, structure
     format: 9 inches x 16 inches
     dates:
@@ -845,7 +845,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: painting, collections, graffiti, chance
     dates:
       - date: 2011
@@ -881,7 +881,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: painting, systems, geometry, hexagon, tessellation
     format: various; each tile 2 inches wide
     dates:
@@ -904,7 +904,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: painting, systems, sculpture, geometry, hexagon, tessellation, icosahedron
     format: 12 inches diameter, 6 inch triangle side
     dates:
@@ -935,7 +935,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    types: art
+    categories: art
     keywords: painting, sculpture, mannequin
     format: 40 inches x 16 inches x 12 inches, approximate, not including stand
     dates:
@@ -959,7 +959,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer
-    types: illustration
+    categories: illustration
     keywords: illustration, graphics, systems, figure, characters, comics
     dates:
       - date: 2013-08
@@ -997,7 +997,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: designer
-    types: illustration, design
+    categories: illustration, design
     keywords: textiles, shirts, bellman, graphics, graphics, illustration
     sizes: 6.5 inches x 5.25 inches
     dates:
@@ -1041,7 +1041,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: painter
-    types: art, illustration
+    categories: art, illustration
     keywords: art, painting, poster, jesus, religion, circus, sideshow, christmas, painting, illustration
     sizes: 72 inches x 49 inches
     dates:
@@ -1064,7 +1064,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: illustrator
-    types: illustration, design
+    categories: illustration, design
     keywords: art, design, d3, tracing, interfaces
     dates:
       - date: 2013-August
@@ -1089,7 +1089,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: illustrator
-    types: illustration, design
+    categories: illustration, design
     keywords: art, design, d3, tracing, interfaces
     dates:
       - date: 2012
@@ -1109,7 +1109,7 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: designer
-#    type: software, collections
+#    categories: software, collections
 #    keywords: hsi, retail, website
 #    dates:
 #      - date: 2011
@@ -1137,7 +1137,7 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: creator
-#    types: 
+#    categories: 
 #    keywords: geography, maps, paper and presentation
 #    dates:
 #      - date: 2007

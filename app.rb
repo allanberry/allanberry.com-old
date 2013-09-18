@@ -65,7 +65,7 @@ get '/:page/?' do
   # portfolio
   elsif works_pages.include?(page_name)
     control = WorksControl.new
-    erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_type(page_name)}
+    erb :"pages/#{params[:page]}", :locals => {:works => control.get_works_by_category(page_name)}
 
   else
     return file_not_found

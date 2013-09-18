@@ -1,61 +1,9 @@
 class WorksControl
 
-  # Categories are a hierarchical structure, entirely determined here a priori.
-  # Types are a flat structure, determined (and enforced) from a controlled vocabulary, defined below, and keyed in the YAML file
+  # Categories are a flat structure, determined (and enforced) from a controlled vocabulary, defined below, and keyed in the YAML file
   # Keywords are a free tagging structure from the YAML file
-  @@categories = {
-    :art => [
-      :credit_card_paintings,
-      :dystopia,
-      :godbaby,
-      :hemingway,
-      :hexagon_tiles,
-      :icosahedra_tessellations,
-      :kill_them_all,
-      :magnet_icosahedron,
-      :mannequin,
-      :pondfairy,
-      :red_tessellation,
-      :shard,
-      :struts,
-      :swerve,
-      :taube,
-      :voronoi_bubbles,
-      :wash,
-      :watertowers
-      ],
-    :design => [
-      #:ajb_website,
-      #:cities_at_war,
-      :age_gdp_v11n,
-      :ahgsa_website,
-      :bell_family,
-      :brooklyn_tablet,
-      :connchem,
-      :expensive_paint,
-      :gordon,
-      :healthy_ringing,
-      :hex_land,
-      :icosahedra_tessellations,
-      :pondfairy,
-      :shirt_designs,
-      :mucha
-      ],
-    :preservation => [
-      :age_gdp_v11n,
-      :art_collection_dbs,
-      :brooklyn_tablet,
-      :chicago_maps,
-      :erd,
-      :expensive_paint,
-      :gordon,
-      :linux_infopack,
-      :spurlock,
-      :workflow_diagrams,
-      ]
-    }
 
-  @@types  = [
+  @@categories  = [
     :art,
     :illustration,
     :design,
@@ -102,23 +50,9 @@ class WorksControl
 
   def get_works_by_category(cat_)
     output = []
-  #  if @@categories.has_key? cat_
-  #    @@categories[cat_].each do |sym|
-  #      output << get_work_by_id(sym)
-  #    end
-  #    return output
-  #  elsif cat_ == :works
-  #    return @works
-  #  else
-  #    return []
-  #  end
-  end
-
-  def get_works_by_type(type_)
-    output = []
-    if @@types.include? type_
+    if @@categories.include? cat_
       @works.each do |w|
-        if w.types.include? type_
+        if w.categories.include? cat_
           output << w
         end
       end
