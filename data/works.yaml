@@ -472,7 +472,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: programmer, designer
-    categories: software, design
+    categories: software, design, collections
     keywords: processing, sketches, datavis, art, software, interfaces
     dates:
       - date: 2011
@@ -664,7 +664,7 @@ works:
     creators:
       - creator: Berry, Allan
         role: creator
-    categories: software, design
+    categories: software, design, collections
     keywords: user_experience, interfaces, design, interfaces, websites
     dates:
       - date: 2012
