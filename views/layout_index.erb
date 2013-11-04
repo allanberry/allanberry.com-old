@@ -8,14 +8,16 @@
   </head>
 
   <body>
-    <div class="container">
-      <%= partial :header %>
+    <div id="ajb-header" class="container">
+      <div class="row">
+          <%= partial :header %>
+      </div>
     </div>
     <div id="ajb-body" class="container">
       <div class="row">
-          <div class="span12 pagination-centered">
-            <%= yield %>
-          </div>
+        <div class="span12 pagination-centered">
+          <%= yield %>
+        </div>
       </div>
       <div class="row">
           <%= partial :footer %>
