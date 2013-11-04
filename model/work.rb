@@ -48,7 +48,9 @@ class Work
     ok_sizes = [160, 260, 640, 1600]
 
     # make sure images exist, and if the supplied size is correct 
-    if @yaml_images && ok_sizes.include?(size_.to_i)
+    if size_ == '640crop'
+      image = "/img/" << size_ << "/" << @yaml_images[0]["img_filename"]
+    elsif @yaml_images && ok_sizes.include?(size_.to_i)
       image = "/img/" << size_ << "x" << size_ << "/" << @yaml_images[0]["img_filename"]
     else
       image = default

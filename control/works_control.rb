@@ -54,6 +54,7 @@ class WorksControl
   end
 
   def get_works_by_category(cat_)
+
     output = []
     if get_categories.include? cat_
       @works.each do |w|

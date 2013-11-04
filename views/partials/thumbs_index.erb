@@ -1,13 +1,13 @@
 <% @works.sort! {|a,b|  a.years.max <=> b.years.max }.reverse! %>
 
 <br />
-<div class="row">
-  <% @works.each_slice(6) do |r| # breaks into rows %>
-    <div class="row span12">
+<div class="row ">
+  <% @works.each_slice(4) do |r| # breaks into rows %>
+    <div class="row span12 ">
       <ul class="thumbnails">
         <% r.each do |work| # row cells %>
-          <li class="span2">
-            <a href="/works/<%= work.id %>"  role="button" class="thumbnail" ><img src="<%= work.image_url('260') %>" /></a>
+          <li class="span3">
+            <a href="/works/<%= work.id %>"  role="button" class="thumbnail" ><img src="<%= work.image_url('640crop') %>" /></a>
           </li>
         <% end %>
       </div>

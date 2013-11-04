@@ -10,7 +10,7 @@ works:
       - creator: Gordon, William A
         role: author
     categories: collections, design
-    keywords: print, catalogues, library, preservation, collections, books, systems
+    keywords: print, catalogues, library, preservation, collections, books, systems, featured
     format: 11.5 inches x 9 inches; 284 pages
     dates:
       - date: 2012-11
@@ -309,7 +309,7 @@ works:
       - creator: <a href="http://www.linkedin.com/profile/view?id=180119889">Yip, Jason</a>
         role: researcher
     categories: software, design, illustration
-    keywords: programming, science, education, software, graphics, interfaces, systems, books
+    keywords: programming, science, education, software, graphics, interfaces, systems, books, featured
     dates:
       - date: 2010-09
         date_type: creation
@@ -389,7 +389,7 @@ works:
       - creator: Berry, Allan
         role: curator, designer
     categories: software, collections
-    keywords: maps, geography, chicago, collections, software, websites
+    keywords: maps, geography, chicago, collections, software, websites, featured
     #format: 6.5 inches x 5.25 inches
     dates:
       - date: 2012-12
@@ -476,7 +476,7 @@ works:
       - creator: Berry, Allan
         role: programmer, designer
     categories: software, design, collections
-    keywords: processing, sketches, datavis, art, software, interfaces
+    keywords: processing, sketches, datavis, art, software, interfaces, featured
     dates:
       - date: 2011
         date_type: creation
@@ -548,6 +548,12 @@ works:
       </div>
       <p>My preoccupation with hexagons and geography continues: a means to create hexagon-based geography.  This <a href="http://processing.org/">Processing</a> sketch functions as a drawing machine, i.e. a basic Photoshop clone, while using an internally consistent hexagon grid.</p>
       <p>The sketch also includes a "carbon credit" system, where different hexes can have cities, and can give off or receive carbon from neighboring hexes.  The sharing mechanism functions a bit like <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a>, although the implementation of this functionality is cursory.  It was never a central aspect of my concept.</p>
+      <p>I am heavily interested in generative geography. Please also see:</p>
+      <ul>
+        <li><a href="/works/hexagon_tiles">IHexagon Tiles</a></li>
+        <li><a href="/works/magnet_icosahedron">Icosahedron Globe</a></li>
+        <li><a href="/works/icosahedra_tessellations">Icosahedra Tessellations</a></li>
+      </ul>
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: hex_land.png
         img_aspect: screenshot
@@ -578,6 +584,12 @@ works:
       </ul>
       <p>My preoccupation with hexagons comes from their tremendous effectiveness as a two-dimensional geographic grid.  Nerdy board and video games have often shown this effectiveness. I was anxious to shoehorn this facility into the Fuller projection, in order to allow complete 3D worlds which could be accurately viewed in a 2D context: on a computer screen, say.</p>
       <p>Therefore, this project is something of a failed experiment, since I was generally unable to discover a system of hexagons which would fully and simply cover an icosahedron: after all, at its corners, an icosahedron has five sides, not six.  I came close, however, and I have not yet given up.<p>
+      <p>I am heavily interested in generative geography. Please also see:</p>
+      <ul>
+        <li><a href="/works/hexagon_tiles">IHexagon Tiles</a></li>
+        <li><a href="/works/magnet_icosahedron">Icosahedron Globe</a></li>
+        <li><a href="/works/hex_land">Hex Land</a></li>
+      </ul>
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: icosahedron-1.png
         img_aspect: screenshot
@@ -601,7 +613,7 @@ works:
       - creator: Berry, Allan
         role: creator
     categories: software, collections, design
-    keywords: filemaker, collections, collections, systems, software
+    keywords: filemaker, collections, collections, systems, software, featured
     dates:
       - date: 2004
         date_type: begin date
@@ -885,7 +897,7 @@ works:
       - creator: Berry, Allan
         role: creator
     categories: art
-    keywords: painting, systems, geometry, hexagon, tessellation
+    keywords: painting, systems, geometry, hexagon, tessellation, featured
     format: various; each tile 2 inches wide
     dates:
       - date: 2011
@@ -893,13 +905,21 @@ works:
     media:
       - medium: acrylic on wooden hexagon tiles
     note: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel aliquet dolor. Maecenas non leo neque, in congue mi. Nulla fringilla turpis mollis dolor laoreet id tempus risus consequat. Curabitur vulputate risus sit amet magna dictum congue. Nam vitae tortor at arcu bibendum sagittis. Sed ultricies justo sit amet sapien pulvinar a egestas est viverra. Phasellus vel orci lacus. Donec augue lectus, adipiscing sed vulputate sed, vulputate non elit. Sed dignissim interdum massa, at consectetur nisl porta et.
-      Nulla porta vestibulum ipsum non euismod. Fusce egestas fringilla velit ac euismod. Nullam auctor viverra leo non ullamcorper. Pellentesque fermentum vehicula scelerisque. Suspendisse sollicitudin iaculis vulputate. Duis vulputate ullamcorper velit, at commodo magna placerat sed. Nullam a ipsum massa.
+      <p>This is a prototype tiling system for creating fantastic geography.  It relies upon traditions of hex-maps in gaming, but is not designed for any game in particular.</p>
+      <p>Maps can be created from a total of 6 tiles (only).  The reverse of each tile is its inverse.</p>
+      <p>Viewers/participants of this artwork are encouraged to alter the painting to create new geographies.  It is therefore interactive.</p>
+      <p>It is also an example of generative artwork: it doesn't exist in any predefined form before it is viewed.  In other words, its tiles can be turned and flipped to create new paintings, none of which existed before.</p>
+      <p>I am heavily interested in generative geography. Please also see:</p>
+      <ul>
+        <li><a href="/works/magnet_icosahedron">Icosahedron Globe</a></li>
+        <li><a href="/works/icosahedra_tessellations">Icosahedra Tessellations</a></li>
+        <li><a href="/works/hex_land">Hex Land</a></li>
+      </ul>
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: hexagon_tiles.jpg
-        img_aspect: front view
+        img_aspect: assembled view
       - img_filename: hexagon_tiles-2.jpg
-        img_aspect: front view
+        img_aspect: only six possible tiles
 # --------------------------------------------------------------------------- #
   - id: magnet_icosahedron
     title: Icosahedron Globe
@@ -922,6 +942,12 @@ works:
       <p>This project is my attempt to provide a regular grid for a three-dimensional form: the icosahedron, the closest Platonic solid to the sphere.  The grid is a set of recursive regular equilateral triangles, set either positive or negative: land or sea.  Each triangle in turn could, in theory, be made of further triangles, allowing arbitrary resolution in the manner of fractal generation.  This is, essentially, a means to create form halfway between two two-dimensional and three-dimensional spaces, and to trasnlate between them.  The globe can be made as regular as a chessboard, with strong implications for art, geography, gaming, industry, or other uses.</p>
       <p>Four tiles are possible, as each tile is its opposite when flipped.</p>
       <p>To explain its somewhat shabby appearance: this is a prototype, made from steel and duct tape, with movable painted magnetic tiles.  It has been handled extensively, and acrylic paint does not apparently adhere well to vinyl.</p>
+      <p>I am heavily interested in generative geography. Please also see:</p>
+      <ul>
+        <li><a href="/works/hexagon_tiles">IHexagon Tiles</a></li>
+        <li><a href="/works/icosahedra_tessellations">Icosahedra Tessellations</a></li>
+        <li><a href="/works/hex_land">Hex Land</a></li>
+      </ul>
     images: # independent of file size, thumbs, etc.  No URLs.
       - img_filename: magnet_icosahedron-1.jpg
         img_aspect: front view
@@ -1067,8 +1093,8 @@ works:
     creators:
       - creator: Berry, Allan
         role: illustrator
-    categories: illustration, design
-    keywords: art, design, d3, tracing, interfaces
+    categories: illustration
+    keywords: art, design, d3, tracing, interfaces, featured
     dates:
       - date: 2013-August
         date_type: creation
@@ -1191,7 +1217,7 @@ works:
       - creator: Miller, Valerie
         role: designer
     categories: collections, software
-    keywords: digital library, Greenstone, Perl, Java
+    keywords: digital library, featured
     dates:
       - date: 2011-11
         date_type: creation
@@ -1199,17 +1225,7 @@ works:
       - medium: Greenstone
       - medium: Perl
     note: |
-      <div class="tabbable"> <!-- Only required for left/right tabs -->
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="#about_ajb" data-toggle="tab">About Allan Berry</a></li>
-          <li><a href="#colophon" data-toggle="tab">Colophon</a></li>
-        </ul>
-        <div class="tab-content">
-          <div class="tab-pane active" id="about_ajb">
-          </div>
-        </div>
-      </div>
-      <p>Following is an in-depth description of a project for a Digital Libraries class at <a href="/gslis" alt="University of Illinois at Urbana-Champaign, Graduate School for Library and Information Science">GSLIS</a>.  This was done with a small team (see "acknowledgements").  The software was on a temporary GSLIS intranet, which has since come down; I do not have any screen shots of the interface.</p>
+      <p>Following is an in-depth description of a project for a Digital Libraries class at <a href="/gslis" alt="University of Illinois at Urbana-Champaign, Graduate School for Library and Information Science">GSLIS</a>.  This was done with a small team (see "<a href='#acknowledgements'>acknowledgements</a>").  The software was on a temporary GSLIS intranet, which has since come down; I do not have any screen shots of the interface.</p>
       <p>The goal was to create a functional digital library from the ground up, using the <a href="http://www.greenstone.org/">Greenstone Digital Library</a> software, an open-source platform primarily written in Java and Perl.</p>
       <p>I did not code much for this project; that was primarily Kahyun's job.  I wrote most of our content, digitized the currency, and did original cataloging.  The crosswalk later on this page was by the whole team.<p/>
       <p>Content here is arbitrary; we were instructed to find "something for cataloging."  With my team, I chose world currency, as my grandmother had recently given me a stack of small bills from her many trips abroad.  I also wanted practice dealing with special collections.  I am aware we were probably breaking the law here slightly; I don't believe it's generally legal to scan money.  I'm not printing or using it, however, and I really don't think a counterfeiter needs my help to scan a $1 bill, even if it <i>were</i> worth the bother.</p>
@@ -1258,7 +1274,7 @@ works:
         <dd>Money</dd>
       </dl>
       <p><a href="http://dl.dropbox.com/u/39423334/funnymoney.zip">Download the entire library (2.1 GB)</a></p>
-      <p><a href="http://goo.gl/rLCyY">Latest collect.cfg</a> to be supplied by Kahyun</p>
+      <p><a href="http://goo.gl/rLCyY">Latest collect.cfg</a></p>
       <dd><a href="http://courseweb.lis.illinois.edu/~vjmille2/forFunnyMoney/">Visual Slide Show</a></dd>
       <h3>Crosswalk</h3>
       <p>We have a full crosswalk for conversion of our metadata to Dublin Core and CDWALite</p>
@@ -1357,7 +1373,7 @@ works:
             <td>recordType&gt;</td>
           </tr>
       </table>
-      <h3>Acknowledgements and Contact Information</h3>
+      <h3 id="acknowledgements">Acknowledgements and Contact Information</h3>
       <p>This software is constructed with the <a href="http://www.greenstone.org/">Greenstone software, provided by a bunch of helpful Kiwis</a>.</p>
       <p>The Funny Money Digital Library is managed by the Greenback Group, GSLIS, Fall 2011.</p>
       <h3>Acknowledgements</h3><dl>

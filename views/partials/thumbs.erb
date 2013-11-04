@@ -7,7 +7,7 @@
       <ul class="thumbnails">
         <% r.each do |work| # row cells %>
           <li class="span3">
-            <a href="/works/<%= work.id %>"  role="button" class="thumbnail" ><img src="<%= work.image_url('260') %>" /></a>
+            <a href="/works/<%= work.id %>"  role="button" class="thumbnail" ><img src="<%= work.image_url('640crop') %>" /></a>
             <h6 class="thumb-label"><span class="muted"><%= work.date %>: </span><%= work.title %></h6>
             <p><% if work.synopsis %><small><%= work.synopsis %></small><% end %></p>
           </li>

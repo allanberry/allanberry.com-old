@@ -20,6 +20,19 @@ h1, h2, h3, h4, h5, h6, .brand {
           filter: drop-shadow( 5px 5px 5px #ccc ); /* Same syntax as box-shadow */
 }
 
+#splash_text {
+  position: relative;
+  z-index: 1;
+  color: black;
+}
+
+#splash_logogo {
+  position: absolute;
+  z-index: 0;
+  margin-left: -75px;
+  margin-top: -35px;
+}
+
 
 /* footer */
 #html5_logo {
@@ -29,8 +42,7 @@ h1, h2, h3, h4, h5, h6, .brand {
 /* splash page */
 #splash-header {
   background-image: url("/img/site/splash/header_01.jpg");
-  color: white;
-  text-shadow: #666 0.1em 0.1em 0.2em;
+  /*text-shadow: #666 0.1em 0.1em 0.2em;*/
   font-size: .75em;
 }
 

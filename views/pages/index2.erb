@@ -1,17 +1,22 @@
 <div id="splash-header" class="hero-unit less">
-  <h1>Allan Berry</h1>
+  <object data="/img/site/logogo.svg" type="image/svg+xml" class="logogo" id="splash_logogo" onload="">
+    <img src="/img/site/logogo.png" class="logogo" /><!-- fallback -->
+  </object>
+  <h1 id="splash_text">Allan Berry</h1>
 </div>
-<p class='lead text-center'>Allan is a librarian, designer and artist living in Chicago, Illinois</p>
+<p class='lead'>Allan is a librarian, designer and artist living in Chicago, Illinois.</p>
 
-<div id="base_buttons" class="btn-group">
-  <a href="collections"   class="btn btn-large">Collections &amp; Preservation</a>
-  <a href="illustration"  class="btn btn-large">Illustration</a>
-  <a href="design"        class="btn btn-large">Design</a>
-  <a href="art"           class="btn btn-large">Fine Art</a>
-  <a href="software"      class="btn btn-large">Software &amp; Systems</a>
+<div id="base_buttons" class="">
+  <a href="collections"   class="btn btn-inverse">Collections &amp; Preservation</a>
+  <a href="illustration"  class="btn btn-inverse">Illustration</a>
+  <a href="design"        class="btn btn-inverse">Design</a>
+  <a href="art"           class="btn btn-inverse">Fine Art</a>
+  <a href="software"      class="btn btn-inverse">Software &amp; Systems</a>
 </div>
 
-<br />
 
+<br /><br />
+
+<p>Selected works:</p>
 <% @works = works %>
 <%= partial :thumbs_index %>
