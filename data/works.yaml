@@ -438,33 +438,36 @@ works:
       - img_filename: ahgsa-4.png
         img_aspect: screenshot
 # --------------------------------------------------------------------------- #
-#  - id: ajb_website
-#    title: My Previous Website
-#    synopsis: The previous iteration of this website was a Drupal application.
-#    creators:
-#      - creator: Berry, Allan
-#        role: designer
-#   categories: website
-#    dates:
-#      - date: 2011
-#        date_type: redesign
-#      - date: 2007
-#        date_type: redesign
-#      - date: 2001
-#        date_type: design
-#    media:
-#      - medium: html
-#      - medium: Drupal
-#      - medium: PHP
-#    location: http://allanberry.com
-#    note: |
-#      This website has gone through some major iterations over the years.  The current #design is brand new: I created it in the spring of 2013, using Ruby.  Before #that, the website was made with Drupal, with a custom template crafted by yours #truly.
-#    keywords: websites, ajb, drupal
-#    images: # independent of file size, thumbs, etc.  No URLs.
-#      - img_filename: img_tmp_h.jpg
-#        img_aspect: screenshot
-#      - img_filename: img_tmp_h.jpg
-#        img_aspect: screenshot
+  - id: ajb_website
+    title: This Website
+    synopsis: I wrote this website in Ruby.
+    creators:
+      - creator: Berry, Allan
+        role: designer
+    categories: software, design, collections
+    keywords: websites, html, sinatra
+    dates:
+      - date: 2013-05
+        date_type: redesign
+      - date: 2011
+        date_type: redesign
+      - date: 2007
+        date_type: redesign
+      - date: 2001
+        date_type: design
+    media:
+      - medium: Ruby
+      - medium: Sinatra
+      - medium: HTML
+      - medium: Twitter Bootstrap
+    location: http://allanberry.com
+    note: |
+      <p>This website has gone through some major iterations over the years.  The current design is brand new: I created it in the spring of 2013, using <a href="/about#colophon">a diverse set of technologies</a>, with Ruby in particular.</p>
+      <p>This website is primarily an excercise in librarianship.  Although I have leaned on the existing functionality of software libraries (like Ruby Sinatra and Twitter Bootstrap) to speed feature implementation, I have taken care to develop all of the browsing and sorting logic from scratch.  I developed a category and keywording system, and am slowly ironing out wrinkles and adding features <i>a la carte</i>.  Check back soon for more!</p>
+      <p>A previous design encorporated Drupal as a blogging CMS, but I found it cumbersome for this project.</p>
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: ajb_website-1.png
+        img_aspect: screenshot
 # --------------------------------------------------------------------------- #
   - id: expensive_paint
     title: Expensive Paint
@@ -1176,4 +1179,197 @@ works:
 #        img_aspect: front view
 #      - img_filename: cities_at_war-2.jpg
 #        img_aspect: front view
+# --------------------------------------------------------------------------- #
+  - id: greenback
+    title: The Greenback Digital Library
+    synopsis: A digital library of paper currency
+    creators:
+      - creator: Berry, Allan
+        role: designer
+      - creator: Choi, Kahyun
+        role: designer
+      - creator: Miller, Valerie
+        role: designer
+    categories: collections, software
+    keywords: digital library, Greenstone, Perl, Java
+    dates:
+      - date: 2011-11
+        date_type: creation
+    media:
+      - medium: Greenstone
+      - medium: Perl
+    note: |
+      <div class="tabbable"> <!-- Only required for left/right tabs -->
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#about_ajb" data-toggle="tab">About Allan Berry</a></li>
+          <li><a href="#colophon" data-toggle="tab">Colophon</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="about_ajb">
+          </div>
+        </div>
+      </div>
+      <p>Following is an in-depth description of a project for a Digital Libraries class at <a href="/gslis" alt="University of Illinois at Urbana-Champaign, Graduate School for Library and Information Science">GSLIS</a>.  This was done with a small team (see "acknowledgements").  The software was on a temporary GSLIS intranet, which has since come down; I do not have any screen shots of the interface.</p>
+      <p>The goal was to create a functional digital library from the ground up, using the <a href="http://www.greenstone.org/">Greenstone Digital Library</a> software, an open-source platform primarily written in Java and Perl.</p>
+      <p>I did not code much for this project; that was primarily Kahyun's job.  I wrote most of our content, digitized the currency, and did original cataloging.  The crosswalk later on this page was by the whole team.<p/>
+      <p>Content here is arbitrary; we were instructed to find "something for cataloging."  With my team, I chose world currency, as my grandmother had recently given me a stack of small bills from her many trips abroad.  I also wanted practice dealing with special collections.  I am aware we were probably breaking the law here slightly; I don't believe it's generally legal to scan money.  I'm not printing or using it, however, and I really don't think a counterfeiter needs my help to scan a $1 bill, even if it <i>were</i> worth the bother.</p>
+      <p>Valerie also contributed a sizable collection of specimens from the Brooklyn museum, adding a coin aspect to our numismatic collection.</p>
+      <p>Following is text from the assignment itself, explaining the collection in some detail.</p>
+      <h3>Thematic Overview</h3>
+      <p>Currency is hardly benign.  Usually its impact is felt via its purchasing power, its value, but might individual pieces of currency also carry informational power as cultural artifacts?  Are pieces of currency valuable aesthetic and informational vehicles after their nominal value expires?</p>
+      <p>The Funny Money digital library was created for future generations to consult high-resolution digital currency from ages past.  As the pieces contained in this library have little nominal value, as they are of recent vintage, it may be difficult to see them as collections in their own right, of national iconography and symbology, as technological relics, created with great sophistication, design and care.  In the right light they can be considered beautiful, and might say something larger about our globalized society.</p>
+      <p>This library contains high-resolution, easily accessible scans of world currency of recent vintage, mostly from Eastern Europe and South America.  It will grow in the future, to include a more comprehensive cross-section of the globe, as well as links to numismatic and educational sites across the Web.</p>
+      <p>Most published metadata schemas which we have perused are not a good fit for currency.  When they do deal with money at all, they deal with the issues of banks and bank documents, not as money within the context of special collections.  Therefore, we began to focus less on a metadata schema dealing with money specifically, and instead to treat the currency specimens as cultural objects.  We originally considered Dublin Core, but instead relied heavily on CDWALite for our metadata.  Eventually, since Greestone didn't seem to have the capability to use nested metadata, we flattened our CDWALite metadata schema into a flat table.</p>
+      <h3>Media</h3>
+      <p>The actual collection consists of scans of the paper money (front and back), as well as some other documents and movies collected from around the Web.</p>
+      <p>Contains entries taken from the Brooklyn museum, including coins and related metadata.  These items can be retrieved from the database with the keyword 'coin'.</p>
+      <p>Each object has a related thumbnail, and web versions of images for front and back.  Archival-quality TIFF images are also available via links.</p>
+      <p>Greenstone proved particularly difficult when collaborating in a shared project; any merits it has on a local machine seem eradicated when attempting to have multiple hands in the pot at any one time.  For collaboration, there may be other better choices.</p>
+      <h3>Scanning Steps Taken</h3>
+      <dl>
+        <dt>Scanner</dt>      <dd>Epson Perfection 3590 Photo</dd>
+        <dt>Scanning Software</dt>  <dd>Epson Scan (software)</dd>
+        <dt>Image Correction</dt> <dd>no image correction</dd>
+        <dt>Format</dt>       <dd>TIFF file</dd>
+        <dt>Resolution</dt>     <dd>360 ppi</dd>
+        <dt>Bit depth</dt>      <dd>8 bit RGB</dd>
+      </dl>
+      <h2>Image Processing</h2>
+      <p>In Photoshop CS5, using Macintosh 10.7.2:</p>
+          <ul><li>corrected to fix rotation</li>
+          <li>background removed</li>
+          <li>cropped close to paper edge</li>
+        <li>resaved as TIFF with transparency and LZW (lossless) compression</li></ul>
+      <h3>Collection Entry Points</h3>
+      <dl>
+      <dt>Browse by Category</a></dt> 
+        <dd>Coins</dd>            
+        <dd>Currency</dd>
+        <dd>Money</dd>
+      </dl>
+      <dl>
+      <dt>Browse by Year</dt>
+      <dt>Browse by Nation</dt>
+      </dl>
+      <dl>
+      <dt>Metadata Display</dt>
+        <dd>Coins</dd>
+        <dd>Currency</dd>
+        <dd>Money</dd>
+      </dl>
+      <p><a href="http://dl.dropbox.com/u/39423334/funnymoney.zip">Download the entire library (2.1 GB)</a></p>
+      <p><a href="http://goo.gl/rLCyY">Latest collect.cfg</a> to be supplied by Kahyun</p>
+      <dd><a href="http://courseweb.lis.illinois.edu/~vjmille2/forFunnyMoney/">Visual Slide Show</a></dd>
+      <h3>Crosswalk</h3>
+      <p>We have a full crosswalk for conversion of our metadata to Dublin Core and CDWALite</p>
+      <table>
+          <tr><th>Funny Money Customized Digitized Currency Schema</th>
+            <th>Example</th>
+          <th>Sequence</th><th>Required Wrappers (cdwalite)</th><th>CDWA Lite</th></tr>
+          <tr>
+            <td>Category (&ldquo;Currency&rdquo;)</td>
+            <td>coin</td>
+            <td>1.1</td>
+            <td>objectWorkTypeWrap</td>
+            <td>objectWorkType&gt;</td>
+          </tr>
+          <tr>
+            <td>Currency Name P</td>
+            <td>1 dollar coin</td>
+            <td>2.<br>
+              2.1</td>
+            <td>titleWrap&gt;<br>
+              titleSet&gt;</td>
+            <td>title&gt;</td>
+          </tr>
+          <tr>
+            <td>Bank P</td>
+            <td>Federal Reserve</td>
+            <td>4<br>
+              4.1<br>
+              4.1.1</td>
+            <td>indexingCreatorWrap&gt;<br>
+              indexingCreatorSet&gt;<br>
+              nameCreatorSet&gt;</td>
+            <td>nameCreator&gt;</td>
+          </tr>
+          <tr>
+            <td>Size (inches height, inches width)</td>
+            <td>6.0 x 3.5</td>
+            <td>6</td>
+            <td>indexingMeasurementsWrap&gt;<br>
+              indexingMeasurementsSet&gt;</td>
+            <td>measurementsSet value =&rdquo;no.&rdquo; unit =&rdquo;inches&rdquo; type=&rdquo;height&rdquo;<br>
+              open next<br>
+              measurementsSet value … type=&rdquo;width&rdquo;&gt;</td>
+          </tr>
+          <tr>
+            <td>Material</td>
+            <td>paper</td>
+            <td>7</td>
+            <td>Not going to index by this so no wrapper, no attributes, contains text</td>
+            <td>displayMaterialsTech&gt;</td>
+          </tr>
+          <tr>
+            <td>Serial Number</td>
+            <td>X123456</td>
+            <td></td>
+            <td>Within new section &lt;AdministrativeMetadata&gt;<br>
+              recordWrap&gt;</td>
+            <td>recordID&gt;</td>
+          </tr>
+          <tr>
+            <td>Condition</td>
+            <td>good</td>
+            <td>9</td>
+            <td>No wrapper needed</td>
+            <td>displayState&gt;</td>
+          </tr>
+          <tr>
+            <td>Nation P</td>
+            <td>United States of America</td>
+            <td></td>
+            <td>indexingSubjectWrap&gt;<br>
+              indexingSubjectSet&gt;</td>
+            <td>subjectTerm&gt;</td>
+          </tr>
+          <tr>
+            <td>Date P</td>
+            <td>1996</td>
+            <td>12</td>
+            <td>indexingDatesWrap&gt;<br>
+              indexingDatesSet&gt;</td>
+            <td>earliestDate&gt;</td>
+          </tr>
+          <tr>
+            <td>Scan Identification Number/File name</td>
+            <td>99b</td>
+            <td>14</td>
+            <td>locationWrap&gt;<br>
+              locationSet&gt;</td>
+            <td>locationName&gt;</td>
+          </tr>
+          <tr>
+            <td>Front | Back</td>
+            <td>front</td>
+            <td></td>
+            <td>recordWrap&gt;</td>
+            <td>recordType&gt;</td>
+          </tr>
+      </table>
+      <h3>Acknowledgements and Contact Information</h3>
+      <p>This software is constructed with the <a href="http://www.greenstone.org/">Greenstone software, provided by a bunch of helpful Kiwis</a>.</p>
+      <p>The Funny Money Digital Library is managed by the Greenback Group, GSLIS, Fall 2011.</p>
+      <h3>Acknowledgements</h3><dl>
+        <dt>Kahyun Choi</dt>     <dd><a href="kahyun.choi@gmail.com">kahyun.choi@gmail.com</a></dd>
+          <dd>Kahyun was our primary Greenstone technician: she is a technological <em>tour de force</em>.</dd>
+        <dt>Valerie Miller</dt>  <dd><a href="vjm.valerie@gmail.com">vjm.valerie@gmail.com</a></dd>
+          <dd>Valerie provided our metadata framework, including a theoretical rationale for its use. She also provided the pieces pulled from the Brooklyn museum</dd>
+        <dt>Allan Berry</dt>     <dd><a href="allan.berry@gmail.com">allan.berry@gmail.com</a></dd>
+          <dd>Allan provided the original specimens, scans, metadata, and supporting documents, and filled in some cracks here and there.</dd></dl>
+    location: GSLIS internet
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: greenback.png
+        img_aspect: a Czechoslovakian crown
+# --------------------------------------------------------------------------- #
 ...

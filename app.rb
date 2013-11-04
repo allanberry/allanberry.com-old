@@ -23,7 +23,9 @@ old_site_map = {
 # :layout_sketch is very minimal
 
 get '/' do
-  erb :"pages/index", layout: :layout_index
+  works_control = WorksControl.new
+  works = works_control.get_works
+  erb :"pages/index2", layout: :layout_index, :locals => {:works => works}
 end
 
 get '/works/:work/?' do

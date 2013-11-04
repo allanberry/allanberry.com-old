@@ -15,3 +15,11 @@
   ga('create', 'UA-4926221-2', 'allanberry.com');
   ga('send', 'pageview');
 </script>
+
+<script>
+  // zoom to Twitter Bootstrap tab
+  $(function() {
+    var hash = window.location.hash
+    hash && $('ul.nav a[href="' + hash + '"]').tab('show')
+  })
+</script>

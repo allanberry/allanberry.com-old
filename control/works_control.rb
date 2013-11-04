@@ -45,6 +45,14 @@ class WorksControl
     @works.find { |x| x.id.to_sym == id_.to_sym }
   end
 
+  def get_works
+    output = []
+    @works.each do |w|
+      output << w
+    end
+    return output
+  end
+
   def get_works_by_category(cat_)
     output = []
     if get_categories.include? cat_
