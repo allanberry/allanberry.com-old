@@ -8,11 +8,26 @@
   </div>
 </div>
 
+
+
 <script>
+
+
+
+
   function animate_logo() {
     var polygons = getSvgById("logogo_sidebar_svg").selectAll("polygon");
-        polygons.on("mouseover", function(){d3.select(this).style("fill", "none").style("stroke", "#BBE")});
+        polygons.on("mouseover", function(){
+          d3.select(this)
+            .style("fill", random_color())
+          })
   }
+
+  function random_color() {
+    var rgb = "#" + Math.random().toString(16).slice(2, 8)
+    return(rgb)
+  }
+
 </script>
 
 <ul class="nav nav-tabs nav-stacked">

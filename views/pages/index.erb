@@ -1,44 +1,22 @@
 <div id="splash-header" class="hero-unit less">
-  <h1>Allan Berry's website</h1>
+  <object data="/img/site/logogo.svg" type="image/svg+xml" class="logogo" id="splash_logogo" onload="">
+    <img src="/img/site/logogo.png" class="logogo" /><!-- fallback -->
+  </object>
+  <h1 id="splash_text">Allan Berry</h1>
 </div>
-  <p class='lead text-center'>This website is brand new; I'm still filling in some of the gaps. Thanks for visiting!</p>
-<p></p>
+<p class='lead'>Allan is a librarian, designer and artist living in Chicago, Illinois.</p>
 
-<ul class="thumbnails">
-  <li class="span3">
-    <div>
-      <a href="collections" class="thumbnail">
-        <img src="/img/site/splash/preservation.jpg" alt="">
-      </a>
-      <h4>Collections &amp; Preservation</h4>
-      <p>I create and manage digital and analog collections.</p>
-    </div>
-  </li>
-  <li class="span3">
-    <div>
-      <a href="illustration" class="thumbnail">
-        <img src="/img/site/splash/illustration.png" alt="">
-      </a>
-      <h4>Illustration</h4>
-      <p>I make graphics with pen and keyboard.</p>
-    </div>
-  </li>
-  <li class="span3">
-    <div>
-      <a href="design" class="thumbnail">
-        <img src="/img/site/splash/design.png" alt="">
-      </a>
-      <h4>Design</h4>
-      <p>I mean to convey information.</p>
-    </div>
-  </li>
-  <li class="span3">
-    <div>
-      <a href="art" class="thumbnail">
-        <img src="/img/site/splash/art.jpg" alt="">
-      </a>
-      <h4>Fine Art</h4>
-      <p>I am trained in art and art history.</p>
-    </div>
-  </li>
-</ul>
+<div id="base_buttons" class="">
+  <a href="collections"   class="btn btn-inverse">Collections &amp; Preservation</a>
+  <a href="illustration"  class="btn btn-inverse">Illustration</a>
+  <a href="design"        class="btn btn-inverse">Design</a>
+  <a href="art"           class="btn btn-inverse">Fine Art</a>
+  <a href="software"      class="btn btn-inverse">Software &amp; Systems</a>
+</div>
+
+
+<br /><br />
+
+<p>Selected works:</p>
+<% @works = works %>
+<%= partial :thumbs_index %>

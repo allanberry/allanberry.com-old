@@ -25,7 +25,7 @@ old_site_map = {
 get '/' do
   works_control = WorksControl.new
   works = works_control.get_works_by_keyword(:featured)
-  erb :"pages/index2", layout: :layout_index, :locals => {:works => works}
+  erb :"pages/index", layout: :layout_index, :locals => {:works => works}
 end
 
 get '/works/:work/?' do
