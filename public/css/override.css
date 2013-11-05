@@ -3,6 +3,10 @@
   padding-bottom: 40px;
 }
 
+.modal-body {
+    max-height: 800px;
+}
+
 .navbar-search {
   margin-top: 0; /* override troublesome bootstrap property*/
 }
@@ -46,6 +50,8 @@ h1, h2, h3, h4, h5, h6, .brand {
 #html5_logo {
   padding: 10px;
 }
+
+
 
 /* splash page */
 #splash-header {
