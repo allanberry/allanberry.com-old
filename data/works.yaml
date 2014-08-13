@@ -403,7 +403,7 @@ works:
     note: |
       <p class="lead"><a href="http://allanberry.omeka.net/">Link to the Exhibition</a></p>
       <p>In this exhibition, using Omeka, I show items from the Hermon Dunlap Smith Center for the History of Cartography, at the Newberry Library in Chicago, where I spent a year cataloging over a thousand road maps from the Rand McNally archive.</p>
-      <p>This was a project for a class in exhibition design; I decided to use <a href="http://www.omeka.net">Omeka.net</a> to create an online exhibit, partly because Omeka has a reputation as an easy-to-use platform for this sort of stuff.  I learned it's generally OK, and has decent Dublin Core data controls (more than, say, WordPress), but the configuration of the software leaves something to be desired.  In particular, I find it a bit unattractive.  This was back in the days of Omeka version 1; version 2 may be a bit better.</p>
+      <p>This was a project for a class in exhibition design; I decided to use <a href="http://www.omeka.net">Omeka.net</a> to create an online exhibit, in order to experiment with the software, since this exercise was less focused on  design than data.</p>
       <p>I intended to tell the story of Chicago, from its early days as a frontier fort until its heyday in the 20C.  I wanted to do it with maps: a great means to tell such a story. The Newberry Library has terrific maps of Chicago, many of which are both fascinating and beautiful.</p>
       <p>I have personally examined and attempted to photograph each item by hand. I built the system, wrote all text, and catalogued all items.</p>
     images: # independent of file size, thumbs, etc.  No URLs.
@@ -923,7 +923,7 @@ works:
 # --------------------------------------------------------------------------- #
   - id: magnet_icosahedron
     title: Icosahedron Globe
-    synopsis: A pseudo-three-dimensional geographic tiling system (prototype). 
+    synopsis: A pseudo-three-dimensional geographic tiling system (prototype).
     creators:
       - creator: Berry, Allan
         role: creator
@@ -1187,7 +1187,7 @@ works:
 #    creators:
 #      - creator: Berry, Allan
 #        role: creator
-#    categories: 
+#    categories:
 #    keywords: geography, maps, paper and presentation
 #    dates:
 #      - date: 2007
@@ -1258,8 +1258,8 @@ works:
         <li>resaved as TIFF with transparency and LZW (lossless) compression</li></ul>
       <h3>Collection Entry Points</h3>
       <dl>
-      <dt>Browse by Category</a></dt> 
-        <dd>Coins</dd>            
+      <dt>Browse by Category</a></dt>
+        <dd>Coins</dd>
         <dd>Currency</dd>
         <dd>Money</dd>
       </dl>
@@ -1388,4 +1388,36 @@ works:
       - img_filename: greenback.png
         img_aspect: a Czechoslovakian crown
 # --------------------------------------------------------------------------- #
-...
+  - id: cellini
+    title: Cellini Soviet Collection - Beta
+    synopsis: A collection of original posters and propaganda from a private collection.
+    creators:
+      - creator: Berry, Allan
+        role: programmer
+    categories: collections, software
+    keywords: digital library, featured
+    sizes: over 700 items
+    dates:
+      - date: 2014
+        date_type: creation
+    media:
+      - medium: Python
+      - medium: Django
+      - medium: Twitter Bootstrap
+      - medium: JQuery
+    note: |
+      <h4><a href="http://cellini.berryworkshop.com">Live site (in Beta).</a></h4>
+      <p>The Cellini collection is the online incarnation of the collection of William Cellini, of 20th century posters and propaganda from the Soviet Union.</p>
+      <p>This is a current project, it is still in flux, and will change frequently.  Please check back soon for more information.</p>
+    location: http://cellini.berryworkshop.com/
+    images: # independent of file size, thumbs, etc.  No URLs.
+      - img_filename: cellini-1.png
+        img_aspect: home page
+      - img_filename: cellini-2.png
+        img_aspect: category page
+      - img_filename: cellini-3.png
+        img_aspect: artifact page
+      - img_filename: cellini-4.png
+        img_aspect: pop up
+      - img_filename: cellini-5.png
+        img_aspect: artist list page
